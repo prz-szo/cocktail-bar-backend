@@ -1,0 +1,19 @@
+{
+  "name": "cocktail-bar-api",
+  "version": "1.0.0",
+  "description": "An API to connect with cocktails data base",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashleygwilliams/my_package.git"
+  },
+  "author": "prz-szo",
+  "license": "ISC"
+}
