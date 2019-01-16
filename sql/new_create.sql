@@ -1,64 +1,7 @@
 
-CREATE SCHEMA koktajl_bar;
-
-CREATE DOMAIN koktajl_bar.ocena AS NUMERIC(1) CONSTRAINT check_sign CHECK (VALUE > 0);
-COMMENT ON DOMAIN koktajl_bar.ocena IS 'Ocena koktajlu';
-
-CREATE DOMAIN koktajl_bar.ilosc AS NUMERIC(7,2) CONSTRAINT check_sign CHECK (VALUE > 0);
-COMMENT ON DOMAIN koktajl_bar.ilosc IS 'Ilość składnika';
-
-CREATE DOMAIN koktajl_bar.email VARCHAR(100)
-    CONSTRAINT valid_value CHECK (VALUE ~ '^[a-zA-Z0-9.!#$%&''*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$')
-;
 
 
-CREATE SEQUENCE koktajl_bar.miary_id_miary_seq;
-CREATE TABLE koktajl_bar.Miary (
-                id_miary SMALLINT NOT NULL DEFAULT nextval('koktajl_bar.miary_id_miary_seq'),
-                nazwa VARCHAR(20) NOT NULL UNIQUE,
-                CONSTRAINT miary_pk PRIMARY KEY (id_miary),
-                CONSTRAINT nazwa_miary CHECK (char_length(nazwa) >= 1)
-);
-ALTER SEQUENCE koktajl_bar.miary_id_miary_seq OWNED BY koktajl_bar.Miary.id_miary;
 
-
-CREATE SEQUENCE koktajl_bar.koktajle_id_koktajlu_seq;
-CREATE TABLE koktajl_bar.Koktajle (
-                id_koktajlu INTEGER NOT NULL DEFAULT nextval('koktajl_bar.koktajle_id_koktajlu_seq'),
-                nazwa VARCHAR(120) NOT NULL UNIQUE,
-                tresc_instrukcji VARCHAR(1500) NOT NULL,
-                CONSTRAINT koktajle_pk PRIMARY KEY (id_koktajlu)
-);
-ALTER SEQUENCE koktajl_bar.koktajle_id_koktajlu_seq OWNED BY koktajl_bar.Koktajle.id_koktajlu;
-
-
-CREATE SEQUENCE koktajl_bar.skladniki_id_skladnika_seq;
-CREATE TABLE koktajl_bar.Skladniki (
-                id_skladnika INTEGER NOT NULL DEFAULT nextval('koktajl_bar.skladniki_id_skladnika_seq'),
-                nazwa VARCHAR(100) NOT NULL UNIQUE,
-                CONSTRAINT skladniki_pk PRIMARY KEY (id_skladnika),
-                CONSTRAINT nazwa_skladniku CHECK (char_length(nazwa) > 2)
-);
-ALTER SEQUENCE koktajl_bar.skladniki_id_skladnika_seq OWNED BY koktajl_bar.Skladniki.id_skladnika;
-
-
-CREATE TABLE koktajl_bar.Koktajle_Skladniki (
-                id_skladnika INTEGER NOT NULL,
-                id_koktajlu INTEGER NOT NULL,
-                ilosc koktajl_bar.ilosc NOT NULL,
-                id_miary SMALLINT NOT NULL,
-                CONSTRAINT koktajle_skladniki_pk PRIMARY KEY (id_skladnika, id_koktajlu)
-);
-
-
-CREATE SEQUENCE koktajl_bar.uzytkownik_id_uzytkownika_seq;
-CREATE TABLE koktajl_bar.Uzytkownik (
-                id_uzytkownika INTEGER NOT NULL DEFAULT nextval('koktajl_bar.uzytkownik_id_uzytkownika_seq'),
-                email koktajl_bar.email NOT NULL UNIQUE,
-                haslo VARCHAR NOT NULL,
-                CONSTRAINT uzytkownik_pk PRIMARY KEY (id_uzytkownika)
-);
-ALTER SEQUENCE koktajl_bar.uzytkownik_id_uzytkownika_seq OWNED BY koktajl_bar.Uzytkownik.id_uzytkownika;
 
 CREATE TABLE koktajl_bar.Skladniki_uzytkownicy (
                 id_skladnika INTEGER NOT NULL,
@@ -73,10 +16,11 @@ CREATE TABLE koktajl_bar.Koktajle_uzytkownicy (
                 CONSTRAINT koktajle_uzytkownicy_pk PRIMARY KEY (id_koktajlu, id_uzytkownika)
 );
 
+
 CREATE TABLE koktajl_bar.Barek (
                 id_uzytkownika INTEGER NOT NULL,
                 id_skladnika INTEGER NOT NULL,
-                ilosc koktajl_bar.ilosc NOT NULL,
+                ilosc NUMERIC(7,2) NOT NULL,
                 id_miary SMALLINT NOT NULL,
                 CONSTRAINT barek_pk PRIMARY KEY (id_uzytkownika, id_skladnika)
 );
@@ -85,7 +29,7 @@ CREATE TABLE koktajl_bar.Barek (
 CREATE TABLE koktajl_bar.Oceny (
                 id_koktajlu INTEGER NOT NULL,
                 id_uzytkownika INTEGER NOT NULL,
-                ocena koktajl_bar.ocena NOT NULL,
+                ocena NUMERIC(1) NOT NULL,
                 CONSTRAINT oceny_pk PRIMARY KEY (id_koktajlu, id_uzytkownika)
 );
 
@@ -118,6 +62,13 @@ ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
+ALTER TABLE koktajl_bar.Koktajle_uzytkownicy ADD CONSTRAINT koktajle_koktajle_uzytkownicy_fk
+FOREIGN KEY (id_koktajlu)
+REFERENCES koktajl_bar.Koktajle (id_koktajlu)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
 ALTER TABLE koktajl_bar.Koktajle_Skladniki ADD CONSTRAINT produkty_koktajle_produkty_fk
 FOREIGN KEY (id_skladnika)
 REFERENCES koktajl_bar.Skladniki (id_skladnika)
@@ -126,6 +77,13 @@ ON UPDATE CASCADE
 NOT DEFERRABLE;
 
 ALTER TABLE koktajl_bar.Barek ADD CONSTRAINT produkty_barek_fk
+FOREIGN KEY (id_skladnika)
+REFERENCES koktajl_bar.Skladniki (id_skladnika)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE koktajl_bar.Skladniki_uzytkownicy ADD CONSTRAINT skladniki_skladniki_uzytkownicy_fk
 FOREIGN KEY (id_skladnika)
 REFERENCES koktajl_bar.Skladniki (id_skladnika)
 ON DELETE NO ACTION
