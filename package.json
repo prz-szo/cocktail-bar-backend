@@ -1,19 +1,14 @@
 {
-  "name": "cocktail-bar-api",
+  "name": "cocktail-bar-backend",
   "version": "1.0.0",
-  "description": "An API to connect with cocktails data base",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.16.4"
-  },
-  "devDependencies": {},
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ashleygwilliams/my_package.git"
-  },
-  "author": "prz-szo",
-  "license": "ISC"
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "morgan": "~1.9.0"
+  }
 }
