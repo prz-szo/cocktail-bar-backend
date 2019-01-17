@@ -1,10 +1,11 @@
-
+DROP SCHEMA koktajl_bar CASCADE;
 CREATE SCHEMA koktajl_bar;
+set search_path to koktajl_bar;
 
 CREATE DOMAIN koktajl_bar.ocena AS NUMERIC(1) CONSTRAINT check_sign CHECK (VALUE > 0);
 COMMENT ON DOMAIN koktajl_bar.ocena IS 'Ocena koktajlu';
 
-CREATE DOMAIN koktajl_bar.ilosc AS NUMERIC(7,2) CONSTRAINT check_sign CHECK (VALUE > 0);
+CREATE DOMAIN koktajl_bar.ilosc AS NUMERIC(6,2) CONSTRAINT check_sign CHECK (VALUE > 0);
 COMMENT ON DOMAIN koktajl_bar.ilosc IS 'Ilość składnika';
 
 CREATE DOMAIN koktajl_bar.email VARCHAR(100)
@@ -43,8 +44,8 @@ ALTER SEQUENCE koktajl_bar.skladniki_id_skladnika_seq OWNED BY koktajl_bar.Sklad
 
 
 CREATE TABLE koktajl_bar.Koktajle_Skladniki (
-                id_skladnika INTEGER NOT NULL,
                 id_koktajlu INTEGER NOT NULL,
+                id_skladnika INTEGER NOT NULL,
                 ilosc koktajl_bar.ilosc NOT NULL,
                 id_miary SMALLINT NOT NULL,
                 CONSTRAINT koktajle_skladniki_pk PRIMARY KEY (id_skladnika, id_koktajlu)
