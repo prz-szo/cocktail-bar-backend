@@ -1,0 +1,8050 @@
+{
+	"url": "http://chilliant.com/cocktail.html",
+	"copyright": "Copyright (C) 2014 Ian Taylor",
+	"version": "1.1.0",
+	"cocktails": {
+		"Addington": {
+			"mix": "stir",
+			"ingredients": {
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 120,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill glass with ice",
+				"Add vermouths",
+				"Add club soda and stir",
+				"Add lemon twist"
+			]
+		},
+		"Affinity Cocktail": {
+			"mix": "stir",
+			"ingredients": {
+				"dry_sherry": {
+					"ingredient": "dry sherry",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"port_wine": {
+					"ingredient": "port wine",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 2,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill glass with ice",
+				"Add ingredients",
+				"Stir and strain into chilled glass",
+				"Add a cherry and lemon twist"
+			]
+		},
+		"After Five": {
+			"glass": "tumbler",
+			"ingredients": {
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"peppermint_schnapps": {
+					"ingredient": "peppermint schnapps",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"irish_cream": {
+					"ingredient": "Irish cream",
+					"quantity": 10,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Layer Kahlua, schnapps and cream in a rocks glass without ice"
+			]
+		},
+		"Alabazam": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "cognac",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"curacao": {
+					"ingredient": "curacao",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"orange_bitters": {
+					"ingredient": "orange bitters",
+					"quantity": 2,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill glass with ice",
+				"Add ingredients",
+				"Shake and strain into rocks glass with ice"
+			]
+		},
+		"Alexander": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "heavy cream",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill glass with crushed ice",
+				"Add ingredients",
+				"Shake and strain into chilled cocktail glass",
+				"Sprinkle with nutmeg (optional)"
+			]
+		},
+		"Alfredo": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"campari": {
+					"ingredient": "Campari",
+					"quantity": 45,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill glass with ice",
+				"Add ingredients",
+				"Shake and strain into chilled cocktail glass"
+			]
+		},
+		"Allegheny": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"blackberry_brandy": {
+					"ingredient": "blackberry brandy",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill glass with ice",
+				"Add ingredients",
+				"Shake and strain into chilled cocktail glass",
+				"Add lemon twist"
+			]
+		},
+		"Alliance": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"aquavit": {
+					"ingredient": "aquavit",
+					"quantity": 2,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Pour ingredients into a mixing glass with a few ice cubes",
+				"Shake and strain into a rocks glass containing a few ice cubes"
+			]
+		},
+		"American Beauty": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"green_creme_de_menthe": {
+					"ingredient": "creme de menthe",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"grenadine": {
+					"ingredient": "grenadine",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill mixing glass with ice",
+				"Add ingredients",
+				"Shake and stir into a chilled cocktail glass"
+			]
+		},
+		"Angel's Kiss": {
+			"glass": "sour",
+			"ingredients": {
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"dark_creme_de_cacao": {
+					"ingredient": "dark creme de cacao",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Pour dark creme de cacao into 60ml pony glass",
+				"Float cream on top slowly (keep the two ingredients from mixing)"
+			]
+		},
+		"Angel Face": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"apricot_brandy": {
+					"ingredient": "apricot brandy",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"apple_brandy": {
+					"ingredient": "apple brandy",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Apple Daiquiri": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"apple_juice": {
+					"ingredient": "apple juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with 120ml of shaved ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Apple Eden": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"apple_juice": {
+					"ingredient": "apple juice",
+					"quantity": 90,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Pour ingredients over ice cubes in a rocks glass and stir",
+				"Add a twist of orange"
+			]
+		},
+		"Apple Pie": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"apple_brandy": {
+					"ingredient": "apple brandy",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"apricot_brandy": {
+					"ingredient": "apricot brandy",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"grenadine": {
+					"ingredient": "grenadine",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Applecar": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"apple_brandy": {
+					"ingredient": "apple brandy",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "triple sec",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Apres Ski": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"peppermint_schnapps": {
+					"ingredient": "peppermint schnapps",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a cocktail glass containing 30ml of crushed ice"
+			]
+		},
+		"Apricot Sour": {
+			"mix": "shake",
+			"ingredients": {
+				"apricot_brandy": {
+					"ingredient": "apricot brandy",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Pour apricot brandy",
+				"Add lemon juice",
+				"Fill in with orange juice and add ice cubes",
+				"Shake"
+			]
+		},
+		"Around the World": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"green_creme_de_menthe": {
+					"ingredient": "green creme de menthe",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 45,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a rocks glass filled with ice"
+			]
+		},
+		"Assissino": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineaplle juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sambuca": {
+					"ingredient": "sambuca",
+					"quantity": 2,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a Collins glass",
+				"Add ice and lemon twist"
+			]
+		},
+		"Azteca": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"tequila": {
+					"ingredient": "tequila",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"curacao": {
+					"ingredient": "curacao",
+					"quantity": 2,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"B-52": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"irish_cream": {
+					"ingredient": "Irish Cream",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"orange_cognac": {
+					"ingredient": "Grand Marnier",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a rocks glass filled with ice"
+			]
+		},
+		"B.V.D.": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 25,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Bacardi": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"grenadine": {
+					"ingredient": "grenadine",
+					"quantity": 3,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Banana Boat": {
+			"glass": "sour",
+			"mix": "shake",
+			"ingredients": {
+				"tequila": {
+					"ingredient": "tequila",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"creme_de_banane": {
+					"ingredient": "creme de banane",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix ingredients with 60ml of crushed ice in a blender until smooth",
+				"Pour into a sour glass"
+			]
+		},
+		"Banana Split": {
+			"mix": "shake",
+			"ingredients": {
+				"creme_de_banane": {
+					"ingredient": "creme de banane",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"creme_de_noyaux": {
+					"ingredient": "creme de noyaux",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"dark_creme_de_cacao": {
+					"ingredient": "creme de cacao",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"milk": {
+					"ingredient": "milk",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"cherry_brandy": {
+					"ingredient": "cherry brandy",
+					"quantity": 2,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Mix ingredients, except cherry brandy, in blender until smooth",
+				"Pour into a pilsener glass",
+				"Top with cherry brandy and add a cherry"
+			]
+		},
+		"Barbary Coast": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "creme de cacao",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "light cream",
+					"quantity": 25,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a large cocktail glass filled with ice"
+			]
+		},
+		"Barnum": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"apricot_brandy": {
+					"ingredient": "apricot brandy",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"angostura_bitters": {
+					"ingredient": "bitters",
+					"quantity": 2,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a rocks glass filled with ice"
+			]
+		},
+		"Bentley": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"dubonnet": {
+					"ingredient": "Dubonnet",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"apple_brandy": {
+					"ingredient": "apple brandy",
+					"quantity": 45,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Between the Sheets": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"triple_sec": {
+					"ingredient": "triple sec",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"sour_mix": {
+					"ingredient": "sour mix",
+					"quantity": 25,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a rocks glass filled with ice"
+			]
+		},
+		"Bitter Bikini": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"campari": {
+					"ingredient": "Campari",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "triple sec",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a rocks glass filled with ice"
+			]
+		},
+		"Black-Eyed Susan": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"orange_cognac": {
+					"ingredient": "Grand Marnier",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"white_creme_de_menthe": {
+					"ingredient": "white creme de menthe",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Black Hawk": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"sloe_gin": {
+					"ingredient": "sloe gin",
+					"quantity": 45,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass and garnish with a cherry"
+			]
+		},
+		"Black Lady": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"orange_cognac": {
+					"ingredient": "Grand Marnier",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Black Magic": {
+			"glass": "tumbler",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 2,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Add ingredients to a rocks glass filled with ice",
+				"Garnish with a lemon twist"
+			]
+		},
+		"Black Manhattan": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "Black Bush Irish whiskey",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 10,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled rocks glass filled with ice",
+				"Garnish with a cherry"
+			]
+		},
+		"Black Russian": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill rocks glass with ice, add ingredients and stir"
+			]
+		},
+		"Black Witch": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gold_rum": {
+					"ingredient": "gold rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"apricot_brandy": {
+					"ingredient": "apricot brandy",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 10,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Blackthorn": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"sloe_gin": {
+					"ingredient": "sloe gin",
+					"quantity": 45,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Blizzard": {
+			"glass": "highball",
+			"mix": "shake",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 90,
+					"unit": "ml"
+				},
+				"cranberry_juice": {
+					"ingredient": "cranberry juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix ingredients and crushed ice in a blender at low speed until smooth)",
+				"Pour into a large wine or highball glass"
+			]
+		},
+		"Blood and Sand": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"cherry_brandy": {
+					"ingredient": "cherry brandy",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 25,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Bloody Mary": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"tomato_juice": {
+					"ingredient": "tomato juice",
+					"quantity": 90,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"tabasco": {
+					"ingredient": "Tabasco",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"worcester_sauce": {
+					"ingredient": "Worcester sauce",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Add ingredients along with salt and pepper in a chilled mixing glass and shake",
+				"Pour into a chilled wine or Collins glass",
+				"Garnish with a celery stalk and slice of lime"
+			]
+		},
+		"Blue Carnation": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"curacao": {
+					"ingredient": "curacao",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 60,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Blue Hawaiian": {
+			"mix": "shake",
+			"ingredients": {
+				"curacao": {
+					"ingredient": "curacao",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"cream_of_coconut": {
+					"ingredient": "cream of coconut",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 60,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix ingredients with 90ml of crushed ice in blender at low speed until smooth",
+				"Pour into a goblet and garnish with a cherry and an orange slice"
+			]
+		},
+		"Blue Moon": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"curacao": {
+					"ingredient": "curacao",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Bobby Burns": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"benedictine": {
+					"ingredient": "Benedictine",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Bolero": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"apple_brandy": {
+					"ingredient": "apple brandy",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 1,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Bourbon Old-Fashioned": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 90,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"angostura_bitters": {
+					"ingredient": "bitters",
+					"quantity": 2,
+					"unit": "dash"
+				},
+				"water": {
+					"ingredient": "water",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Pour ingredients into a rocks glass, stir and add 2 ice cubes",
+				"Add a lemon twist and garnish with a cherry and an orange slice"
+			]
+		},
+		"Bourbon Sour": {
+			"glass": "sour",
+			"mix": "shake",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"sour_mix": {
+					"ingredient": "sour mix",
+					"quantity": 45,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a sour glass",
+				"Add ice",
+				"Garnish with a cherry and an orange slice"
+			]
+		},
+		"Brain": {
+			"glass": "tumbler",
+			"ingredients": {
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"irish_cream": {
+					"ingredient": "Bailey's Original Irish Cream",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"peach_brandy": {
+					"ingredient": "peach brandy",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Layer ingredients in a rocks glass filled with ice"
+			]
+		},
+		"Brandy Alexander": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "heavy cream",
+					"quantity": 25,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass",
+				"Sprinkle cinnamon or nutmeg on top"
+			]
+		},
+		"Brandy Cobbler": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 75,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"peach_brandy": {
+					"ingredient": "peach brandy",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a chilled highball glass with cracked ice half way",
+				"Add ingredients and stir",
+				"Garnish with a cherry and an orange slice"
+			]
+		},
+		"Brandy Manhattan": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir gently",
+				"Strain into a chilled martini glass",
+				"Garnish with a cherry"
+			]
+		},
+		"Brass Monkey": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice",
+				"Add ingredients and stir"
+			]
+		},
+		"Brave Bull": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"tequila": {
+					"ingredient": "tequila",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a rocks glass with ice",
+				"Add ingredients and stir"
+			]
+		},
+		"Brown Bomber": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"peanut_liqueur": {
+					"ingredient": "peanut liqueur",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 60,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Bull Frog": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"limeade": {
+					"ingredient": "limeade",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice",
+				"Add ingredients and stir",
+				"Garnish with a slice of lime"
+			]
+		},
+		"California Ice Tea": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"tequila": {
+					"ingredient": "white tequila",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "triple sec",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sour_mix": {
+					"ingredient": "sour mix",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a Collins glass",
+				"Add ice and garnish with a lemon slice"
+			]
+		},
+		"California Root Beer": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"cola": {
+					"ingredient": "cola",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"galliano": {
+					"ingredient": "Galliano",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 60,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a rocks glass with ice",
+				"Add ingredients and stir"
+			]
+		},
+		"Calypso": {
+			"ingredients": {
+				"coffee_liqueur": {
+					"ingredient": "Tia Maria",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"coffee": {
+					"ingredient": "hot coffee",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Pour Tia Maria and rum into a coffee mug",
+				"Add hot coffee",
+				"Top with whipped cream"
+			]
+		},
+		"Campobello": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"campari": {
+					"ingredient": "Campari",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Cape Codder": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"cranberry_juice": {
+					"ingredient": "cranberry juice",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice",
+				"Add ingredients and stir",
+				"Garnish with a lime wedge"
+			]
+		},
+		"Cappuccino Mocha": {
+			"ingredients": {
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"dark_creme_de_cacao": {
+					"ingredient": "creme de cacao",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"coffee": {
+					"ingredient": "hot espresso",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"milk": {
+					"ingredient": "steamed milk",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill coffee mug half full with hot espresso",
+				"Add Kahlua and creme de cacao",
+				"Add steamed milk (top)",
+				"Sprinkle chocolate or cinnamon or both"
+			]
+		},
+		"Chablis Cooler": {
+			"glass": "goblet",
+			"mix": "stir",
+			"ingredients": {
+				"white_wine": {
+					"ingredient": "white wine",
+					"quantity": 90,
+					"unit": "ml"
+				},
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"grenadine": {
+					"ingredient": "grenadine",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 1,
+					"unit": "fill"
+				},
+				"vanilla_extract": {
+					"ingredient": "vanilla extract",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Put 4 or 5 ice cubes in a wine glass",
+				"Add vodka, lemon juice, grenadine and vanilla",
+				"Pour in chablis and stir gently",
+				"Top with club soda"
+			]
+		},
+		"Cherry Bomb": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"tequila": {
+					"ingredient": "tequila",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 90,
+					"unit": "ml"
+				},
+				"cream_of_coconut": {
+					"ingredient": "cream of coconut",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"grenadine": {
+					"ingredient": "grenadine",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"milk": {
+					"ingredient": "milk",
+					"quantity": 10,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake well",
+				"Strain into a Collins glass filled half way with ice",
+				"Garnish with a cherry"
+			]
+		},
+		"Chinese Cocktail": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "triple sec",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"maraschino_liqueur": {
+					"ingredient": "maraschino liqueur",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"grenadine": {
+					"ingredient": "grenadine",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Club Med": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"raspberry_liqueur": {
+					"ingredient": "Raspberry Liqueur",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 90,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a Collins glass and add ice"
+			]
+		},
+		"Coco-Loco": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"green_creme_de_menthe": {
+					"ingredient": "green creme de menthe",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a blender",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Coffee Alexander": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"dark_creme_de_cacao": {
+					"ingredient": "dark creme de cacao",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Concorde": {
+			"glass": "flute",
+			"mix": "stir",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "cognac",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "chilled pineapple juice",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"champagne": {
+					"ingredient": "champagne",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Pour cognac and pineapple juice in a mixing glass and stir",
+				"Strain into a champagne glass filled with cracked ice",
+				"Fill glass with champagne"
+			]
+		},
+		"Costa Del Sol": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"orange_cognac": {
+					"ingredient": "Grand Marnier",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"apricot_brandy": {
+					"ingredient": "apricot brandy",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a rocks glass"
+			]
+		},
+		"Creamy Mimi": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "triple sec",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 10,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with 90ml of crushed ice",
+				"Add ingredients and shake",
+				"Strain into a rocks glass"
+			]
+		},
+		"Cuba Libre": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"cola": {
+					"ingredient": "cola (ice cold)",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Half fill a chilled highball glass with ice cubes",
+				"Add rum and cold cola",
+				"Stir gently",
+				"Squeeze lime or lemon wedge and drop into glass"
+			]
+		},
+		"Daiquiri": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a blender",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Dandy": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "Canadian or rye whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dubonnet": {
+					"ingredient": "Dubonnet",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "Cointreau",
+					"quantity": 3,
+					"unit": "dash"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Dark Eyes": {
+			"glass": "goblet",
+			"mix": "shake",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"blackberry_brandy": {
+					"ingredient": "blackberry brandy",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 10,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a brandy snifter"
+			]
+		},
+		"Delmonico": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 25,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a cocktail glass",
+				"Garnish with a lemon twist"
+			]
+		},
+		"Depth Charge": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"lillet_blanc": {
+					"ingredient": "Lillet blanc",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"pernod": {
+					"ingredient": "Pernod",
+					"quantity": 2,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Derby Special": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "heavy cream",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"creme_de_banane": {
+					"ingredient": "creme de banane",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"orange_cognac": {
+					"ingredient": "Grand Marnier",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a shaker or blender",
+				"Serve in a chilled Old Fashioned glass"
+			]
+		},
+		"Diamond Head": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"curacao": {
+					"ingredient": "curacao",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a shaker or blender",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Dirty Mother": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 25,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a rocks glass with ice",
+				"Add ingredients and stir"
+			]
+		},
+		"Dodge Special": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"gin": {
+					"ingredient": "dry gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "Cointreau",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"grape_juice": {
+					"ingredient": "grape juice",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a cocktail glass"
+			]
+		},
+		"Down the Hatch": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"blackberry_brandy": {
+					"ingredient": "blackberry brandy",
+					"quantity": 3,
+					"unit": "dash"
+				},
+				"orange_bitters": {
+					"ingredient": "orange bitters",
+					"quantity": 2,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a cocktail glass"
+			]
+		},
+		"Dubonnet Cocktail": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dubonnet": {
+					"ingredient": "Dubonnet rouge",
+					"quantity": 45,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients, except lemon peel, with cracked ice in a shaker or blender",
+				"Pour into a chilled Old Fashioned glass",
+				"Garnish with twisted lemon peel"
+			]
+		},
+		"Duchess": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"pernod": {
+					"ingredient": "Pernod",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a shaker or blender",
+				"Pour into a chilled cocktail glass"
+			]
+		},
+		"Dundee": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"whisky_liqueur": {
+					"ingredient": "Drambuie",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients, except lemon peel, with cracked ice in a shaker or blender",
+				"Pour into a chilled Old Fashioned glass",
+				"Garnish with twisted lemon peel"
+			]
+		},
+		"Earthquake": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "rye whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"pernod": {
+					"ingredient": "Pernod",
+					"quantity": 45,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Eclipse": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "Irish whiskey",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice",
+				"Add ingredients and stir",
+				"Garnish with a slice of orange"
+			]
+		},
+		"Empire": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"apple_brandy": {
+					"ingredient": "apple brandy",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"apricot_brandy": {
+					"ingredient": "apricot brandy",
+					"quantity": 25,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Eve": {
+			"glass": "goblet",
+			"mix": "stir",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "cognac",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"pernod": {
+					"ingredient": "Pernod",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"curacao": {
+					"ingredient": "curacao",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"champagne": {
+					"ingredient": "chilled sparkling wine",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Pour Pernod into a large wine glass",
+				"Add cognac",
+				"In a small bowl, combine sugar and curacao",
+				"Add to wine glass",
+				"Stir and add 3 or 4 ice cubes",
+				"Fill with chilled sparkling wine"
+			]
+		},
+		"Fantasio": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"maraschino_liqueur": {
+					"ingredient": "maraschino liqueur",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a shaker or blender",
+				"Pour into a chilled cocktail glass"
+			]
+		},
+		"Favorite": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"apricot_brandy": {
+					"ingredient": "apricot brandy",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 1,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a rocks glass filled with ice"
+			]
+		},
+		"Fern Gully": {
+			"glass": "goblet",
+			"mix": "shake",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"cream_of_coconut": {
+					"ingredient": "cream of coconut",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"creme_de_noyaux": {
+					"ingredient": "creme de noyaux",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 10,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into large wine glass or goblet",
+				"Add ice"
+			]
+		},
+		"Ferrari": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"creme_de_noyaux": {
+					"ingredient": "creme de noyaux",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Pour vermouth and creme de noyaux into a chilled double Old Fashioned glass with ice cubes",
+				"Stir well and add lemon twist"
+			]
+		},
+		"Fiji Fizz": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"cherry_brandy": {
+					"ingredient": "cherry brandy",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"cola": {
+					"ingredient": "cola",
+					"quantity": 120,
+					"unit": "ml"
+				},
+				"orange_bitters": {
+					"ingredient": "orange bitters",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Mix all ingredients, except cola and lemon peel, with cracked ice in a shaker or blender",
+				"Pour into a chilled Collins glass",
+				"Fill with cold cola and garnish with lime peel"
+			]
+		},
+		"Flim Flam": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "triple sec",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Florida": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 90,
+					"unit": "ml"
+				},
+				"cherry_brandy": {
+					"ingredient": "cherry brandy",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "triple sec",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a Collins glass",
+				"Add ice and garnish with an orange slice"
+			]
+		},
+		"Flying Grasshopper": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"green_creme_de_menthe": {
+					"ingredient": "green creme de menthe",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a shaker or blender",
+				"Pour into a chilled Old Fashioned glass"
+			]
+		},
+		"Flying Scot": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 3,
+					"unit": "dash"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 3,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a shaker or blender",
+				"Pour into a chilled Old Fashioned glass"
+			]
+		},
+		"Fog Horn": {
+			"glass": "highball",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"ginger_ale": {
+					"ingredient": "ginger ale",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Pour gin into a chilled highball glass with several ice cubes",
+				"Fill with ginger beer and garnish with lemon slice"
+			]
+		},
+		"Fogcutter": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sour_mix": {
+					"ingredient": "sour mix",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 90,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a Collins glass filled with ice",
+				"Garnish with a lemon twist"
+			]
+		},
+		"Foxy Lady": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"creme_de_noyaux": {
+					"ingredient": "creme de noyaux",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"dark_creme_de_cacao": {
+					"ingredient": "dark creme de cacao",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 60,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"French Connection": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"creme_de_noyaux": {
+					"ingredient": "creme de noyaux",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a rocks glass with ice",
+				"Add ingredients and stir"
+			]
+		},
+		"French Green Dragon": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "cognac",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"green_chartreuse": {
+					"ingredient": "green Chartreuse",
+					"quantity": 45,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a rocks glass filled with ice"
+			]
+		},
+		"Frisco Sour": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"benedictine": {
+					"ingredient": "Benedictine",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients, except orange slice, in a shaker or blender with cracked ice",
+				"Strain into a Whiskey Sour glass",
+				"Garnish with orange slice"
+			]
+		},
+		"Frozen Daiquiri": {
+			"glass": "coupe",
+			"mix": "shake",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients with plenty of crushed ice in a blender until snowy",
+				"Pour into a chilled, deep-saucer champagne glass"
+			]
+		},
+		"Gentle Bull": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"tequila": {
+					"ingredient": "tequila",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"coffee_liqueur": {
+					"ingredient": "coffee liqueur",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 25,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a shaker or blender",
+				"Pour into a chilled cocktail glass"
+			]
+		},
+		"Gibson": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 75,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 4,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Pour gin and dry vermouth into a mixing glass with ice cubes",
+				"Stir briskly and strain into a chilled cocktail glass",
+				"Garnish with cocktail onions"
+			]
+		},
+		"Gimlet": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled r",
+				"Add ice and garnish with a lime slice"
+			]
+		},
+		"Gin Alexander": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"dark_creme_de_cacao": {
+					"ingredient": "dark creme de cacao",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "heavy cream",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass",
+				"Sprinkle cinnamon or nutmeg on top"
+			]
+		},
+		"Gin and Tonic": {
+			"glass": "collins",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"tonic_water": {
+					"ingredient": "tonic water",
+					"quantity": 90,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Pour gin into chilled glass with several ice cubes",
+				"Fill with tonic water and squeeze lime wedge over drink and drop into glass"
+			]
+		},
+		"Gin Daiquiri": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a rocks glass filled with ice",
+				"Garnish with lime slice"
+			]
+		},
+		"Gin Rickey": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 1,
+					"unit": "fill"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Pour gin into a chilled highball glass with several ice cubes",
+				"Fill with club soda, add lime juice and stir gently"
+			]
+		},
+		"Gin Sour": {
+			"glass": "sour",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 75,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients, except orange slice and maraschino cherry with cracked ice in a shaker or blender",
+				"Strain into a chilled Whiskey Sour glass",
+				"Decorate with orange slice and Maraschino cherry"
+			]
+		},
+		"Glasgow": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"creme_de_noyaux": {
+					"ingredient": "creme de noyaux",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 10,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a shaker or blender",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Godfather": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"creme_de_noyaux": {
+					"ingredient": "creme de noyaux",
+					"quantity": 25,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a rocks glass with ice",
+				"Add ingredients and stir"
+			]
+		},
+		"Golden Cadillac": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"galliano": {
+					"ingredient": "Galliano",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a blender and strain into a chilled cocktail glass"
+			]
+		},
+		"Golden Gate": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"dark_rum": {
+					"ingredient": "151-proof Demerara rum",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"orgeat_syrup": {
+					"ingredient": "orgeat syrup",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients, except orange slice, with cracked ice in a shaker or blender",
+				"Pour into a chilled Old Fashioned glass and garnish with orange slice"
+			]
+		},
+		"Golf": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 2,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass",
+				"Garnish with an olive"
+			]
+		},
+		"Grand Apple": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"apple_brandy": {
+					"ingredient": "Calvados",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"brandy": {
+					"ingredient": "cognac",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"orange_cognac": {
+					"ingredient": "Grand Marnier",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Pour the liquid ingredients into a mixing glass with several ice cubes",
+				"Stir well and pour into a chilled Old Fashioned glass",
+				"Twist orange and lemon peels over drink and drop in glass"
+			]
+		},
+		"Grand Slam": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"swedish_punsch": {
+					"ingredient": "Swedish Punsch",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Stir all ingredients briskly with ice in a mixing glass",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Grasshopper": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"green_creme_de_menthe": {
+					"ingredient": "green creme de menthe",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "light cream",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a shaker or blender",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Green Fire": {
+			"glass": "highball",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"green_creme_de_menthe": {
+					"ingredient": "green creme de menthe",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"kummel": {
+					"ingredient": "kummel",
+					"quantity": 10,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a highball glass and add ice"
+			]
+		},
+		"Hammerhead": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gold_rum": {
+					"ingredient": "gold rum",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"creme_de_noyaux": {
+					"ingredient": "creme de noyaux",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"curacao": {
+					"ingredient": "curacao",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"southern_comfort": {
+					"ingredient": "Southern Comfort",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a shaker or blender",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Harvey Wallbanger": {
+			"glass": "collins",
+			"mix": "stir",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 120,
+					"unit": "ml"
+				},
+				"galliano": {
+					"ingredient": "Galliano",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Pour vodka and orange juice into a chilled Collins glass with several ice cubes and stir well",
+				"Top with Galliano float"
+			]
+		},
+		"Havana Club": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a shaker or blender",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Highland Fling": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"orange_bitters": {
+					"ingredient": "orange bitters",
+					"quantity": 3,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass",
+				"Garnish with an olive"
+			]
+		},
+		"Honeymoon": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"apple_brandy": {
+					"ingredient": "apple brandy",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"benedictine": {
+					"ingredient": "Benedictine",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"curacao": {
+					"ingredient": "curacao",
+					"quantity": 3,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a blender or shaker",
+				"Pour into a chilled cocktail glass"
+			]
+		},
+		"Houston Hurricane": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"white_creme_de_menthe": {
+					"ingredient": "white creme de menthe",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 45,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Hudson Bay": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"cherry_brandy": {
+					"ingredient": "cherry brandy",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"dark_rum": {
+					"ingredient": "151-proof rum",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Indian Summer": {
+			"mix": "shake",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 60,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake"
+			]
+		},
+		"Ink Street": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 25,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass",
+				"Garnish with an orange slice"
+			]
+		},
+		"Italian Stallion": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"campari": {
+					"ingredient": "Campari",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Stir all liquid ingredients with ice in a pitcher",
+				"Strain into a chilled cocktail glass",
+				"Twist lemon peel over drink and drop into glass"
+			]
+		},
+		"Jack Rose": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"apple_brandy": {
+					"ingredient": "apple brandy",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"grenadine": {
+					"ingredient": "Grenadine",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a shaker or blender",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Jade": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"gold_rum": {
+					"ingredient": "gold rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"green_creme_de_menthe": {
+					"ingredient": "green creme de menthe",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"curacao": {
+					"ingredient": "curacao",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a rocks glass filled with ice",
+				"Garnish with a lime slice"
+			]
+		},
+		"Jamaica Cooler": {
+			"glass": "goblet",
+			"mix": "stir",
+			"ingredients": {
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 75,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"orange_bitters": {
+					"ingredient": "orange bitters",
+					"quantity": 2,
+					"unit": "dash"
+				},
+				"lemonade": {
+					"ingredient": "lemonade",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Add sugar to the rum in a large wine glass or goblet",
+				"Add lemon juice and bitters",
+				"Fill with 7- Up and stir"
+			]
+		},
+		"Jamaican": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"lemonade": {
+					"ingredient": "lemonade",
+					"quantity": 120,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a Collins glass",
+				"Add ice and lemonade"
+			]
+		},
+		"Java Cooler": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"angostura_bitters": {
+					"ingredient": "bitters",
+					"quantity": 3,
+					"unit": "dash"
+				},
+				"tonic_water": {
+					"ingredient": "tonic water",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice",
+				"Add gin, lime juice and bitters",
+				"Stir, fill with tonic water and stir again"
+			]
+		},
+		"Jelly Bean": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"blackberry_brandy": {
+					"ingredient": "blackberry brandy",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"anisette": {
+					"ingredient": "anisette",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Pour ingredients into a cordial or r, stir and add ice, if desired"
+			]
+		},
+		"Jewel": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"green_chartreuse": {
+					"ingredient": "green Chartreuse",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"orange_bitters": {
+					"ingredient": "orange bitters",
+					"quantity": 2,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Mix all liquid ingredients with cracked ice in a shaker or blender",
+				"Strain into a chilled Old Fashioned glass",
+				"Twist lemon peel over drink and drop into glass"
+			]
+		},
+		"Joe Collins": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"sour_mix": {
+					"ingredient": "sour mix",
+					"quantity": 90,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add scotch and sour mix and shake",
+				"Strain into a Collins glass",
+				"Add ice and top with club soda",
+				"Garnish with an orange slice and a cherry"
+			]
+		},
+		"John Collins": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"sour_mix": {
+					"ingredient": "sour mix",
+					"quantity": 90,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add whisky and sour mix and shake",
+				"Strain into a Collins glass and add ice"
+			]
+		},
+		"Jolly Roger": {
+			"glass": "highball",
+			"mix": "shake",
+			"ingredients": {
+				"whisky_liqueur": {
+					"ingredient": "Drambuie",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 2,
+					"unit": "dash"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Mix all ingredients, except club soda, with cracked ice in a shaker or blender",
+				"Pour into a chilled highball glass and",
+				"fill with club soda"
+			]
+		},
+		"Jungle Jim": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"creme_de_banane": {
+					"ingredient": "creme de banane",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"milk": {
+					"ingredient": "milk",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix with cracked ice in a blender or shaker",
+				"Pour into a chilled Old Fashioned glass"
+			]
+		},
+		"Kahlua Egg Cream": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"milk": {
+					"ingredient": "milk",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a rocks glass with ice",
+				"Add Kahlua and milk",
+				"Top with club soda",
+				"Stir"
+			]
+		},
+		"KCB": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"cherry_brandy": {
+					"ingredient": "cherry brandy",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 3,
+					"unit": "dash"
+				},
+				"apricot_brandy": {
+					"ingredient": "apricot brandy",
+					"quantity": 3,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Mix all liquid ingredients in a shaker or blender with cracked ice",
+				"Strain into a chilled cocktail glass",
+				"Twist lemon peel over drink and drop into glass"
+			]
+		},
+		"Kentucky Cocktail": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Kentucky Colonel": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"benedictine": {
+					"ingredient": "Benedictine",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a rocks glass and add ice",
+				"Garnish with a lemon twist"
+			]
+		},
+		"Kialoa": {
+			"glass": "tumbler",
+			"ingredients": {
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients",
+				"Strain into a rocks glass and add ice"
+			]
+		},
+		"King's Peg": {
+			"glass": "goblet",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "cognac",
+					"quantity": 75,
+					"unit": "ml"
+				},
+				"champagne": {
+					"ingredient": "champagne",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Pour cognac into a chilled wine glass with several ice cubes",
+				"Fill with cold champagne"
+			]
+		},
+		"Kir": {
+			"glass": "goblet",
+			"ingredients": {
+				"creme_de_cassis": {
+					"ingredient": "creme de cassis",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"white_wine": {
+					"ingredient": "dry white wine",
+					"quantity": 90,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Pre-chill ingredients and mix together in a chilled wine glass"
+			]
+		},
+		"Klondike Cooler": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "fresh orange juice",
+					"quantity": 75,
+					"unit": "ml"
+				},
+				"ginger_ale": {
+					"ingredient": "ginger ale",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice",
+				"Add whisky, orange rind and orange juice",
+				"Stir and top with ginger ale"
+			]
+		},
+		"Knockout": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"southern_comfort": {
+					"ingredient": "Southern Comfort",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"apricot_brandy": {
+					"ingredient": "apricot brandy",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"sloe_gin": {
+					"ingredient": "sloe gin",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 25,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a rocks glass with ice",
+				"Add ingredients and stir well"
+			]
+		},
+		"Lady Be Good": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"white_creme_de_menthe": {
+					"ingredient": "white creme de menthe",
+					"quantity": 25,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Ladyfinger": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"cherry_brandy": {
+					"ingredient": "cherry brandy",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix ingredients in a shaker or blender with cracked ice",
+				"Pour into a chilled Old Fashioned glass"
+			]
+		},
+		"Lallah Rookh": {
+			"glass": "goblet",
+			"mix": "shake",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"brandy": {
+					"ingredient": "cognac",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"vanilla_extract": {
+					"ingredient": "vanilla extract",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with cracked ice",
+				"Add ingredients and shake",
+				"Pour into a large wine glass",
+				"Top with whipped cream"
+			]
+		},
+		"Lime Rickey": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice",
+				"Add ingredients and stir gently",
+				"Garnish with a slice of lime"
+			]
+		},
+		"London": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"pernod": {
+					"ingredient": "Pernod",
+					"quantity": 2,
+					"unit": "dash"
+				},
+				"orange_bitters": {
+					"ingredient": "orange bitters",
+					"quantity": 2,
+					"unit": "dash"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Long Island Iced Tea": {
+			"glass": "collins",
+			"mix": "stir",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"tequila": {
+					"ingredient": "white tequila",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "triple sec",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+						"quantity": 15,
+						"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"cola": {
+					"ingredient": "cola",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add all ingredients except cola and shake",
+				"Strain into an ice-filled glass",
+				"Fill with cola and stir"
+			]
+		},
+		"Lord Rodney": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"cream_of_coconut": {
+					"ingredient": "coconut syrup",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a blender or shaker",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Lube Job": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"irish_cream": {
+					"ingredient": "Bailey's Irish Cream",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a rocks glass with ice",
+				"Add ingredients and stir"
+			]
+		},
+		"Mah-Jonng": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "Cointreau",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Mamie Taylor": {
+			"glass": "collins",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 90,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"ginger_ale": {
+					"ingredient": "ginger ale",
+					"quantity": 120,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a Collins glass with ice",
+				"Add scotch and lime juice and stir",
+				"Add ginger ale and stir again",
+				"Garnish with a lemon slice"
+			]
+		},
+		"Manhattan (Perfect)": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 10,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass",
+				"Garnish with a lemon twist"
+			]
+		},
+		"Manhattan": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass",
+				"Garnish with a cherry"
+			]
+		},
+		"Martini": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a martini glass",
+				"Garnish with an olive"
+			]
+		},
+		"Mary Pickford": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"grenadine": {
+					"ingredient": "grenadine",
+					"quantity": 3,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"McClelland": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"sloe_gin": {
+					"ingredient": "sloe gin",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"curacao": {
+					"ingredient": "curacao",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"orange_bitters": {
+					"ingredient": "orange bitters",
+					"quantity": 3,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Melon Colada": {
+			"mix": "shake",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"melon_liqueur": {
+					"ingredient": "melon liqueur",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"cream_of_coconut": {
+					"ingredient": "cream of coconut",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 90,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill blender with all ingredients and 90ml of crushed ice",
+				"Blend until smooth",
+				"Pour into a glass and garnish with a pineapple slice"
+			]
+		},
+		"Mexican Coffee": {
+			"ingredients": {
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"tequila": {
+					"ingredient": "tequila",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"coffee": {
+					"ingredient": "hot coffee",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Pour Kahlua and tequila into a coffee mug and fill with hot coffee",
+				"Top with whipped cream (optional)"
+			]
+		},
+		"Mexican Flag": {
+			"glass": "shot",
+			"ingredients": {
+				"sloe_gin": {
+					"ingredient": "sloe gin",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"melon_liqueur": {
+					"ingredient": "melon liqueur",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Pour sloe gin into a shot glass",
+				"Float vodka on top",
+				"Float liqueur on top of vodka"
+			]
+		},
+		"Miami Beach": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"grapefruit_juice": {
+					"ingredient": "grapefruit juice",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Mint Cooler": {
+			"glass": "collins",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"white_creme_de_menthe": {
+					"ingredient": "white creme de menthe",
+					"quantity": 3,
+					"unit": "dash"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 120,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a Collins glass with ice",
+				"Add scotch and creme de menthe and stir",
+				"Add club soda and stir gently"
+			]
+		},
+		"Moll Cocktail": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sloe_gin": {
+					"ingredient": "sloe gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"orange_bitters": {
+					"ingredient": "orange bitters",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Mix with cracked ice in a shaker or blender",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Morning Glory": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"curacao": {
+					"ingredient": "curacao",
+					"quantity": 4,
+					"unit": "dash"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 4,
+					"unit": "dash"
+				},
+				"pernod": {
+					"ingredient": "Pernod",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 120,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix ingredients, except club soda and sugar with cracked ice in a shaker or blender",
+				"Pour into a chilled Collins glass",
+				"Add club soda"
+			]
+		},
+		"Moscow Mule": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 75,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"ginger_ale": {
+					"ingredient": "ginger ale",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Pour vodka and lime juice into a chilled highball glass with several ice cubes",
+				"Stir and fill with ginger beer",
+				"Garnish with lime"
+			]
+		},
+		"Moulin Rouge": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"sloe_gin": {
+					"ingredient": "sloe gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 3,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Mix ingredients with cracked ice in a shaker or blender",
+				"Pour into a chilled cocktail glass"
+			]
+		},
+		"Mudslide": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"irish_cream": {
+					"ingredient": "Bailey's Irish Cream",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Narragansett": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"anisette": {
+					"ingredient": "anisette",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a rocks glass with ice",
+				"Add ingredients and stir",
+				"Garnish with a lemon twist"
+			]
+		},
+		"Navy Grog": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"gold_rum": {
+					"ingredient": "86 proof Demerara rum",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"guava_juice": {
+					"ingredient": "guava juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"orgeat_syrup": {
+					"ingredient": "orgeat syrup",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix ingredients, except lime slice and mint sprig, with cracked ice in a shaker or blender",
+				"Pour into a chilled double Old Fashioned glass",
+				"Garnish with lime slice and mint sprig"
+			]
+		},
+		"New Orleans": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"pernod": {
+					"ingredient": "Pernod",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 4,
+					"unit": "dash"
+				},
+				"orange_bitters": {
+					"ingredient": "orange bitters",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"anisette": {
+					"ingredient": "anisette",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with cracked ice",
+				"Add ingredients and shake",
+				"Pour into a chilled r",
+				"Garnish with lemon twist"
+			]
+		},
+		"New World": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"grenadine": {
+					"ingredient": "grenadine",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients, except lime peel, with cracked ice in a shaker or blender",
+				"Strain into a chilled cocktail glass",
+				"Twist lime peel over drink and drop in"
+			]
+		},
+		"Ninja Turtle": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"curacao": {
+					"ingredient": "curacao",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice",
+				"Add gin and curacao",
+				"Fill with orange juice and stir"
+			]
+		},
+		"Oil Slick": {
+			"glass": "tumbler",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"milk": {
+					"ingredient": "milk",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a small tumbler with ice",
+				"Layer vodka, creme de cacao and milk",
+				"Float dark rum on top"
+			]
+		},
+		"Orange Bloom": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "Cointreau",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass",
+				"Garnish with a cherry"
+			]
+		},
+		"Orange Buck": {
+			"glass": "highball",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"ginger_ale": {
+					"ingredient": "ginger ale",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a highball glass filled with ice",
+				"Top with ginger ale"
+			]
+		},
+		"Paisley Martini": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Mix ingredients with plenty of cracked ice in a shaker or blender",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Pall Mall": {
+			"glass": "cocktail",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"white_creme_de_menthe": {
+					"ingredient": "white creme de menthe",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"orange_bitters": {
+					"ingredient": "orange bitters",
+					"quantity": 3,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Pour ingredients into a mixing glass with several ice cubes",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Panama": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a rocks glass filled with ice",
+				"Sprinkle nutmeg on top"
+			]
+		},
+		"Paradise": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"apricot_brandy": {
+					"ingredient": "apricot brandy",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Park Avenue": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"curacao": {
+					"ingredient": "curacao",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Pavarotti": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"creme_de_noyaux": {
+					"ingredient": "creme de noyaux",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a rocks glass filled with ice"
+			]
+		},
+		"Peach Velvet": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"peach_brandy": {
+					"ingredient": "peach brandy",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "heavy cream",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill blender with 120ml of cracked ice",
+				"Add ingredients",
+				"Blend until smooth",
+				"Pour into a rocks glass and garnish with a slice of fresh peach"
+			]
+		},
+		"Pearl Harbor": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"melon_liqueur": {
+					"ingredient": "melon liqueur",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice",
+				"Add vodka and liqueur",
+				"Fill with pineapple juice and stir"
+			]
+		},
+		"Philadelphia Scotsman": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"apple_brandy": {
+					"ingredient": "apple brandy",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"port_wine": {
+					"ingredient": "port wine",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Mix all ingredients except club soda with cracked ice in a shaker or blender",
+				"Pour in a chilled highball glass",
+				"Fill with club soda and stir gently"
+			]
+		},
+		"Pina Colada": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"gold_rum": {
+					"ingredient": "gold rum",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"cream_of_coconut": {
+					"ingredient": "cream of coconut",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 120,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix ingredients, except pineapple stick and maraschino cherry, with cracked ice in a shaker or blender",
+				"Pour into a chilled Collins glass",
+				"Garnish with pineapple stick and Maraschino cherry"
+			]
+		},
+		"Pink Almond": {
+			"glass": "sour",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"creme_de_noyaux": {
+					"ingredient": "creme de noyaux",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"cherry_brandy": {
+					"ingredient": "cherry brandy",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Pour into a chilled sour glass",
+				"Garnish with a lemon slice"
+			]
+		},
+		"Pink Lemonade": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"cranberry_juice": {
+					"ingredient": "cranberry juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sour_mix": {
+					"ingredient": "sour mix",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"lemonade": {
+					"ingredient": "lemonade",
+					"quantity": 120,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Pour into a highball or Collins glass",
+				"Add lemonade and garnish with a lemon slice"
+			]
+		},
+		"Pink Squirrel": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"creme_de_noyaux": {
+					"ingredient": "creme de noyaux",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 60,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Planter's Punch": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"grenadine": {
+					"ingredient": "grenadine",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Mix all ingredients, except orange slice and cherry, with cracked ice in a shaker or blender",
+				"Pour into a tall, chilled Collins glass",
+				"Garnish with orange slice and Maraschino cherry"
+			]
+		},
+		"Poker": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gold_rum": {
+					"ingredient": "gold rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 45,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Preakness": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"benedictine": {
+					"ingredient": "Benedictine",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Pour ingredients into a mixing glass with several ice cubes",
+				"Stir gently and strain into a chilled cocktail glass"
+			]
+		},
+		"Presbyterian": {
+			"glass": "highball",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 90,
+					"unit": "ml"
+				},
+				"ginger_ale": {
+					"ingredient": "ginger ale",
+					"quantity": 2,
+					"unit": "fill"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 2,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Pour bourbon into a chilled highball glass",
+				"Add ice cubes",
+				"Fill with equal parts of ginger ale and soda"
+			]
+		},
+		"Prince Edward": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"lillet_blanc": {
+					"ingredient": "Lillet blanc",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"whisky_liqueur": {
+					"ingredient": "Drambuie",
+					"quantity": 10,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix ingredients, except orange slice, with cracked ice in a shaker or blender",
+				"Pour into a chilled Old Fashioned glass",
+				"Garnish with preserved orange slice"
+			]
+		},
+		"Prince": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"orange_bitters": {
+					"ingredient": "orange bitters",
+					"quantity": 2,
+					"unit": "dash"
+				},
+				"white_creme_de_menthe": {
+					"ingredient": "white creme de menthe",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add whisky and orange bitters and shake",
+				"Strain into a rocks glass filled with ice",
+				"Top with a few drops of white creme de menthe"
+			]
+		},
+		"Quaker": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"raspberry_syrup": {
+					"ingredient": "raspberry syrup",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix ingredients, except lemon peel, in a shaker or blender with cracked ice",
+				"Strain into a chilled cocktail glass",
+				"Twist lemon peel over drink and drop into glass"
+			]
+		},
+		"Quickie": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "triple sec",
+					"quantity": 10,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir well",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Racquet Club": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"orange_bitters": {
+					"ingredient": "orange bitters",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Stir ingredients with ice in a mixing glass",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Red Devil": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"sloe_gin": {
+					"ingredient": "sloe gin",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "triple sec",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"creme_de_banane": {
+					"ingredient": "creme de banane",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"southern_comfort": {
+					"ingredient": "Southern Comfort",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 60,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake well",
+				"Pour into a Collins glass"
+			]
+		},
+		"Roasted Toasted Almond": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"creme_de_noyaux": {
+					"ingredient": "creme de noyaux",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 25,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Rob Roy": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"orange_bitters": {
+					"ingredient": "orange bitters",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Pour all liquid ingredients into a mixing glass with several ice cubes",
+				"Stir well",
+				"Strain into a chilled cocktail glass",
+				"Garnish with the Maraschino cherry"
+			]
+		},
+		"Rocky Green Dragon": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"green_chartreuse": {
+					"ingredient": "green Chartreuse",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"brandy": {
+					"ingredient": "cognac",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix ingredients in a shaker or blender with cracked ice",
+				"Pour into a chilled cocktail glass"
+			]
+		},
+		"Rolls Royce": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"benedictine": {
+					"ingredient": "Benedictine",
+					"quantity": 3,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Stir ingredients in a mixing glass with ice",
+				"Ptrain into a chilled cocktail glass"
+			]
+		},
+		"Royal Screw": {
+			"glass": "flute",
+			"mix": "stir",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "cognac",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "chilled orange juice",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"champagne": {
+					"ingredient": "champagne",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Pour cognac into a champagne glass",
+				"Add orange juice",
+				"Stir gently",
+				"Fill with champagne"
+			]
+		},
+		"Rum Collins": {
+			"glass": "collins",
+			"mix": "stir",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 120,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Combine rum and sugar syrup in a chilled Collins glass and stir",
+				"Squeeze in juice lime",
+				"Drop in peel",
+				"Add club soda and several ice cubes",
+				"Stir gently"
+			]
+		},
+		"Rum Sour": {
+			"glass": "sour",
+			"mix": "shake",
+			"ingredients": {
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all liquid ingredients with cracked ice in a shaker or blender",
+				"Strain into a chilled Whiskey Sour glass",
+				"Garnish with the orange slice and Maraschino cherry"
+			]
+		},
+		"Ruptured Duck": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"creme_de_banane": {
+					"ingredient": "creme de banane",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"creme_de_noyaux": {
+					"ingredient": "creme de noyaux",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Russian Bear": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"dark_creme_de_cacao": {
+					"ingredient": "dark creme de cacao",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "heavy cream",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Russian": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Rusty Nail": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"whisky_liqueur": {
+					"ingredient": "Drambuie",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Pour ingredients into a chilled Old Fashioned glass along with several ice cubes",
+				"Stir"
+			]
+		},
+		"Savoy Hotel": {
+			"glass": "sour",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"benedictine": {
+					"ingredient": "Benedictine",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Slowly layer white creme de cacao, Benedictine and brandy in that order into a pony glass"
+			]
+		},
+		"Sazerac": {
+			"glass": "tumbler",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"pernod": {
+					"ingredient": "Pernod",
+					"quantity": 3,
+					"unit": "dash"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 3,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Pour bourbon into a mixing glass",
+				"Add sugar and bitters",
+				"Put Pernod into a rocks glass",
+				"Strain mixture into a rocks glass",
+				"Fill with ice"
+			]
+		},
+		"Scorpion": {
+			"glass": "highball",
+			"mix": "shake",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"creme_de_noyaux": {
+					"ingredient": "creme de noyaux",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill blender with above ingredients and 90ml of crushed ice",
+				"Blend until smooth",
+				"Pour into a highball glass",
+				"Garnish with an orange slice"
+			]
+		},
+		"Scotch and Soda": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice",
+				"Add scotch",
+				"Fill with club soda",
+				"Stir gently"
+			]
+		},
+		"Scotch Mist": {
+			"glass": "tumbler",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 45,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a rocks glass with crushed ice, add scotch and garnish with a lemon twist"
+			]
+		},
+		"Screwdriver": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 120,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Pour vodka and orange juice into a chilled Old Fashioned glass with several ice cubes",
+				"Stir",
+				"Garnish with the orange slice"
+			]
+		},
+		"Seventh Heaven": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "Seagram's 7 whiskey",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"creme_de_noyaux": {
+					"ingredient": "creme de noyaux",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice",
+				"Add whiskey and creme de noyaux",
+				"Fill with orange juice and stir"
+			]
+		},
+		"Seville": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dry_sherry": {
+					"ingredient": "dry sherry",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 10,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Half-fill mixing glass with ice, add ingredients",
+				"Shake and pour into a rocks glass"
+			]
+		},
+		"Shark's Tooth": {
+			"glass": "highball",
+			"mix": "shake",
+			"ingredients": {
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"grenadine": {
+					"ingredient": "grenadine",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients (except soda) and shake",
+				"Strain into a highball glass filled with ice",
+				"Fill with club soda"
+			]
+		},
+		"Singapore": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sour_mix": {
+					"ingredient": "sour mix",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"grenadine": {
+					"ingredient": "grenadine",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 120,
+					"unit": "ml"
+				},
+				"cherry_brandy": {
+					"ingredient": "cherry brandy",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients (except club soda) and shake",
+				"Strain into a Collins glass filled with ice",
+				"Add club soda and cherry brandy"
+			]
+		},
+		"Sledgehammer": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"apple_brandy": {
+					"ingredient": "apple brandy",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"gold_rum": {
+					"ingredient": "gold rum",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"pernod": {
+					"ingredient": "Pernod",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Slippery Nipple": {
+			"glass": "cocktail",
+			"ingredients": {
+				"sambuca": {
+					"ingredient": "sambuca",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"irish_cream": {
+					"ingredient": "Bailey's Original Irish Cream",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"grenadine": {
+					"ingredient": "grenadine",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Pour sambuca into a cocktail glass",
+				"Float Bailey's on top",
+				"Put a drop of grenadine right in the center"
+			]
+		},
+		"Sloe Brandy": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"sloe_gin": {
+					"ingredient": "sloe gin",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Sloe Gin Fizz": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"sloe_gin": {
+					"ingredient": "sloe gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sour_mix": {
+					"ingredient": "sour mix",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 120,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add sloe gin and sour mix and shake",
+				"Strain into a chilled Collins glass",
+				"Add club soda and garnish with a cherry"
+			]
+		},
+		"Sloe Screw": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"sloe_gin": {
+					"ingredient": "sloe gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Pour sloe gin into a chilled Old Fashioned glass with several ice cubes",
+				"Fill with orange juice and stir"
+			]
+		},
+		"Sloe Tequila": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"tequila": {
+					"ingredient": "tequila",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"sloe_gin": {
+					"ingredient": "sloe gin",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Sloppy Joe": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"grenadine": {
+					"ingredient": "grenadine",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"triple_sec": {
+					"ingredient": "triple sec",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a rocks glass filled with ice"
+			]
+		},
+		"Sombrero": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill tumbler with ice",
+				"Add Kahlua",
+				"Top with cream and stir"
+			]
+		},
+		"Southern Gin": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 75,
+					"unit": "ml"
+				},
+				"orange_bitters": {
+					"ingredient": "orange bitters",
+					"quantity": 2,
+					"unit": "dash"
+				},
+				"curacao": {
+					"ingredient": "curacao",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Stinger": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "brandy",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"white_creme_de_menthe": {
+					"ingredient": "white creme de menthe",
+					"quantity": 45,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix ingredients in a shaker or blender with cracked ice",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Stone Sour": {
+			"glass": "sour",
+			"mix": "stir",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"white_creme_de_menthe": {
+					"ingredient": "white creme de menthe",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a sour glass almost to the top with crushed ice",
+				"Pour in ingredients",
+				"Stir and fill with club soda",
+				"Garnish with several sprigs of mint"
+			]
+		},
+		"Summer Share": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"cranberry_juice": {
+					"ingredient": "cranberry juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"tequila": {
+					"ingredient": "tequila",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"apricot_brandy": {
+					"ingredient": "apricot brandy",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"lemonade": {
+					"ingredient": "lemonade",
+					"quantity": 120,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled Collins glass",
+				"Add ice and lemonade",
+				"Garnish with an orange slice"
+			]
+		},
+		"Swayze Swizzle": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"passion_fruit_juice": {
+					"ingredient": "passion fruit juice",
+					"quantity": 3,
+					"unit": "fill"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 3,
+					"unit": "fill"
+				},
+				"cranberry_juice": {
+					"ingredient": "cranberry juice",
+					"quantity": 3,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice",
+				"Add dark rum",
+				"Fill glass with equal parts of juices",
+				"Stir"
+			]
+		},
+		"Tequila Manhattan": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"tequila": {
+					"ingredient": "tequila",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 45,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"The Bottom Line": {
+			"glass": "highball",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"tonic_water": {
+					"ingredient": "tonic water",
+					"quantity": 120,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice",
+				"Add ingredients",
+				"Garnish with a lime slice"
+			]
+		},
+		"The International": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "cognac",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"anisette": {
+					"ingredient": "anisette",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "Cointreau",
+					"quantity": 10,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Thistle": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 3,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a shaker or blender",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Tipperary": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "Irish whiskey",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"green_chartreuse": {
+					"ingredient": "green Chartreuse",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir well",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Tivoli": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"aquavit": {
+					"ingredient": "aquavit",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"campari": {
+					"ingredient": "Campari",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Tootsie Roll": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"chocolate_orange_liqueur": {
+					"ingredient": "chocolate orange liqueur",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a rocks glass with ice",
+				"Add ingredients and stir"
+			]
+		},
+		"Tovarich": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"campari": {
+					"ingredient": "Campari",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a chilled highball glass with ice",
+				"Add liquid ingredients and stir",
+				"Add orange peel"
+			]
+		},
+		"Trade Winds": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gold_rum": {
+					"ingredient": "gold rum",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"plum_brandy": {
+					"ingredient": "plum brandy",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"orgeat_syrup": {
+					"ingredient": "orgeat syrup",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix with plenty of cracked ice and frappe in a blender",
+				"Serve in a chilled cocktail glass"
+			]
+		},
+		"Traffic Light": {
+			"ingredients": {
+				"creme_de_banane": {
+					"ingredient": "creme de banane",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"green_creme_de_menthe": {
+					"ingredient": "green creme de menthe",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sloe_gin": {
+					"ingredient": "sloe gin",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Pour creme de menthe into a brandy snifter",
+				"Float creme de banane",
+				"Float sloe gin"
+			]
+		},
+		"Trolley": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"pineapple_juice": {
+					"ingredient": "pineapple juice",
+					"quantity": 2,
+					"unit": "fill"
+				},
+				"cranberry_juice": {
+					"ingredient": "cranberry juice",
+					"quantity": 2,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice",
+				"Add bourbon",
+				"Fill with equal parts of juices and stir"
+			]
+		},
+		"Turkey Shooter": {
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "101-proof Wild Turkey Bourbon",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"white_creme_de_menthe": {
+					"ingredient": "white creme de menthe",
+					"quantity": 10,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Pour bourbon into a brandy snifter",
+				"Float creme de menthe"
+			]
+		},
+		"Twin Hills": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"benedictine": {
+					"ingredient": "Benedictine",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass",
+				"Garnish with a slice of lemon and slice of lime"
+			]
+		},
+		"Union Jack": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"creme_de_violette": {
+					"ingredient": "Creme de Violette",
+					"quantity": 10,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Velvet Hammer": {
+			"mix": "shake",
+			"ingredients": {
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "triple sec",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 60,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a stemmed glass"
+			]
+		},
+		"Vermouth Cassis": {
+			"glass": "highball",
+			"ingredients": {
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 90,
+					"unit": "ml"
+				},
+				"creme_de_cassis": {
+					"ingredient": "creme de cassis",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Mix vermouth and cassis with ice cubes in a chilled highball glass",
+				"Fill with cold club soda"
+			]
+		},
+		"Vermouth Frappe": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Vesper": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "Gordon's gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lillet_blanc": {
+					"ingredient": "Kina Lillet",
+					"quantity": 8,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Three measures of Gordon's, one of vodka, half a measure of Kina Lillet",
+				"Shake it very well until it's ice-cold",
+				"Add a large thin slice of lemon peel"
+			]
+		},
+		"Vodka Collins": {
+			"glass": "collins",
+			"mix": "stir",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sour_mix": {
+					"ingredient": "sour mix",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 120,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a Collins glass with ice",
+				"Add vodka and sour mix and stir",
+				"Add club soda and stir",
+				"Garnish with a cherry"
+			]
+		},
+		"Vodka Cooler": {
+			"glass": "collins",
+			"mix": "shake",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 120,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix ingredients, except club soda, in a shaker or blender with cracked ice",
+				"Pour into a chilled Collins glass and add club soda"
+			]
+		},
+		"Vodka Gibson": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled martini glass filled with ice",
+				"Garnish with a pearl onion"
+			]
+		},
+		"Vodka Grasshopper": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"green_creme_de_menthe": {
+					"ingredient": "green creme de menthe",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Vodka Martini": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 1,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled martini glass",
+				"Garnish with an olive"
+			]
+		},
+		"Vodka Stinger": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"white_creme_de_menthe": {
+					"ingredient": "white creme de menthe",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Volga Boatman": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"cherry_brandy": {
+					"ingredient": "cherry brandy",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all liquid ingredients with cracked ice in a shaker or blender",
+				"Strain into a chilled cocktail glass",
+				"Garnish with the Maraschino cherry"
+			]
+		},
+		"Wagon Wheel": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"brandy": {
+					"ingredient": "cognac",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"southern_comfort": {
+					"ingredient": "Southern Comfort",
+					"quantity": 75,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"grenadine": {
+					"ingredient": "grenadine",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a rocks glass filled with ice"
+			]
+		},
+		"Weekender": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"pernod": {
+					"ingredient": "Pernod",
+					"quantity": 3,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Wembley": {
+			"glass": "cocktail",
+			"mix": "stir",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"apple_brandy": {
+					"ingredient": "apple brandy",
+					"quantity": 3,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and stir",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Whirlaway": {
+			"glass": "tumbler",
+			"mix": "shake",
+			"ingredients": {
+				"bourbon": {
+					"ingredient": "bourbon",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"curacao": {
+					"ingredient": "curacao",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 3,
+					"unit": "dash"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Mix all ingredients, except club soda, in a shaker or blender with cracked ice",
+				"Pour into a chilled Old Fashioned glass and top with club soda"
+			]
+		},
+		"Whisky and Water": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"water": {
+					"ingredient": "water",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice, add whisky, fill with water and stir"
+			]
+		},
+		"Whisky Collins": {
+			"glass": "collins",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sour_mix": {
+					"ingredient": "sour mix",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 120,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a Collins glass with ice",
+				"Add whisky and sour mix and stir",
+				"Add club soda",
+				"Garnish with a cherry and orange slice"
+			]
+		},
+		"Whisky Fix": {
+			"glass": "collins",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "scotch whisky",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a Collins glass with crushed ice",
+				"Add ingredients and stir",
+				"Garnish with fresh in-season fruits"
+			]
+		},
+		"Whisky Highball": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice",
+				"Add whisky",
+				"Fill with club soda or ginger ale",
+				"Stir gently"
+			]
+		},
+		"Whisky Rickey": {
+			"glass": "collins",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"lime_juice": {
+					"ingredient": "lime juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"club_soda": {
+					"ingredient": "club soda",
+					"quantity": 120,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix whisky, lime juice and sugar in a Collins glass with cracked ice",
+				"Add club soda and twist lime peel over drink and drop into glass"
+			]
+		},
+		"Whiskey Sour": {
+			"glass": "sour",
+			"mix": "shake",
+			"ingredients": {
+				"whisky": {
+					"ingredient": "whisky",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sour_mix": {
+					"ingredient": "sour mix",
+					"quantity": 60,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a sour glass",
+				"Garnish with a cherry"
+			]
+		},
+		"Whist": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"apple_brandy": {
+					"ingredient": "apple brandy",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 15,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"White Bull": {
+			"glass": "tumbler",
+			"mix": "stir",
+			"ingredients": {
+				"tequila": {
+					"ingredient": "Tequila",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"coffee_liqueur": {
+					"ingredient": "Kahlua",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill tumbler with ice",
+				"Add tequila and Kahlua",
+				"Top with cream and stir"
+			]
+		},
+		"White Elephant": {
+			"mix": "shake",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 60,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled stemmed glass"
+			]
+		},
+		"White Lady": {
+			"glass": "sour",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 25,
+					"unit": "ml"
+				},
+				"sour_mix": {
+					"ingredient": "sour mix",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "cream",
+					"quantity": 25,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a sour glass",
+				"Fill with ice",
+				"Garnish with a cherry and orange slice"
+			]
+		},
+		"White Lion": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sugar_syrup": {
+					"ingredient": "sugar syrup",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				"grenadine": {
+					"ingredient": "grenadine",
+					"quantity": 1,
+					"unit": "dash"
+				},
+				"angostura_bitters": {
+					"ingredient": "Angostura bitters",
+					"quantity": 2,
+					"unit": "dash"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"White Russian": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"white_creme_de_cacao": {
+					"ingredient": "white creme de cacao",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"cream": {
+					"ingredient": "heavy cream",
+					"quantity": 25,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix all ingredients with cracked ice in a shaker or blender",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"White Spider": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"white_creme_de_menthe": {
+					"ingredient": "white creme de menthe",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"White Wing": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"white_creme_de_menthe": {
+					"ingredient": "white creme de menthe",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add ingredients and shake",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"XYZ Cocktail": {
+			"glass": "cocktail",
+			"mix": "shake",
+			"ingredients": {
+				"dark_rum": {
+					"ingredient": "dark rum",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "Cointreau",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"lemon_juice": {
+					"ingredient": "lemon juice",
+					"quantity": 30,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix ingredients with cracked ice in a shaker or blender",
+				"Strain into a chilled cocktail glass"
+			]
+		},
+		"Yellow Fever": {
+			"glass": "highball",
+			"mix": "stir",
+			"ingredients": {
+				"vodka": {
+					"ingredient": "vodka",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"lemonade": {
+					"ingredient": "lemonade",
+					"quantity": 1,
+					"unit": "fill"
+				}
+			},
+			"method": [
+				"Fill a highball glass with ice",
+				"Add vodka, fill with lemonade and stir",
+				"Garnish with a lemon slice"
+			]
+		},
+		"Yellow Rattler": {
+			"glass": "goblet",
+			"mix": "shake",
+			"ingredients": {
+				"dry_vermouth": {
+					"ingredient": "dry vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"sweet_vermouth": {
+					"ingredient": "sweet vermouth",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"gin": {
+					"ingredient": "gin",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "fresh orange juice",
+					"quantity": 90,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Mix with cracked ice in a blender or shaker",
+				"Serve in a chilled wine glass"
+			]
+		},
+		"Zombie": {
+			"glass": "collins",
+			"ingredients": {
+				"light_rum": {
+					"ingredient": "light rum",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				"triple_sec": {
+					"ingredient": "triple sec",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"creme_de_noyaux": {
+					"ingredient": "creme de noyaux",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"dark_rum": {
+					"ingredient": "151-proof rum",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				"sour_mix": {
+					"ingredient": "sour mix",
+					"quantity": 45,
+					"unit": "ml"
+				},
+				"orange_juice": {
+					"ingredient": "orange juice",
+					"quantity": 45,
+					"unit": "ml"
+				}
+			},
+			"method": [
+				"Fill a mixing glass with ice",
+				"Add all ingredients except 151-proof rum",
+				"Strain into a Collins glass filled with ice",
+				"Top with 151-proof rum",
+				"Garnish with a cherry"
+			]
+		}
+	}
+}

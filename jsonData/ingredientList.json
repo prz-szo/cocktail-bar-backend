@@ -1,0 +1,6812 @@
+[
+    {
+        "Name": "7-up",
+        "ID": 118,
+        "Popularity": 8,
+        "NormalizedIngredientID": 66
+    },
+    {
+        "Name": "99 apples schnapps",
+        "ID": 730,
+        "Popularity": 0,
+        "NormalizedIngredientID": 73
+    },
+    {
+        "Name": "99 bananas",
+        "ID": 317,
+        "Popularity": 1,
+        "NormalizedIngredientID": 37
+    },
+    {
+        "Name": "absinthe",
+        "ID": 435,
+        "Popularity": 113,
+        "NormalizedIngredientID": 97
+    },
+    {
+        "Name": "absolut citron",
+        "ID": 254,
+        "Popularity": 1,
+        "NormalizedIngredientID": 158
+    },
+    {
+        "Name": "absolut cranberry",
+        "ID": 68,
+        "Popularity": 1,
+        "NormalizedIngredientID": 161
+    },
+    {
+        "Name": "absolut kurant",
+        "ID": 223,
+        "Popularity": 0,
+        "NormalizedIngredientID": 162
+    },
+    {
+        "Name": "absolut kurant vodka",
+        "ID": 462,
+        "Popularity": 1,
+        "NormalizedIngredientID": 162
+    },
+    {
+        "Name": "absolut mandarin",
+        "ID": 387,
+        "Popularity": 1,
+        "NormalizedIngredientID": 157
+    },
+    {
+        "Name": "absolut peppar",
+        "ID": 169,
+        "Popularity": 1,
+        "NormalizedIngredientID": 160
+    },
+    {
+        "Name": "absolut vanilia vodka",
+        "ID": 731,
+        "Popularity": 0,
+        "NormalizedIngredientID": 159
+    },
+    {
+        "Name": "absolut vodka",
+        "ID": 102,
+        "Popularity": 7,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "advocaat liqueur",
+        "ID": 733,
+        "Popularity": 0,
+        "NormalizedIngredientID": 167
+    },
+    {
+        "Name": "aftershock liqueur",
+        "ID": 749,
+        "Popularity": 0,
+        "NormalizedIngredientID": 173
+    },
+    {
+        "Name": "agave nectar",
+        "ID": 1446,
+        "Popularity": 6,
+        "NormalizedIngredientID": 643
+    },
+    {
+        "Name": "agavero tequila liqueur",
+        "ID": 737,
+        "Popularity": 0,
+        "NormalizedIngredientID": 168
+    },
+    {
+        "Name": "agave syrup",
+        "ID": 1430,
+        "Popularity": 51,
+        "NormalizedIngredientID": 643
+    },
+    {
+        "Name": "akvavit",
+        "ID": 774,
+        "Popularity": 0,
+        "NormalizedIngredientID": 187
+    },
+    {
+        "Name": "alize",
+        "ID": 732,
+        "Popularity": 0,
+        "NormalizedIngredientID": 7
+    },
+    {
+        "Name": "alize bleu liqueur",
+        "ID": 738,
+        "Popularity": 0,
+        "NormalizedIngredientID": 169
+    },
+    {
+        "Name": "alize cognac",
+        "ID": 409,
+        "Popularity": 7,
+        "NormalizedIngredientID": 7
+    },
+    {
+        "Name": "alize gold passion liqueur",
+        "ID": 739,
+        "Popularity": 0,
+        "NormalizedIngredientID": 170
+    },
+    {
+        "Name": "alize red passion liqueur",
+        "ID": 743,
+        "Popularity": 0,
+        "NormalizedIngredientID": 171
+    },
+    {
+        "Name": "allspice berries",
+        "ID": 1629,
+        "Popularity": 2,
+        "NormalizedIngredientID": 679
+    },
+    {
+        "Name": "allspice liqueur",
+        "ID": 751,
+        "Popularity": 0,
+        "NormalizedIngredientID": 174
+    },
+    {
+        "Name": "almond extract",
+        "ID": 753,
+        "Popularity": 0,
+        "NormalizedIngredientID": 139
+    },
+    {
+        "Name": "almond liqueur",
+        "ID": 160,
+        "Popularity": 0,
+        "NormalizedIngredientID": 23
+    },
+    {
+        "Name": "almonds",
+        "ID": 754,
+        "Popularity": 0,
+        "NormalizedIngredientID": 175
+    },
+    {
+        "Name": "almond syrup",
+        "ID": 634,
+        "Popularity": 2,
+        "NormalizedIngredientID": 139
+    },
+    {
+        "Name": "amaretto di amore",
+        "ID": 746,
+        "Popularity": 0,
+        "NormalizedIngredientID": 172
+    },
+    {
+        "Name": "amaretto di saronno",
+        "ID": 745,
+        "Popularity": 0,
+        "NormalizedIngredientID": 23
+    },
+    {
+        "Name": "amaro abano",
+        "ID": 1658,
+        "Popularity": 10,
+        "NormalizedIngredientID": 704
+    },
+    {
+        "Name": "amaro averna",
+        "ID": 1620,
+        "Popularity": 1,
+        "NormalizedIngredientID": 704
+    },
+    {
+        "Name": "amaro cora",
+        "ID": 1647,
+        "Popularity": 2,
+        "NormalizedIngredientID": 704
+    },
+    {
+        "Name": "amaro montenegro",
+        "ID": 1583,
+        "Popularity": 29,
+        "NormalizedIngredientID": 704
+    },
+    {
+        "Name": "amaro nardini",
+        "ID": 1643,
+        "Popularity": 12,
+        "NormalizedIngredientID": 704
+    },
+    {
+        "Name": "amarula",
+        "ID": 651,
+        "Popularity": 0,
+        "NormalizedIngredientID": 146
+    },
+    {
+        "Name": "amer picon",
+        "ID": 755,
+        "Popularity": 13,
+        "NormalizedIngredientID": 176
+    },
+    {
+        "Name": "amontillado sherry",
+        "ID": 1593,
+        "Popularity": 29,
+        "NormalizedIngredientID": 708
+    },
+    {
+        "Name": "angelica root",
+        "ID": 756,
+        "Popularity": 0,
+        "NormalizedIngredientID": 177
+    },
+    {
+        "Name": "angostura aromatic bitters",
+        "ID": 1499,
+        "Popularity": 0,
+        "NormalizedIngredientID": 123
+    },
+    {
+        "Name": "angostura bitters",
+        "ID": 554,
+        "Popularity": 37,
+        "NormalizedIngredientID": 123
+    },
+    {
+        "Name": "angry orchard cinnful apple cider",
+        "ID": 1662,
+        "Popularity": 2,
+        "NormalizedIngredientID": 29
+    },
+    {
+        "Name": "angry orchard crisp apple cider",
+        "ID": 1663,
+        "Popularity": 2,
+        "NormalizedIngredientID": 29
+    },
+    {
+        "Name": "anise",
+        "ID": 757,
+        "Popularity": 3,
+        "NormalizedIngredientID": 178
+    },
+    {
+        "Name": "anisette",
+        "ID": 511,
+        "Popularity": 2,
+        "NormalizedIngredientID": 108
+    },
+    {
+        "Name": "aperol",
+        "ID": 761,
+        "Popularity": 113,
+        "NormalizedIngredientID": 179
+    },
+    {
+        "Name": "apfelkorn liqueur ",
+        "ID": 762,
+        "Popularity": 0,
+        "NormalizedIngredientID": 180
+    },
+    {
+        "Name": "apple",
+        "ID": 765,
+        "Popularity": 9,
+        "NormalizedIngredientID": 182
+    },
+    {
+        "Name": "apple brandy",
+        "ID": 281,
+        "Popularity": 65,
+        "NormalizedIngredientID": 84
+    },
+    {
+        "Name": "apple cider",
+        "ID": 29,
+        "Popularity": 26,
+        "NormalizedIngredientID": 29
+    },
+    {
+        "Name": "apple cider vinegar",
+        "ID": 1509,
+        "Popularity": 1,
+        "NormalizedIngredientID": 673
+    },
+    {
+        "Name": "applejack brandy",
+        "ID": 537,
+        "Popularity": 1,
+        "NormalizedIngredientID": 111
+    },
+    {
+        "Name": "apple juice",
+        "ID": 28,
+        "Popularity": 11,
+        "NormalizedIngredientID": 28
+    },
+    {
+        "Name": "apple liqueur",
+        "ID": 763,
+        "Popularity": 1,
+        "NormalizedIngredientID": 180
+    },
+    {
+        "Name": "apple pucker sour apple schnapps",
+        "ID": 153,
+        "Popularity": 1,
+        "NormalizedIngredientID": 73
+    },
+    {
+        "Name": "apple sauce",
+        "ID": 767,
+        "Popularity": 0,
+        "NormalizedIngredientID": 28
+    },
+    {
+        "Name": "apple schnapps",
+        "ID": 137,
+        "Popularity": 2,
+        "NormalizedIngredientID": 73
+    },
+    {
+        "Name": "appleton estate v/x jamaican rum",
+        "ID": 662,
+        "Popularity": 1,
+        "NormalizedIngredientID": 148
+    },
+    {
+        "Name": "apple vodka",
+        "ID": 764,
+        "Popularity": 0,
+        "NormalizedIngredientID": 181
+    },
+    {
+        "Name": "apricot brandy",
+        "ID": 21,
+        "Popularity": 16,
+        "NormalizedIngredientID": 20
+    },
+    {
+        "Name": "apricot fruit syrup",
+        "ID": 777,
+        "Popularity": 0,
+        "NormalizedIngredientID": 183
+    },
+    {
+        "Name": "apricot juice",
+        "ID": 769,
+        "Popularity": 0,
+        "NormalizedIngredientID": 184
+    },
+    {
+        "Name": "apricot liqueur",
+        "ID": 776,
+        "Popularity": 62,
+        "NormalizedIngredientID": 185
+    },
+    {
+        "Name": "apricot schnapps",
+        "ID": 771,
+        "Popularity": 0,
+        "NormalizedIngredientID": 186
+    },
+    {
+        "Name": "apricot syrup",
+        "ID": 768,
+        "Popularity": 0,
+        "NormalizedIngredientID": 183
+    },
+    {
+        "Name": "aquavit",
+        "ID": 772,
+        "Popularity": 33,
+        "NormalizedIngredientID": 187
+    },
+    {
+        "Name": "archer's peach schnapps",
+        "ID": 109,
+        "Popularity": 0,
+        "NormalizedIngredientID": 63
+    },
+    {
+        "Name": "armagnac",
+        "ID": 775,
+        "Popularity": 6,
+        "NormalizedIngredientID": 7
+    },
+    {
+        "Name": "arrack",
+        "ID": 1602,
+        "Popularity": 1,
+        "NormalizedIngredientID": 712
+    },
+    {
+        "Name": "avignon radish",
+        "ID": 1478,
+        "Popularity": 1,
+        "NormalizedIngredientID": 659
+    },
+    {
+        "Name": "avocado",
+        "ID": 778,
+        "Popularity": 1,
+        "NormalizedIngredientID": 188
+    },
+    {
+        "Name": "aztec chocolate bitters",
+        "ID": 1565,
+        "Popularity": 2,
+        "NormalizedIngredientID": 697
+    },
+    {
+        "Name": "bacardi 151",
+        "ID": 508,
+        "Popularity": 1,
+        "NormalizedIngredientID": 109
+    },
+    {
+        "Name": "bacardi 8",
+        "ID": 1619,
+        "Popularity": 3,
+        "NormalizedIngredientID": 14
+    },
+    {
+        "Name": "bacardi anejo rum",
+        "ID": 779,
+        "Popularity": 0,
+        "NormalizedIngredientID": 14
+    },
+    {
+        "Name": "bacardi breezer",
+        "ID": 780,
+        "Popularity": 0,
+        "NormalizedIngredientID": 189
+    },
+    {
+        "Name": "bacardi breezer orange",
+        "ID": 543,
+        "Popularity": 1,
+        "NormalizedIngredientID": 96
+    },
+    {
+        "Name": "bacardi coco rum",
+        "ID": 781,
+        "Popularity": 0,
+        "NormalizedIngredientID": 17
+    },
+    {
+        "Name": "bacardi dark rum",
+        "ID": 296,
+        "Popularity": 1,
+        "NormalizedIngredientID": 36
+    },
+    {
+        "Name": "bacardi gold rum",
+        "ID": 782,
+        "Popularity": 0,
+        "NormalizedIngredientID": 14
+    },
+    {
+        "Name": "bacardi light rum",
+        "ID": 295,
+        "Popularity": 1,
+        "NormalizedIngredientID": 14
+    },
+    {
+        "Name": "bacardi limon rum",
+        "ID": 783,
+        "Popularity": 0,
+        "NormalizedIngredientID": 190
+    },
+    {
+        "Name": "bacardi o",
+        "ID": 784,
+        "Popularity": 0,
+        "NormalizedIngredientID": 191
+    },
+    {
+        "Name": "bacardi razz rum",
+        "ID": 785,
+        "Popularity": 0,
+        "NormalizedIngredientID": 192
+    },
+    {
+        "Name": "baileys irish cream",
+        "ID": 80,
+        "Popularity": 26,
+        "NormalizedIngredientID": 49
+    },
+    {
+        "Name": "baker's bourbon",
+        "ID": 357,
+        "Popularity": 0,
+        "NormalizedIngredientID": 25
+    },
+    {
+        "Name": "banana",
+        "ID": 786,
+        "Popularity": 0,
+        "NormalizedIngredientID": 193
+    },
+    {
+        "Name": "banana liqueur",
+        "ID": 37,
+        "Popularity": 8,
+        "NormalizedIngredientID": 37
+    },
+    {
+        "Name": "banana rum",
+        "ID": 788,
+        "Popularity": 0,
+        "NormalizedIngredientID": 194
+    },
+    {
+        "Name": "banana schnapps",
+        "ID": 789,
+        "Popularity": 0,
+        "NormalizedIngredientID": 195
+    },
+    {
+        "Name": "banana syrup",
+        "ID": 790,
+        "Popularity": 0,
+        "NormalizedIngredientID": 196
+    },
+    {
+        "Name": "barbecue bitters",
+        "ID": 1580,
+        "Popularity": 1,
+        "NormalizedIngredientID": 702
+    },
+    {
+        "Name": "barenjager liqueur ",
+        "ID": 792,
+        "Popularity": 0,
+        "NormalizedIngredientID": 76
+    },
+    {
+        "Name": "bar mix",
+        "ID": 441,
+        "Popularity": 0,
+        "NormalizedIngredientID": 19
+    },
+    {
+        "Name": "basil",
+        "ID": 1447,
+        "Popularity": 24,
+        "NormalizedIngredientID": 647
+    },
+    {
+        "Name": "basil hayden's bourbon",
+        "ID": 343,
+        "Popularity": 1,
+        "NormalizedIngredientID": 25
+    },
+    {
+        "Name": "basilica hazelnut liqueur",
+        "ID": 923,
+        "Popularity": 0,
+        "NormalizedIngredientID": 59
+    },
+    {
+        "Name": "batida de coco ",
+        "ID": 793,
+        "Popularity": 0,
+        "NormalizedIngredientID": 116
+    },
+    {
+        "Name": "becherovka ",
+        "ID": 794,
+        "Popularity": 0,
+        "NormalizedIngredientID": 197
+    },
+    {
+        "Name": "beef bouillon ",
+        "ID": 795,
+        "Popularity": 0,
+        "NormalizedIngredientID": 198
+    },
+    {
+        "Name": "beefeater gin",
+        "ID": 378,
+        "Popularity": 1,
+        "NormalizedIngredientID": 10
+    },
+    {
+        "Name": "beef jerky",
+        "ID": 1582,
+        "Popularity": 1,
+        "NormalizedIngredientID": 703
+    },
+    {
+        "Name": "beer",
+        "ID": 174,
+        "Popularity": 11,
+        "NormalizedIngredientID": 78
+    },
+    {
+        "Name": "beet juice",
+        "ID": 1555,
+        "Popularity": 1,
+        "NormalizedIngredientID": 693
+    },
+    {
+        "Name": "bellringer gin ",
+        "ID": 796,
+        "Popularity": 0,
+        "NormalizedIngredientID": 10
+    },
+    {
+        "Name": "belvedere vodka",
+        "ID": 107,
+        "Popularity": 2,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "benedictine",
+        "ID": 631,
+        "Popularity": 135,
+        "NormalizedIngredientID": 138
+    },
+    {
+        "Name": "bianco vermouth",
+        "ID": 1656,
+        "Popularity": 59,
+        "NormalizedIngredientID": 32
+    },
+    {
+        "Name": "bitter lemon",
+        "ID": 801,
+        "Popularity": 0,
+        "NormalizedIngredientID": 5
+    },
+    {
+        "Name": "bittermens xocolatl",
+        "ID": 1669,
+        "Popularity": 0,
+        "NormalizedIngredientID": 719
+    },
+    {
+        "Name": "bitter orange",
+        "ID": 1604,
+        "Popularity": 0,
+        "NormalizedIngredientID": 713
+    },
+    {
+        "Name": "blackberries",
+        "ID": 841,
+        "Popularity": 3,
+        "NormalizedIngredientID": 210
+    },
+    {
+        "Name": "blackberry brandy",
+        "ID": 703,
+        "Popularity": 2,
+        "NormalizedIngredientID": 163
+    },
+    {
+        "Name": "blackberry liqueur",
+        "ID": 844,
+        "Popularity": 5,
+        "NormalizedIngredientID": 211
+    },
+    {
+        "Name": "blackberry schnapps",
+        "ID": 62,
+        "Popularity": 2,
+        "NormalizedIngredientID": 53
+    },
+    {
+        "Name": "black bush irish whisky ",
+        "ID": 803,
+        "Popularity": 0,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "black cherry cola",
+        "ID": 805,
+        "Popularity": 0,
+        "NormalizedIngredientID": 199
+    },
+    {
+        "Name": "black cherry jello ",
+        "ID": 809,
+        "Popularity": 0,
+        "NormalizedIngredientID": 200
+    },
+    {
+        "Name": "black cherry kool-aid",
+        "ID": 808,
+        "Popularity": 0,
+        "NormalizedIngredientID": 199
+    },
+    {
+        "Name": "blackcurrant juice",
+        "ID": 845,
+        "Popularity": 0,
+        "NormalizedIngredientID": 208
+    },
+    {
+        "Name": "blackcurrant syrup",
+        "ID": 846,
+        "Popularity": 0,
+        "NormalizedIngredientID": 207
+    },
+    {
+        "Name": "black duck cranberry liqueur",
+        "ID": 967,
+        "Popularity": 0,
+        "NormalizedIngredientID": 276
+    },
+    {
+        "Name": "black haus",
+        "ID": 838,
+        "Popularity": 0,
+        "NormalizedIngredientID": 53
+    },
+    {
+        "Name": "black pepper",
+        "ID": 839,
+        "Popularity": 6,
+        "NormalizedIngredientID": 209
+    },
+    {
+        "Name": "black rum",
+        "ID": 610,
+        "Popularity": 0,
+        "NormalizedIngredientID": 36
+    },
+    {
+        "Name": "black sambuca",
+        "ID": 294,
+        "Popularity": 0,
+        "NormalizedIngredientID": 68
+    },
+    {
+        "Name": "blackstrap rum",
+        "ID": 1526,
+        "Popularity": 1,
+        "NormalizedIngredientID": 14
+    },
+    {
+        "Name": "blavod vodka",
+        "ID": 847,
+        "Popularity": 1,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "blended whiskey",
+        "ID": 236,
+        "Popularity": 5,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "blood orange",
+        "ID": 1624,
+        "Popularity": 1,
+        "NormalizedIngredientID": 671
+    },
+    {
+        "Name": "blood orange juice",
+        "ID": 1503,
+        "Popularity": 13,
+        "NormalizedIngredientID": 671
+    },
+    {
+        "Name": "blood orange slice",
+        "ID": 1621,
+        "Popularity": 3,
+        "NormalizedIngredientID": 671
+    },
+    {
+        "Name": "bloody mary mix",
+        "ID": 850,
+        "Popularity": 1,
+        "NormalizedIngredientID": 98
+    },
+    {
+        "Name": "blueberries",
+        "ID": 858,
+        "Popularity": 6,
+        "NormalizedIngredientID": 217
+    },
+    {
+        "Name": "blueberry juice",
+        "ID": 866,
+        "Popularity": 0,
+        "NormalizedIngredientID": 222
+    },
+    {
+        "Name": "blueberry liqueur",
+        "ID": 859,
+        "Popularity": 0,
+        "NormalizedIngredientID": 218
+    },
+    {
+        "Name": "blueberry schnapps",
+        "ID": 863,
+        "Popularity": 0,
+        "NormalizedIngredientID": 219
+    },
+    {
+        "Name": "blueberry syrup",
+        "ID": 864,
+        "Popularity": 0,
+        "NormalizedIngredientID": 220
+    },
+    {
+        "Name": "blueberry vodka",
+        "ID": 865,
+        "Popularity": 1,
+        "NormalizedIngredientID": 221
+    },
+    {
+        "Name": "blue curacao",
+        "ID": 1,
+        "Popularity": 38,
+        "NormalizedIngredientID": 34
+    },
+    {
+        "Name": "blue food coloring",
+        "ID": 851,
+        "Popularity": 0,
+        "NormalizedIngredientID": 213
+    },
+    {
+        "Name": "blue hawaiian punch",
+        "ID": 852,
+        "Popularity": 0,
+        "NormalizedIngredientID": 214
+    },
+    {
+        "Name": "blue moon berry kool-aid",
+        "ID": 853,
+        "Popularity": 0,
+        "NormalizedIngredientID": 215
+    },
+    {
+        "Name": "blue raspberry juice",
+        "ID": 855,
+        "Popularity": 0,
+        "NormalizedIngredientID": 216
+    },
+    {
+        "Name": "blue raspberry kool-aid",
+        "ID": 854,
+        "Popularity": 0,
+        "NormalizedIngredientID": 215
+    },
+    {
+        "Name": "blue sambuca",
+        "ID": 857,
+        "Popularity": 0,
+        "NormalizedIngredientID": 68
+    },
+    {
+        "Name": "blush wine",
+        "ID": 868,
+        "Popularity": 0,
+        "NormalizedIngredientID": 40
+    },
+    {
+        "Name": "bols advocaat",
+        "ID": 833,
+        "Popularity": 0,
+        "NormalizedIngredientID": 167
+    },
+    {
+        "Name": "bols blue curacao",
+        "ID": 585,
+        "Popularity": 0,
+        "NormalizedIngredientID": 34
+    },
+    {
+        "Name": "bols natural",
+        "ID": 1540,
+        "Popularity": 0,
+        "NormalizedIngredientID": 687
+    },
+    {
+        "Name": "bols rootbeer schnapps",
+        "ID": 869,
+        "Popularity": 0,
+        "NormalizedIngredientID": 223
+    },
+    {
+        "Name": "bombay gin",
+        "ID": 233,
+        "Popularity": 1,
+        "NormalizedIngredientID": 10
+    },
+    {
+        "Name": "bombay sapphire gin",
+        "ID": 244,
+        "Popularity": 1,
+        "NormalizedIngredientID": 10
+    },
+    {
+        "Name": "booker's bourbon",
+        "ID": 356,
+        "Popularity": 0,
+        "NormalizedIngredientID": 25
+    },
+    {
+        "Name": "bourbon",
+        "ID": 25,
+        "Popularity": 291,
+        "NormalizedIngredientID": 25
+    },
+    {
+        "Name": "brandied cherries",
+        "ID": 1666,
+        "Popularity": 1,
+        "NormalizedIngredientID": 718
+    },
+    {
+        "Name": "brandy",
+        "ID": 534,
+        "Popularity": 95,
+        "NormalizedIngredientID": 118
+    },
+    {
+        "Name": "brown creme de cacao",
+        "ID": 649,
+        "Popularity": 1,
+        "NormalizedIngredientID": 21
+    },
+    {
+        "Name": "brown rum",
+        "ID": 138,
+        "Popularity": 2,
+        "NormalizedIngredientID": 36
+    },
+    {
+        "Name": "brown sugar",
+        "ID": 257,
+        "Popularity": 9,
+        "NormalizedIngredientID": 83
+    },
+    {
+        "Name": "budweiser beer",
+        "ID": 416,
+        "Popularity": 1,
+        "NormalizedIngredientID": 78
+    },
+    {
+        "Name": "bulleit",
+        "ID": 1638,
+        "Popularity": 0,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "burnett's cherry vodka",
+        "ID": 919,
+        "Popularity": 0,
+        "NormalizedIngredientID": 250
+    },
+    {
+        "Name": "burnett's citrus vodka",
+        "ID": 52,
+        "Popularity": 1,
+        "NormalizedIngredientID": 158
+    },
+    {
+        "Name": "burnett's coconut vodka",
+        "ID": 57,
+        "Popularity": 1,
+        "NormalizedIngredientID": 638
+    },
+    {
+        "Name": "burnett's orange vodka",
+        "ID": 55,
+        "Popularity": 3,
+        "NormalizedIngredientID": 158
+    },
+    {
+        "Name": "burnett's raspberry vodka",
+        "ID": 318,
+        "Popularity": 2,
+        "NormalizedIngredientID": 156
+    },
+    {
+        "Name": "burnett's sour apple vodka",
+        "ID": 51,
+        "Popularity": 3,
+        "NormalizedIngredientID": 181
+    },
+    {
+        "Name": "burnett's vanilla vodka",
+        "ID": 54,
+        "Popularity": 2,
+        "NormalizedIngredientID": 159
+    },
+    {
+        "Name": "bushmills irish whiskey",
+        "ID": 319,
+        "Popularity": 1,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "butter",
+        "ID": 870,
+        "Popularity": 2,
+        "NormalizedIngredientID": 224
+    },
+    {
+        "Name": "butter pecan ice cream",
+        "ID": 1406,
+        "Popularity": 1,
+        "NormalizedIngredientID": 631
+    },
+    {
+        "Name": "butterscotch liqueur",
+        "ID": 871,
+        "Popularity": 0,
+        "NormalizedIngredientID": 225
+    },
+    {
+        "Name": "butterscotch schnapps",
+        "ID": 130,
+        "Popularity": 8,
+        "NormalizedIngredientID": 69
+    },
+    {
+        "Name": "byrrh wine",
+        "ID": 876,
+        "Popularity": 0,
+        "NormalizedIngredientID": 226
+    },
+    {
+        "Name": "cabernet sauvignon",
+        "ID": 1456,
+        "Popularity": 2,
+        "NormalizedIngredientID": 99
+    },
+    {
+        "Name": "cachaca",
+        "ID": 878,
+        "Popularity": 5,
+        "NormalizedIngredientID": 227
+    },
+    {
+        "Name": "cactus cooler orange-pineapple soda",
+        "ID": 879,
+        "Popularity": 0,
+        "NormalizedIngredientID": 96
+    },
+    {
+        "Name": "cactus juice schnapps",
+        "ID": 880,
+        "Popularity": 0,
+        "NormalizedIngredientID": 228
+    },
+    {
+        "Name": "california brandy",
+        "ID": 535,
+        "Popularity": 0,
+        "NormalizedIngredientID": 118
+    },
+    {
+        "Name": "calvados",
+        "ID": 280,
+        "Popularity": 42,
+        "NormalizedIngredientID": 84
+    },
+    {
+        "Name": "calvados brandy",
+        "ID": 881,
+        "Popularity": 0,
+        "NormalizedIngredientID": 84
+    },
+    {
+        "Name": "campari",
+        "ID": 602,
+        "Popularity": 199,
+        "NormalizedIngredientID": 129
+    },
+    {
+        "Name": "canada dry cranberry soda",
+        "ID": 883,
+        "Popularity": 0,
+        "NormalizedIngredientID": 229
+    },
+    {
+        "Name": "canadian club whisky",
+        "ID": 290,
+        "Popularity": 1,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "canadian whisky",
+        "ID": 305,
+        "Popularity": 5,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "candy",
+        "ID": 887,
+        "Popularity": 0,
+        "NormalizedIngredientID": 231
+    },
+    {
+        "Name": "cannabis-infused whiskey",
+        "ID": 1488,
+        "Popularity": 1,
+        "NormalizedIngredientID": 665
+    },
+    {
+        "Name": "cantaloupe",
+        "ID": 888,
+        "Popularity": 0,
+        "NormalizedIngredientID": 232
+    },
+    {
+        "Name": "canton ginger liqueur ",
+        "ID": 890,
+        "Popularity": 0,
+        "NormalizedIngredientID": 233
+    },
+    {
+        "Name": "cappuccino",
+        "ID": 333,
+        "Popularity": 2,
+        "NormalizedIngredientID": 41
+    },
+    {
+        "Name": "captain morgan parrot bay pineapple rum ",
+        "ID": 891,
+        "Popularity": 0,
+        "NormalizedIngredientID": 234
+    },
+    {
+        "Name": "captain morgan's spiced rum",
+        "ID": 192,
+        "Popularity": 7,
+        "NormalizedIngredientID": 35
+    },
+    {
+        "Name": "caramel food coloring",
+        "ID": 892,
+        "Popularity": 0,
+        "NormalizedIngredientID": 235
+    },
+    {
+        "Name": "caramel liqueur",
+        "ID": 893,
+        "Popularity": 0,
+        "NormalizedIngredientID": 236
+    },
+    {
+        "Name": "caramel sauce",
+        "ID": 1408,
+        "Popularity": 1,
+        "NormalizedIngredientID": 632
+    },
+    {
+        "Name": "caramel syrup",
+        "ID": 897,
+        "Popularity": 0,
+        "NormalizedIngredientID": 237
+    },
+    {
+        "Name": "caramel vodka",
+        "ID": 1418,
+        "Popularity": 1,
+        "NormalizedIngredientID": 634
+    },
+    {
+        "Name": "caraway ",
+        "ID": 898,
+        "Popularity": 0,
+        "NormalizedIngredientID": 238
+    },
+    {
+        "Name": "caraway syrup",
+        "ID": 1537,
+        "Popularity": 1,
+        "NormalizedIngredientID": 238
+    },
+    {
+        "Name": "carbonated water",
+        "ID": 276,
+        "Popularity": 1,
+        "NormalizedIngredientID": 82
+    },
+    {
+        "Name": "cardamaro",
+        "ID": 1560,
+        "Popularity": 14,
+        "NormalizedIngredientID": 695
+    },
+    {
+        "Name": "cardamom ",
+        "ID": 901,
+        "Popularity": 0,
+        "NormalizedIngredientID": 239
+    },
+    {
+        "Name": "cardamom bitters",
+        "ID": 1563,
+        "Popularity": 9,
+        "NormalizedIngredientID": 696
+    },
+    {
+        "Name": "cardamom pods",
+        "ID": 1671,
+        "Popularity": 0,
+        "NormalizedIngredientID": 239
+    },
+    {
+        "Name": "cardamom powder",
+        "ID": 1672,
+        "Popularity": 1,
+        "NormalizedIngredientID": 239
+    },
+    {
+        "Name": "caribbean cream ",
+        "ID": 902,
+        "Popularity": 0,
+        "NormalizedIngredientID": 240
+    },
+    {
+        "Name": "carolans irish cream liqueur",
+        "ID": 970,
+        "Popularity": 0,
+        "NormalizedIngredientID": 146
+    },
+    {
+        "Name": "carpano antica formula vermouth",
+        "ID": 1615,
+        "Popularity": 1,
+        "NormalizedIngredientID": 32
+    },
+    {
+        "Name": "carrot",
+        "ID": 903,
+        "Popularity": 1,
+        "NormalizedIngredientID": 241
+    },
+    {
+        "Name": "carrot juice",
+        "ID": 904,
+        "Popularity": 3,
+        "NormalizedIngredientID": 242
+    },
+    {
+        "Name": "caselli mirtillino blueberry liqueur",
+        "ID": 862,
+        "Popularity": 0,
+        "NormalizedIngredientID": 218
+    },
+    {
+        "Name": "cashew fruit juice",
+        "ID": 1573,
+        "Popularity": 1,
+        "NormalizedIngredientID": 699
+    },
+    {
+        "Name": "cayenne pepper",
+        "ID": 905,
+        "Popularity": 5,
+        "NormalizedIngredientID": 243
+    },
+    {
+        "Name": "celery",
+        "ID": 906,
+        "Popularity": 0,
+        "NormalizedIngredientID": 244
+    },
+    {
+        "Name": "celery bitters",
+        "ID": 1481,
+        "Popularity": 22,
+        "NormalizedIngredientID": 661
+    },
+    {
+        "Name": "celery salt",
+        "ID": 908,
+        "Popularity": 1,
+        "NormalizedIngredientID": 245
+    },
+    {
+        "Name": "chambord raspberry liqueur",
+        "ID": 426,
+        "Popularity": 19,
+        "NormalizedIngredientID": 43
+    },
+    {
+        "Name": "champagne",
+        "ID": 40,
+        "Popularity": 53,
+        "NormalizedIngredientID": 40
+    },
+    {
+        "Name": "champagne soda ",
+        "ID": 910,
+        "Popularity": 0,
+        "NormalizedIngredientID": 246
+    },
+    {
+        "Name": "chardonnay",
+        "ID": 605,
+        "Popularity": 3,
+        "NormalizedIngredientID": 105
+    },
+    {
+        "Name": "charleston follies ",
+        "ID": 911,
+        "Popularity": 0,
+        "NormalizedIngredientID": 247
+    },
+    {
+        "Name": "chartreuse",
+        "ID": 516,
+        "Popularity": 1,
+        "NormalizedIngredientID": 112
+    },
+    {
+        "Name": "cherry",
+        "ID": 334,
+        "Popularity": 4,
+        "NormalizedIngredientID": 89
+    },
+    {
+        "Name": "cherry 7-up",
+        "ID": 814,
+        "Popularity": 0,
+        "NormalizedIngredientID": 199
+    },
+    {
+        "Name": "cherryade ",
+        "ID": 921,
+        "Popularity": 0,
+        "NormalizedIngredientID": 199
+    },
+    {
+        "Name": "cherry brandy",
+        "ID": 81,
+        "Popularity": 12,
+        "NormalizedIngredientID": 58
+    },
+    {
+        "Name": "cherry cider",
+        "ID": 913,
+        "Popularity": 1,
+        "NormalizedIngredientID": 248
+    },
+    {
+        "Name": "cherry cola",
+        "ID": 811,
+        "Popularity": 0,
+        "NormalizedIngredientID": 199
+    },
+    {
+        "Name": "cherry heering ",
+        "ID": 915,
+        "Popularity": 0,
+        "NormalizedIngredientID": 44
+    },
+    {
+        "Name": "cherry heering brandy",
+        "ID": 629,
+        "Popularity": 1,
+        "NormalizedIngredientID": 58
+    },
+    {
+        "Name": "cherry ice cream",
+        "ID": 834,
+        "Popularity": 0,
+        "NormalizedIngredientID": 206
+    },
+    {
+        "Name": "cherry jello",
+        "ID": 813,
+        "Popularity": 0,
+        "NormalizedIngredientID": 200
+    },
+    {
+        "Name": "cherry juice",
+        "ID": 693,
+        "Popularity": 3,
+        "NormalizedIngredientID": 89
+    },
+    {
+        "Name": "cherry liqueur",
+        "ID": 44,
+        "Popularity": 70,
+        "NormalizedIngredientID": 44
+    },
+    {
+        "Name": "cherry marnier ",
+        "ID": 916,
+        "Popularity": 0,
+        "NormalizedIngredientID": 44
+    },
+    {
+        "Name": "cherry soda",
+        "ID": 812,
+        "Popularity": 0,
+        "NormalizedIngredientID": 199
+    },
+    {
+        "Name": "cherry syrup",
+        "ID": 914,
+        "Popularity": 2,
+        "NormalizedIngredientID": 249
+    },
+    {
+        "Name": "cherry tomatoes",
+        "ID": 1528,
+        "Popularity": 1,
+        "NormalizedIngredientID": 681
+    },
+    {
+        "Name": "cherry vodka",
+        "ID": 917,
+        "Popularity": 1,
+        "NormalizedIngredientID": 250
+    },
+    {
+        "Name": "cherry whiskey",
+        "ID": 308,
+        "Popularity": 1,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "chili pepper",
+        "ID": 1618,
+        "Popularity": 2,
+        "NormalizedIngredientID": 716
+    },
+    {
+        "Name": "chili powder",
+        "ID": 1444,
+        "Popularity": 2,
+        "NormalizedIngredientID": 646
+    },
+    {
+        "Name": "chipotle chili powder",
+        "ID": 1616,
+        "Popularity": 1,
+        "NormalizedIngredientID": 646
+    },
+    {
+        "Name": "chocolate",
+        "ID": 922,
+        "Popularity": 0,
+        "NormalizedIngredientID": 39
+    },
+    {
+        "Name": "chocolate hazelnut liqueur ",
+        "ID": 925,
+        "Popularity": 0,
+        "NormalizedIngredientID": 59
+    },
+    {
+        "Name": "chocolate ice cream",
+        "ID": 926,
+        "Popularity": 0,
+        "NormalizedIngredientID": 252
+    },
+    {
+        "Name": "chocolate liqueur",
+        "ID": 161,
+        "Popularity": 2,
+        "NormalizedIngredientID": 21
+    },
+    {
+        "Name": "chocolate milk",
+        "ID": 314,
+        "Popularity": 1,
+        "NormalizedIngredientID": 77
+    },
+    {
+        "Name": "chocolate mint liqueur",
+        "ID": 927,
+        "Popularity": 0,
+        "NormalizedIngredientID": 79
+    },
+    {
+        "Name": "chocolate sauce",
+        "ID": 928,
+        "Popularity": 0,
+        "NormalizedIngredientID": 253
+    },
+    {
+        "Name": "chocolate stout beer",
+        "ID": 1495,
+        "Popularity": 1,
+        "NormalizedIngredientID": 668
+    },
+    {
+        "Name": "chocolate syrup",
+        "ID": 670,
+        "Popularity": 3,
+        "NormalizedIngredientID": 149
+    },
+    {
+        "Name": "chocolate vodka",
+        "ID": 929,
+        "Popularity": 0,
+        "NormalizedIngredientID": 254
+    },
+    {
+        "Name": "chopin vodka",
+        "ID": 1520,
+        "Popularity": 0,
+        "NormalizedIngredientID": 677
+    },
+    {
+        "Name": "cilantro",
+        "ID": 1466,
+        "Popularity": 2,
+        "NormalizedIngredientID": 653
+    },
+    {
+        "Name": "cinnamon",
+        "ID": 932,
+        "Popularity": 11,
+        "NormalizedIngredientID": 255
+    },
+    {
+        "Name": "cinnamon liqueur",
+        "ID": 934,
+        "Popularity": 0,
+        "NormalizedIngredientID": 173
+    },
+    {
+        "Name": "cinnamon schnapps",
+        "ID": 90,
+        "Popularity": 4,
+        "NormalizedIngredientID": 60
+    },
+    {
+        "Name": "cinnamon sticks",
+        "ID": 1416,
+        "Popularity": 10,
+        "NormalizedIngredientID": 255
+    },
+    {
+        "Name": "cinnamon syrup",
+        "ID": 933,
+        "Popularity": 50,
+        "NormalizedIngredientID": 256
+    },
+    {
+        "Name": "cinnamon vodka",
+        "ID": 816,
+        "Popularity": 0,
+        "NormalizedIngredientID": 201
+    },
+    {
+        "Name": "cinnamon whiskey",
+        "ID": 1393,
+        "Popularity": 0,
+        "NormalizedIngredientID": 627
+    },
+    {
+        "Name": "cinzano orancio ",
+        "ID": 937,
+        "Popularity": 0,
+        "NormalizedIngredientID": 257
+    },
+    {
+        "Name": "ciroc vodka",
+        "ID": 1545,
+        "Popularity": 0,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "citrus energy drink ",
+        "ID": 938,
+        "Popularity": 0,
+        "NormalizedIngredientID": 258
+    },
+    {
+        "Name": "clamato juice ",
+        "ID": 941,
+        "Popularity": 0,
+        "NormalizedIngredientID": 259
+    },
+    {
+        "Name": "clam juice",
+        "ID": 939,
+        "Popularity": 0,
+        "NormalizedIngredientID": 259
+    },
+    {
+        "Name": "clove",
+        "ID": 683,
+        "Popularity": 3,
+        "NormalizedIngredientID": 154
+    },
+    {
+        "Name": "clove syrup",
+        "ID": 942,
+        "Popularity": 0,
+        "NormalizedIngredientID": 260
+    },
+    {
+        "Name": "club soda",
+        "ID": 63,
+        "Popularity": 73,
+        "NormalizedIngredientID": 31
+    },
+    {
+        "Name": "coca-cola",
+        "ID": 559,
+        "Popularity": 4,
+        "NormalizedIngredientID": 278
+    },
+    {
+        "Name": "cocktail olives",
+        "ID": 1613,
+        "Popularity": 1,
+        "NormalizedIngredientID": 122
+    },
+    {
+        "Name": "cocoa",
+        "ID": 943,
+        "Popularity": 0,
+        "NormalizedIngredientID": 39
+    },
+    {
+        "Name": "coco lopez coconut cream",
+        "ID": 251,
+        "Popularity": 2,
+        "NormalizedIngredientID": 16
+    },
+    {
+        "Name": "coconut",
+        "ID": 944,
+        "Popularity": 0,
+        "NormalizedIngredientID": 262
+    },
+    {
+        "Name": "coconut cream",
+        "ID": 17,
+        "Popularity": 14,
+        "NormalizedIngredientID": 16
+    },
+    {
+        "Name": "coconut ice cream",
+        "ID": 945,
+        "Popularity": 0,
+        "NormalizedIngredientID": 263
+    },
+    {
+        "Name": "coconut liqueur",
+        "ID": 525,
+        "Popularity": 5,
+        "NormalizedIngredientID": 116
+    },
+    {
+        "Name": "coconut milk",
+        "ID": 946,
+        "Popularity": 1,
+        "NormalizedIngredientID": 264
+    },
+    {
+        "Name": "coconut rum",
+        "ID": 146,
+        "Popularity": 17,
+        "NormalizedIngredientID": 17
+    },
+    {
+        "Name": "coconut syrup",
+        "ID": 948,
+        "Popularity": 1,
+        "NormalizedIngredientID": 265
+    },
+    {
+        "Name": "coconut water",
+        "ID": 1546,
+        "Popularity": 6,
+        "NormalizedIngredientID": 264
+    },
+    {
+        "Name": "coffee",
+        "ID": 41,
+        "Popularity": 37,
+        "NormalizedIngredientID": 41
+    },
+    {
+        "Name": "coffee brandy",
+        "ID": 949,
+        "Popularity": 0,
+        "NormalizedIngredientID": 266
+    },
+    {
+        "Name": "coffee ice cream",
+        "ID": 950,
+        "Popularity": 0,
+        "NormalizedIngredientID": 267
+    },
+    {
+        "Name": "coffee liqueur",
+        "ID": 141,
+        "Popularity": 27,
+        "NormalizedIngredientID": 42
+    },
+    {
+        "Name": "coffee vodka",
+        "ID": 951,
+        "Popularity": 1,
+        "NormalizedIngredientID": 268
+    },
+    {
+        "Name": "cognac",
+        "ID": 9,
+        "Popularity": 107,
+        "NormalizedIngredientID": 7
+    },
+    {
+        "Name": "cointreaux",
+        "ID": 105,
+        "Popularity": 11,
+        "NormalizedIngredientID": 34
+    },
+    {
+        "Name": "coke",
+        "ID": 447,
+        "Popularity": 2,
+        "NormalizedIngredientID": 278
+    },
+    {
+        "Name": "coke syrup",
+        "ID": 956,
+        "Popularity": 0,
+        "NormalizedIngredientID": 269
+    },
+    {
+        "Name": "cola",
+        "ID": 977,
+        "Popularity": 10,
+        "NormalizedIngredientID": 278
+    },
+    {
+        "Name": "collins mix",
+        "ID": 957,
+        "Popularity": 0,
+        "NormalizedIngredientID": 270
+    },
+    {
+        "Name": "condensed milk",
+        "ID": 958,
+        "Popularity": 1,
+        "NormalizedIngredientID": 271
+    },
+    {
+        "Name": "connemara irish whiskey",
+        "ID": 1564,
+        "Popularity": 1,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "coriander",
+        "ID": 959,
+        "Popularity": 1,
+        "NormalizedIngredientID": 272
+    },
+    {
+        "Name": "cornstarch",
+        "ID": 1036,
+        "Popularity": 0,
+        "NormalizedIngredientID": 283
+    },
+    {
+        "Name": "corn syrup",
+        "ID": 960,
+        "Popularity": 0,
+        "NormalizedIngredientID": 273
+    },
+    {
+        "Name": "corona",
+        "ID": 1453,
+        "Popularity": 1,
+        "NormalizedIngredientID": 648
+    },
+    {
+        "Name": "cosmopolitan mix",
+        "ID": 961,
+        "Popularity": 0,
+        "NormalizedIngredientID": 274
+    },
+    {
+        "Name": "cottage cheese",
+        "ID": 963,
+        "Popularity": 0,
+        "NormalizedIngredientID": 275
+    },
+    {
+        "Name": "cotton candy",
+        "ID": 1595,
+        "Popularity": 0,
+        "NormalizedIngredientID": 709
+    },
+    {
+        "Name": "courvoisier cognac",
+        "ID": 50,
+        "Popularity": 1,
+        "NormalizedIngredientID": 7
+    },
+    {
+        "Name": "cracker jack",
+        "ID": 1463,
+        "Popularity": 1,
+        "NormalizedIngredientID": 652
+    },
+    {
+        "Name": "cranapple juice",
+        "ID": 818,
+        "Popularity": 0,
+        "NormalizedIngredientID": 4
+    },
+    {
+        "Name": "cranberry",
+        "ID": 373,
+        "Popularity": 1,
+        "NormalizedIngredientID": 94
+    },
+    {
+        "Name": "cranberry juice",
+        "ID": 6,
+        "Popularity": 70,
+        "NormalizedIngredientID": 4
+    },
+    {
+        "Name": "cranberry liqueur",
+        "ID": 964,
+        "Popularity": 4,
+        "NormalizedIngredientID": 276
+    },
+    {
+        "Name": "cranberry-raspberry juice",
+        "ID": 819,
+        "Popularity": 0,
+        "NormalizedIngredientID": 4
+    },
+    {
+        "Name": "cranberry schnapps",
+        "ID": 1037,
+        "Popularity": 0,
+        "NormalizedIngredientID": 284
+    },
+    {
+        "Name": "cranberry vodka",
+        "ID": 1038,
+        "Popularity": 1,
+        "NormalizedIngredientID": 285
+    },
+    {
+        "Name": "cream",
+        "ID": 352,
+        "Popularity": 30,
+        "NormalizedIngredientID": 77
+    },
+    {
+        "Name": "cream liqueur",
+        "ID": 968,
+        "Popularity": 0,
+        "NormalizedIngredientID": 146
+    },
+    {
+        "Name": "cream sherry",
+        "ID": 1039,
+        "Popularity": 1,
+        "NormalizedIngredientID": 286
+    },
+    {
+        "Name": "cream soda",
+        "ID": 1040,
+        "Popularity": 0,
+        "NormalizedIngredientID": 287
+    },
+    {
+        "Name": "creme de almond",
+        "ID": 480,
+        "Popularity": 1,
+        "NormalizedIngredientID": 23
+    },
+    {
+        "Name": "creme de bananae",
+        "ID": 320,
+        "Popularity": 6,
+        "NormalizedIngredientID": 37
+    },
+    {
+        "Name": "creme de cacao",
+        "ID": 143,
+        "Popularity": 47,
+        "NormalizedIngredientID": 21
+    },
+    {
+        "Name": "creme de cassis",
+        "ID": 539,
+        "Popularity": 5,
+        "NormalizedIngredientID": 119
+    },
+    {
+        "Name": "creme de cerise",
+        "ID": 1041,
+        "Popularity": 0,
+        "NormalizedIngredientID": 288
+    },
+    {
+        "Name": "creme de coconut",
+        "ID": 533,
+        "Popularity": 1,
+        "NormalizedIngredientID": 116
+    },
+    {
+        "Name": "creme de fraise",
+        "ID": 1042,
+        "Popularity": 4,
+        "NormalizedIngredientID": 289
+    },
+    {
+        "Name": "creme de menthe",
+        "ID": 177,
+        "Popularity": 11,
+        "NormalizedIngredientID": 79
+    },
+    {
+        "Name": "creme de mure",
+        "ID": 1044,
+        "Popularity": 5,
+        "NormalizedIngredientID": 291
+    },
+    {
+        "Name": "creme de myrtille",
+        "ID": 1046,
+        "Popularity": 0,
+        "NormalizedIngredientID": 293
+    },
+    {
+        "Name": "creme de noyaux",
+        "ID": 1047,
+        "Popularity": 5,
+        "NormalizedIngredientID": 294
+    },
+    {
+        "Name": "creme de peche",
+        "ID": 1497,
+        "Popularity": 2,
+        "NormalizedIngredientID": 670
+    },
+    {
+        "Name": "creme de violette",
+        "ID": 1048,
+        "Popularity": 24,
+        "NormalizedIngredientID": 295
+    },
+    {
+        "Name": "creme yvette",
+        "ID": 520,
+        "Popularity": 5,
+        "NormalizedIngredientID": 113
+    },
+    {
+        "Name": "crown royal canadian whisky",
+        "ID": 490,
+        "Popularity": 1,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "cruzan coconut rum ",
+        "ID": 1003,
+        "Popularity": 0,
+        "NormalizedIngredientID": 17
+    },
+    {
+        "Name": "cruzan mango rum",
+        "ID": 979,
+        "Popularity": 0,
+        "NormalizedIngredientID": 17
+    },
+    {
+        "Name": "cruzan white rum",
+        "ID": 1525,
+        "Popularity": 0,
+        "NormalizedIngredientID": 14
+    },
+    {
+        "Name": "crystallized ginger",
+        "ID": 1462,
+        "Popularity": 1,
+        "NormalizedIngredientID": 230
+    },
+    {
+        "Name": "cuban light rum",
+        "ID": 218,
+        "Popularity": 0,
+        "NormalizedIngredientID": 14
+    },
+    {
+        "Name": "cucumber",
+        "ID": 1049,
+        "Popularity": 50,
+        "NormalizedIngredientID": 296
+    },
+    {
+        "Name": "cucumber water",
+        "ID": 1611,
+        "Popularity": 1,
+        "NormalizedIngredientID": 296
+    },
+    {
+        "Name": "cuervo gold tequila",
+        "ID": 75,
+        "Popularity": 2,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "cuervo margarita mix",
+        "ID": 681,
+        "Popularity": 1,
+        "NormalizedIngredientID": 121
+    },
+    {
+        "Name": "cuervo tequila",
+        "ID": 291,
+        "Popularity": 1,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "cumin",
+        "ID": 1050,
+        "Popularity": 0,
+        "NormalizedIngredientID": 297
+    },
+    {
+        "Name": "curacao",
+        "ID": 34,
+        "Popularity": 7,
+        "NormalizedIngredientID": 34
+    },
+    {
+        "Name": "current vodka",
+        "ID": 1051,
+        "Popularity": 0,
+        "NormalizedIngredientID": 298
+    },
+    {
+        "Name": "cynar",
+        "ID": 1052,
+        "Popularity": 146,
+        "NormalizedIngredientID": 299
+    },
+    {
+        "Name": "cytronowka vodka",
+        "ID": 400,
+        "Popularity": 1,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "daiquiri mix",
+        "ID": 1053,
+        "Popularity": 0,
+        "NormalizedIngredientID": 300
+    },
+    {
+        "Name": "dale degroff's pimento bitters",
+        "ID": 1585,
+        "Popularity": 1,
+        "NormalizedIngredientID": 705
+    },
+    {
+        "Name": "danzig goldwasser",
+        "ID": 1054,
+        "Popularity": 0,
+        "NormalizedIngredientID": 301
+    },
+    {
+        "Name": "dark chocolate chips",
+        "ID": 1494,
+        "Popularity": 1,
+        "NormalizedIngredientID": 667
+    },
+    {
+        "Name": "dark creme de cacao",
+        "ID": 172,
+        "Popularity": 11,
+        "NormalizedIngredientID": 21
+    },
+    {
+        "Name": "dark rum",
+        "ID": 36,
+        "Popularity": 63,
+        "NormalizedIngredientID": 36
+    },
+    {
+        "Name": "de kuyper apricot brandy",
+        "ID": 492,
+        "Popularity": 1,
+        "NormalizedIngredientID": 20
+    },
+    {
+        "Name": "dekuyper butterscotch schnapps liqueur",
+        "ID": 874,
+        "Popularity": 0,
+        "NormalizedIngredientID": 225
+    },
+    {
+        "Name": "dekuyper island blue pucker",
+        "ID": 1055,
+        "Popularity": 0,
+        "NormalizedIngredientID": 302
+    },
+    {
+        "Name": "dekuyper peachtree schnapps ",
+        "ID": 996,
+        "Popularity": 0,
+        "NormalizedIngredientID": 93
+    },
+    {
+        "Name": "dekuyper sloe gin ",
+        "ID": 1002,
+        "Popularity": 0,
+        "NormalizedIngredientID": 10
+    },
+    {
+        "Name": "dekuyper sour apple pucker",
+        "ID": 331,
+        "Popularity": 2,
+        "NormalizedIngredientID": 73
+    },
+    {
+        "Name": "dekuyper sour apple pucker schnapps ",
+        "ID": 997,
+        "Popularity": 0,
+        "NormalizedIngredientID": 73
+    },
+    {
+        "Name": "dekuyper tropical pineapple liqueur",
+        "ID": 512,
+        "Popularity": 1,
+        "NormalizedIngredientID": 110
+    },
+    {
+        "Name": "dekuyper watermelon pucker schnapps",
+        "ID": 1056,
+        "Popularity": 0,
+        "NormalizedIngredientID": 303
+    },
+    {
+        "Name": "demerara syrup",
+        "ID": 1640,
+        "Popularity": 23,
+        "NormalizedIngredientID": 101
+    },
+    {
+        "Name": "diet 7-up",
+        "ID": 973,
+        "Popularity": 0,
+        "NormalizedIngredientID": 66
+    },
+    {
+        "Name": "diet coke",
+        "ID": 971,
+        "Popularity": 0,
+        "NormalizedIngredientID": 278
+    },
+    {
+        "Name": "diet dr pepper",
+        "ID": 978,
+        "Popularity": 0,
+        "NormalizedIngredientID": 640
+    },
+    {
+        "Name": "diet pepsi",
+        "ID": 972,
+        "Popularity": 0,
+        "NormalizedIngredientID": 278
+    },
+    {
+        "Name": "dill",
+        "ID": 1057,
+        "Popularity": 2,
+        "NormalizedIngredientID": 304
+    },
+    {
+        "Name": "drambuie",
+        "ID": 157,
+        "Popularity": 32,
+        "NormalizedIngredientID": 76
+    },
+    {
+        "Name": "dr pepper",
+        "ID": 604,
+        "Popularity": 0,
+        "NormalizedIngredientID": 640
+    },
+    {
+        "Name": "dry gin",
+        "ID": 162,
+        "Popularity": 5,
+        "NormalizedIngredientID": 10
+    },
+    {
+        "Name": "dry hard cider",
+        "ID": 1601,
+        "Popularity": 1,
+        "NormalizedIngredientID": 343
+    },
+    {
+        "Name": "dry rum",
+        "ID": 19,
+        "Popularity": 0,
+        "NormalizedIngredientID": 18
+    },
+    {
+        "Name": "dry vermouth",
+        "ID": 32,
+        "Popularity": 208,
+        "NormalizedIngredientID": 32
+    },
+    {
+        "Name": "dubonnet",
+        "ID": 821,
+        "Popularity": 1,
+        "NormalizedIngredientID": 202
+    },
+    {
+        "Name": "dubonnet blanc",
+        "ID": 822,
+        "Popularity": 0,
+        "NormalizedIngredientID": 202
+    },
+    {
+        "Name": "dubonnet rouge",
+        "ID": 823,
+        "Popularity": 11,
+        "NormalizedIngredientID": 202
+    },
+    {
+        "Name": "du bouchett butterscotch liqeueur",
+        "ID": 872,
+        "Popularity": 0,
+        "NormalizedIngredientID": 225
+    },
+    {
+        "Name": "echte kroatzbeere",
+        "ID": 843,
+        "Popularity": 0,
+        "NormalizedIngredientID": 211
+    },
+    {
+        "Name": "edible flowers",
+        "ID": 1548,
+        "Popularity": 1,
+        "NormalizedIngredientID": 690
+    },
+    {
+        "Name": "egg",
+        "ID": 540,
+        "Popularity": 0,
+        "NormalizedIngredientID": 120
+    },
+    {
+        "Name": "eggnog",
+        "ID": 676,
+        "Popularity": 0,
+        "NormalizedIngredientID": 151
+    },
+    {
+        "Name": "elderberry liqueur",
+        "ID": 126,
+        "Popularity": 0,
+        "NormalizedIngredientID": 68
+    },
+    {
+        "Name": "elderflower cordial",
+        "ID": 1058,
+        "Popularity": 0,
+        "NormalizedIngredientID": 305
+    },
+    {
+        "Name": "elijah craig bourbon",
+        "ID": 307,
+        "Popularity": 0,
+        "NormalizedIngredientID": 25
+    },
+    {
+        "Name": "el patron (gold) tequila",
+        "ID": 372,
+        "Popularity": 1,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "energy drink",
+        "ID": 1059,
+        "Popularity": 0,
+        "NormalizedIngredientID": 306
+    },
+    {
+        "Name": "english breakfast tea",
+        "ID": 1587,
+        "Popularity": 1,
+        "NormalizedIngredientID": 124
+    },
+    {
+        "Name": "espresso",
+        "ID": 382,
+        "Popularity": 11,
+        "NormalizedIngredientID": 41
+    },
+    {
+        "Name": "evaporated milk",
+        "ID": 1060,
+        "Popularity": 0,
+        "NormalizedIngredientID": 307
+    },
+    {
+        "Name": "everclear 151 grain alcohol ",
+        "ID": 986,
+        "Popularity": 0,
+        "NormalizedIngredientID": 279
+    },
+    {
+        "Name": "falernum",
+        "ID": 1623,
+        "Popularity": 67,
+        "NormalizedIngredientID": 717
+    },
+    {
+        "Name": "famous grouse scotch ",
+        "ID": 999,
+        "Popularity": 0,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "fennel seeds",
+        "ID": 1061,
+        "Popularity": 0,
+        "NormalizedIngredientID": 308
+    },
+    {
+        "Name": "fernet",
+        "ID": 1536,
+        "Popularity": 4,
+        "NormalizedIngredientID": 309
+    },
+    {
+        "Name": "fernet branca",
+        "ID": 1062,
+        "Popularity": 122,
+        "NormalizedIngredientID": 309
+    },
+    {
+        "Name": "filtered sake",
+        "ID": 1459,
+        "Popularity": 1,
+        "NormalizedIngredientID": 9
+    },
+    {
+        "Name": "finlandia cranberry vodka",
+        "ID": 278,
+        "Popularity": 0,
+        "NormalizedIngredientID": 161
+    },
+    {
+        "Name": "finlandia lime vodka",
+        "ID": 650,
+        "Popularity": 1,
+        "NormalizedIngredientID": 158
+    },
+    {
+        "Name": "fino sherry",
+        "ID": 1465,
+        "Popularity": 21,
+        "NormalizedIngredientID": 669
+    },
+    {
+        "Name": "fireball",
+        "ID": 1391,
+        "Popularity": 3,
+        "NormalizedIngredientID": 627
+    },
+    {
+        "Name": "firefly sweet tea flavored vodka",
+        "ID": 1533,
+        "Popularity": 0,
+        "NormalizedIngredientID": 685
+    },
+    {
+        "Name": "firewater",
+        "ID": 1063,
+        "Popularity": 0,
+        "NormalizedIngredientID": 310
+    },
+    {
+        "Name": "fisherman's friend",
+        "ID": 1064,
+        "Popularity": 0,
+        "NormalizedIngredientID": 311
+    },
+    {
+        "Name": "five alive",
+        "ID": 1065,
+        "Popularity": 0,
+        "NormalizedIngredientID": 312
+    },
+    {
+        "Name": "food coloring",
+        "ID": 1066,
+        "Popularity": 0,
+        "NormalizedIngredientID": 313
+    },
+    {
+        "Name": "forbidden fruit liqueur",
+        "ID": 1067,
+        "Popularity": 0,
+        "NormalizedIngredientID": 314
+    },
+    {
+        "Name": "frangelico hazelnut liqueur",
+        "ID": 230,
+        "Popularity": 11,
+        "NormalizedIngredientID": 59
+    },
+    {
+        "Name": "french dry vermouth",
+        "ID": 49,
+        "Popularity": 5,
+        "NormalizedIngredientID": 32
+    },
+    {
+        "Name": "fresca",
+        "ID": 1068,
+        "Popularity": 0,
+        "NormalizedIngredientID": 315
+    },
+    {
+        "Name": "fresh cherries",
+        "ID": 1550,
+        "Popularity": 1,
+        "NormalizedIngredientID": 89
+    },
+    {
+        "Name": "freshly grated ginger",
+        "ID": 1467,
+        "Popularity": 0,
+        "NormalizedIngredientID": 230
+    },
+    {
+        "Name": "freshly ground pink peppercorn",
+        "ID": 1598,
+        "Popularity": 1,
+        "NormalizedIngredientID": 710
+    },
+    {
+        "Name": "fresh raspberries",
+        "ID": 395,
+        "Popularity": 2,
+        "NormalizedIngredientID": 93
+    },
+    {
+        "Name": "frozen raspberry lemonade concentrate",
+        "ID": 1454,
+        "Popularity": 1,
+        "NormalizedIngredientID": 513
+    },
+    {
+        "Name": "fruit",
+        "ID": 1069,
+        "Popularity": 0,
+        "NormalizedIngredientID": 316
+    },
+    {
+        "Name": "fruit cocktail",
+        "ID": 1070,
+        "Popularity": 0,
+        "NormalizedIngredientID": 317
+    },
+    {
+        "Name": "fruit juice",
+        "ID": 1071,
+        "Popularity": 0,
+        "NormalizedIngredientID": 318
+    },
+    {
+        "Name": "fruit liqueur",
+        "ID": 1072,
+        "Popularity": 0,
+        "NormalizedIngredientID": 319
+    },
+    {
+        "Name": "fruit punch",
+        "ID": 820,
+        "Popularity": 0,
+        "NormalizedIngredientID": 641
+    },
+    {
+        "Name": "fruits",
+        "ID": 1074,
+        "Popularity": 0,
+        "NormalizedIngredientID": 321
+    },
+    {
+        "Name": "fruit soda",
+        "ID": 1073,
+        "Popularity": 0,
+        "NormalizedIngredientID": 320
+    },
+    {
+        "Name": "fruits of the forest juice",
+        "ID": 1075,
+        "Popularity": 0,
+        "NormalizedIngredientID": 322
+    },
+    {
+        "Name": "fruit syrup",
+        "ID": 682,
+        "Popularity": 1,
+        "NormalizedIngredientID": 153
+    },
+    {
+        "Name": "fudge ice cream",
+        "ID": 1076,
+        "Popularity": 0,
+        "NormalizedIngredientID": 323
+    },
+    {
+        "Name": "gaetano butterscotch cream liqueur",
+        "ID": 875,
+        "Popularity": 0,
+        "NormalizedIngredientID": 225
+    },
+    {
+        "Name": "gaetano hazelnut liqueur",
+        "ID": 924,
+        "Popularity": 0,
+        "NormalizedIngredientID": 59
+    },
+    {
+        "Name": "galliano",
+        "ID": 96,
+        "Popularity": 25,
+        "NormalizedIngredientID": 61
+    },
+    {
+        "Name": "gatorade",
+        "ID": 1077,
+        "Popularity": 0,
+        "NormalizedIngredientID": 324
+    },
+    {
+        "Name": "gatorade fruit punch",
+        "ID": 1078,
+        "Popularity": 0,
+        "NormalizedIngredientID": 641
+    },
+    {
+        "Name": "gekkeikan",
+        "ID": 1458,
+        "Popularity": 0,
+        "NormalizedIngredientID": 9
+    },
+    {
+        "Name": "gelatin",
+        "ID": 1079,
+        "Popularity": 0,
+        "NormalizedIngredientID": 326
+    },
+    {
+        "Name": "gentleman jack rare tennessee whiskey",
+        "ID": 135,
+        "Popularity": 3,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "gin",
+        "ID": 12,
+        "Popularity": 624,
+        "NormalizedIngredientID": 10
+    },
+    {
+        "Name": "ginger",
+        "ID": 886,
+        "Popularity": 20,
+        "NormalizedIngredientID": 230
+    },
+    {
+        "Name": "gingerale",
+        "ID": 391,
+        "Popularity": 0,
+        "NormalizedIngredientID": 56
+    },
+    {
+        "Name": "ginger ale",
+        "ID": 66,
+        "Popularity": 23,
+        "NormalizedIngredientID": 56
+    },
+    {
+        "Name": "ginger beer",
+        "ID": 61,
+        "Popularity": 65,
+        "NormalizedIngredientID": 52
+    },
+    {
+        "Name": "ginger brandy",
+        "ID": 1080,
+        "Popularity": 2,
+        "NormalizedIngredientID": 327
+    },
+    {
+        "Name": "ginger liqueur",
+        "ID": 889,
+        "Popularity": 69,
+        "NormalizedIngredientID": 233
+    },
+    {
+        "Name": "ginger simple syrup",
+        "ID": 1561,
+        "Popularity": 1,
+        "NormalizedIngredientID": 230
+    },
+    {
+        "Name": "ginger syrup",
+        "ID": 1460,
+        "Popularity": 40,
+        "NormalizedIngredientID": 650
+    },
+    {
+        "Name": "ginger wine",
+        "ID": 1081,
+        "Popularity": 4,
+        "NormalizedIngredientID": 328
+    },
+    {
+        "Name": "godiva caramel liqueur",
+        "ID": 895,
+        "Popularity": 0,
+        "NormalizedIngredientID": 236
+    },
+    {
+        "Name": "godiva chocolate liqueur",
+        "ID": 56,
+        "Popularity": 3,
+        "NormalizedIngredientID": 21
+    },
+    {
+        "Name": "gold rum",
+        "ID": 660,
+        "Popularity": 16,
+        "NormalizedIngredientID": 148
+    },
+    {
+        "Name": "goldschlager",
+        "ID": 145,
+        "Popularity": 4,
+        "NormalizedIngredientID": 60
+    },
+    {
+        "Name": "gold tequila",
+        "ID": 240,
+        "Popularity": 2,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "gordons gin",
+        "ID": 654,
+        "Popularity": 1,
+        "NormalizedIngredientID": 10
+    },
+    {
+        "Name": "gordon's wildberry vodka",
+        "ID": 241,
+        "Popularity": 0,
+        "NormalizedIngredientID": 156
+    },
+    {
+        "Name": "gosling's black seal rum",
+        "ID": 679,
+        "Popularity": 1,
+        "NormalizedIngredientID": 36
+    },
+    {
+        "Name": "graham crackers",
+        "ID": 1082,
+        "Popularity": 0,
+        "NormalizedIngredientID": 329
+    },
+    {
+        "Name": "grain alcohol",
+        "ID": 1083,
+        "Popularity": 0,
+        "NormalizedIngredientID": 330
+    },
+    {
+        "Name": "grand marnier",
+        "ID": 38,
+        "Popularity": 38,
+        "NormalizedIngredientID": 34
+    },
+    {
+        "Name": "granny smith apple",
+        "ID": 1569,
+        "Popularity": 1,
+        "NormalizedIngredientID": 182
+    },
+    {
+        "Name": "grapefruit",
+        "ID": 1087,
+        "Popularity": 6,
+        "NormalizedIngredientID": 334
+    },
+    {
+        "Name": "grapefruit bitters",
+        "ID": 1443,
+        "Popularity": 33,
+        "NormalizedIngredientID": 645
+    },
+    {
+        "Name": "grapefruit juice",
+        "ID": 30,
+        "Popularity": 122,
+        "NormalizedIngredientID": 30
+    },
+    {
+        "Name": "grapefruit soda",
+        "ID": 1088,
+        "Popularity": 10,
+        "NormalizedIngredientID": 335
+    },
+    {
+        "Name": "grape juice ",
+        "ID": 1011,
+        "Popularity": 0,
+        "NormalizedIngredientID": 281
+    },
+    {
+        "Name": "grape kool-aid",
+        "ID": 1084,
+        "Popularity": 0,
+        "NormalizedIngredientID": 331
+    },
+    {
+        "Name": "grapes",
+        "ID": 33,
+        "Popularity": 2,
+        "NormalizedIngredientID": 33
+    },
+    {
+        "Name": "grape schnapps",
+        "ID": 1085,
+        "Popularity": 0,
+        "NormalizedIngredientID": 332
+    },
+    {
+        "Name": "grape soda",
+        "ID": 1086,
+        "Popularity": 0,
+        "NormalizedIngredientID": 333
+    },
+    {
+        "Name": "grappa",
+        "ID": 501,
+        "Popularity": 6,
+        "NormalizedIngredientID": 107
+    },
+    {
+        "Name": "green apple",
+        "ID": 1089,
+        "Popularity": 0,
+        "NormalizedIngredientID": 336
+    },
+    {
+        "Name": "green bell pepper",
+        "ID": 1477,
+        "Popularity": 3,
+        "NormalizedIngredientID": 658
+    },
+    {
+        "Name": "green curacao",
+        "ID": 432,
+        "Popularity": 0,
+        "NormalizedIngredientID": 34
+    },
+    {
+        "Name": "green food coloring",
+        "ID": 1090,
+        "Popularity": 0,
+        "NormalizedIngredientID": 337
+    },
+    {
+        "Name": "green ginger wine",
+        "ID": 1091,
+        "Popularity": 0,
+        "NormalizedIngredientID": 338
+    },
+    {
+        "Name": "green tea",
+        "ID": 1606,
+        "Popularity": 1,
+        "NormalizedIngredientID": 714
+    },
+    {
+        "Name": "green tea bags",
+        "ID": 1607,
+        "Popularity": 1,
+        "NormalizedIngredientID": 714
+    },
+    {
+        "Name": "grenadine",
+        "ID": 24,
+        "Popularity": 133,
+        "NormalizedIngredientID": 24
+    },
+    {
+        "Name": "grenadine syrup",
+        "ID": 622,
+        "Popularity": 3,
+        "NormalizedIngredientID": 24
+    },
+    {
+        "Name": "grey goose l'orange vodka",
+        "ID": 147,
+        "Popularity": 1,
+        "NormalizedIngredientID": 158
+    },
+    {
+        "Name": "grey goose vodka",
+        "ID": 386,
+        "Popularity": 0,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "ground allspice",
+        "ID": 1523,
+        "Popularity": 1,
+        "NormalizedIngredientID": 679
+    },
+    {
+        "Name": "ground cinnamon",
+        "ID": 1508,
+        "Popularity": 2,
+        "NormalizedIngredientID": 255
+    },
+    {
+        "Name": "guavaberry liqueur",
+        "ID": 1094,
+        "Popularity": 0,
+        "NormalizedIngredientID": 341
+    },
+    {
+        "Name": "guava juice",
+        "ID": 593,
+        "Popularity": 0,
+        "NormalizedIngredientID": 125
+    },
+    {
+        "Name": "guava nectar",
+        "ID": 1092,
+        "Popularity": 0,
+        "NormalizedIngredientID": 339
+    },
+    {
+        "Name": "guava syrup",
+        "ID": 1093,
+        "Popularity": 0,
+        "NormalizedIngredientID": 340
+    },
+    {
+        "Name": "guinness",
+        "ID": 175,
+        "Popularity": 1,
+        "NormalizedIngredientID": 686
+    },
+    {
+        "Name": "guinness stout",
+        "ID": 178,
+        "Popularity": 1,
+        "NormalizedIngredientID": 686
+    },
+    {
+        "Name": "gummi bears",
+        "ID": 1095,
+        "Popularity": 0,
+        "NormalizedIngredientID": 342
+    },
+    {
+        "Name": "habanero pepper",
+        "ID": 1551,
+        "Popularity": 1,
+        "NormalizedIngredientID": 691
+    },
+    {
+        "Name": "half and half",
+        "ID": 131,
+        "Popularity": 8,
+        "NormalizedIngredientID": 70
+    },
+    {
+        "Name": "hard apple cider",
+        "ID": 1457,
+        "Popularity": 1,
+        "NormalizedIngredientID": 649
+    },
+    {
+        "Name": "hard cider",
+        "ID": 1096,
+        "Popularity": 4,
+        "NormalizedIngredientID": 343
+    },
+    {
+        "Name": "hard lemonade",
+        "ID": 1097,
+        "Popularity": 0,
+        "NormalizedIngredientID": 344
+    },
+    {
+        "Name": "havana club white rum",
+        "ID": 628,
+        "Popularity": 1,
+        "NormalizedIngredientID": 14
+    },
+    {
+        "Name": "hazelnut liqueur",
+        "ID": 88,
+        "Popularity": 7,
+        "NormalizedIngredientID": 59
+    },
+    {
+        "Name": "hazelnut syrup",
+        "ID": 678,
+        "Popularity": 1,
+        "NormalizedIngredientID": 152
+    },
+    {
+        "Name": "heavy cream",
+        "ID": 27,
+        "Popularity": 21,
+        "NormalizedIngredientID": 26
+    },
+    {
+        "Name": "heering cherry liqueur",
+        "ID": 1505,
+        "Popularity": 1,
+        "NormalizedIngredientID": 44
+    },
+    {
+        "Name": "hendrick's gin",
+        "ID": 1501,
+        "Popularity": 1,
+        "NormalizedIngredientID": 10
+    },
+    {
+        "Name": "hennessy cognac",
+        "ID": 595,
+        "Popularity": 0,
+        "NormalizedIngredientID": 7
+    },
+    {
+        "Name": "herbal liqueur",
+        "ID": 1098,
+        "Popularity": 241,
+        "NormalizedIngredientID": 345
+    },
+    {
+        "Name": "herbsaint",
+        "ID": 625,
+        "Popularity": 2,
+        "NormalizedIngredientID": 97
+    },
+    {
+        "Name": "herradura tequila ",
+        "ID": 1001,
+        "Popularity": 0,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "hiram walker pumpkin spice liqueur",
+        "ID": 1401,
+        "Popularity": 1,
+        "NormalizedIngredientID": 629
+    },
+    {
+        "Name": "hoegaarden beer",
+        "ID": 1451,
+        "Popularity": 1,
+        "NormalizedIngredientID": 648
+    },
+    {
+        "Name": "honey",
+        "ID": 344,
+        "Popularity": 19,
+        "NormalizedIngredientID": 90
+    },
+    {
+        "Name": "honeydew melon",
+        "ID": 1101,
+        "Popularity": 0,
+        "NormalizedIngredientID": 348
+    },
+    {
+        "Name": "honey liqueur",
+        "ID": 158,
+        "Popularity": 3,
+        "NormalizedIngredientID": 76
+    },
+    {
+        "Name": "honey syrup",
+        "ID": 1099,
+        "Popularity": 78,
+        "NormalizedIngredientID": 346
+    },
+    {
+        "Name": "honey vodka",
+        "ID": 1100,
+        "Popularity": 0,
+        "NormalizedIngredientID": 347
+    },
+    {
+        "Name": "horseradish",
+        "ID": 1102,
+        "Popularity": 1,
+        "NormalizedIngredientID": 349
+    },
+    {
+        "Name": "horseradish sauce",
+        "ID": 1103,
+        "Popularity": 0,
+        "NormalizedIngredientID": 350
+    },
+    {
+        "Name": "hot chocolate",
+        "ID": 39,
+        "Popularity": 18,
+        "NormalizedIngredientID": 39
+    },
+    {
+        "Name": "hot cocoa",
+        "ID": 1414,
+        "Popularity": 1,
+        "NormalizedIngredientID": 39
+    },
+    {
+        "Name": "hot sauce",
+        "ID": 1622,
+        "Popularity": 6,
+        "NormalizedIngredientID": 398
+    },
+    {
+        "Name": "hpnotiq liqueur",
+        "ID": 1025,
+        "Popularity": 0,
+        "NormalizedIngredientID": 282
+    },
+    {
+        "Name": "ice",
+        "ID": 242,
+        "Popularity": 53,
+        "NormalizedIngredientID": 81
+    },
+    {
+        "Name": "ice cream",
+        "ID": 311,
+        "Popularity": 0,
+        "NormalizedIngredientID": 86
+    },
+    {
+        "Name": "iced tea",
+        "ID": 565,
+        "Popularity": 5,
+        "NormalizedIngredientID": 124
+    },
+    {
+        "Name": "ice tea",
+        "ID": 1500,
+        "Popularity": 0,
+        "NormalizedIngredientID": 124
+    },
+    {
+        "Name": "instant coffee",
+        "ID": 1026,
+        "Popularity": 0,
+        "NormalizedIngredientID": 41
+    },
+    {
+        "Name": "ipa beer",
+        "ID": 1575,
+        "Popularity": 2,
+        "NormalizedIngredientID": 700
+    },
+    {
+        "Name": "irish cream",
+        "ID": 58,
+        "Popularity": 28,
+        "NormalizedIngredientID": 49
+    },
+    {
+        "Name": "irish manor legendary irish cream liqueur",
+        "ID": 969,
+        "Popularity": 0,
+        "NormalizedIngredientID": 146
+    },
+    {
+        "Name": "irish mist",
+        "ID": 1104,
+        "Popularity": 0,
+        "NormalizedIngredientID": 351
+    },
+    {
+        "Name": "irish whiskey",
+        "ID": 156,
+        "Popularity": 45,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "islay scotch",
+        "ID": 1639,
+        "Popularity": 40,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "italian sweet vermouth",
+        "ID": 48,
+        "Popularity": 2,
+        "NormalizedIngredientID": 48
+    },
+    {
+        "Name": "jack daniel's tennessee whiskey",
+        "ID": 315,
+        "Popularity": 1,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "jack daniels whiskey",
+        "ID": 1105,
+        "Popularity": 0,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "jagermeister",
+        "ID": 59,
+        "Popularity": 14,
+        "NormalizedIngredientID": 50
+    },
+    {
+        "Name": "jalapeno",
+        "ID": 1576,
+        "Popularity": 1,
+        "NormalizedIngredientID": 701
+    },
+    {
+        "Name": "jalapeno pepper",
+        "ID": 1577,
+        "Popularity": 1,
+        "NormalizedIngredientID": 701
+    },
+    {
+        "Name": "jamaican rum",
+        "ID": 664,
+        "Popularity": 66,
+        "NormalizedIngredientID": 148
+    },
+    {
+        "Name": "jameson black barrel",
+        "ID": 1567,
+        "Popularity": 1,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "jameson blended whiskey",
+        "ID": 1395,
+        "Popularity": 0,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "japanese whiskey",
+        "ID": 1589,
+        "Popularity": 1,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "jello",
+        "ID": 1106,
+        "Popularity": 0,
+        "NormalizedIngredientID": 353
+    },
+    {
+        "Name": "jenever",
+        "ID": 496,
+        "Popularity": 0,
+        "NormalizedIngredientID": 106
+    },
+    {
+        "Name": "jim beam bourbon",
+        "ID": 1107,
+        "Popularity": 0,
+        "NormalizedIngredientID": 354
+    },
+    {
+        "Name": "johnnie walker scotch",
+        "ID": 1108,
+        "Popularity": 0,
+        "NormalizedIngredientID": 355
+    },
+    {
+        "Name": "johnny walker black label scotch",
+        "ID": 591,
+        "Popularity": 1,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "jolt cola",
+        "ID": 1109,
+        "Popularity": 0,
+        "NormalizedIngredientID": 356
+    },
+    {
+        "Name": "jose cuervo 1800 ",
+        "ID": 1000,
+        "Popularity": 0,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "jose cuervo gold tequila",
+        "ID": 95,
+        "Popularity": 1,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "jose cuervo tequila",
+        "ID": 112,
+        "Popularity": 2,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "kahlua coffee liqueur",
+        "ID": 180,
+        "Popularity": 30,
+        "NormalizedIngredientID": 42
+    },
+    {
+        "Name": "kale",
+        "ID": 1479,
+        "Popularity": 0,
+        "NormalizedIngredientID": 660
+    },
+    {
+        "Name": "ketel one vodka",
+        "ID": 600,
+        "Popularity": 0,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "kirsch",
+        "ID": 326,
+        "Popularity": 1,
+        "NormalizedIngredientID": 44
+    },
+    {
+        "Name": "kirschwasser",
+        "ID": 267,
+        "Popularity": 27,
+        "NormalizedIngredientID": 44
+    },
+    {
+        "Name": "kiwi",
+        "ID": 1110,
+        "Popularity": 2,
+        "NormalizedIngredientID": 357
+    },
+    {
+        "Name": "kiwi juice",
+        "ID": 1111,
+        "Popularity": 0,
+        "NormalizedIngredientID": 358
+    },
+    {
+        "Name": "kiwi liqueur",
+        "ID": 1112,
+        "Popularity": 0,
+        "NormalizedIngredientID": 359
+    },
+    {
+        "Name": "kiwis",
+        "ID": 1116,
+        "Popularity": 0,
+        "NormalizedIngredientID": 363
+    },
+    {
+        "Name": "kiwi-strawberry juice",
+        "ID": 1114,
+        "Popularity": 0,
+        "NormalizedIngredientID": 361
+    },
+    {
+        "Name": "kiwi-strawberry snapple",
+        "ID": 1115,
+        "Popularity": 0,
+        "NormalizedIngredientID": 362
+    },
+    {
+        "Name": "kiwi syrup",
+        "ID": 1113,
+        "Popularity": 0,
+        "NormalizedIngredientID": 360
+    },
+    {
+        "Name": "knob creek bourbon",
+        "ID": 398,
+        "Popularity": 0,
+        "NormalizedIngredientID": 25
+    },
+    {
+        "Name": "kombu seaweed",
+        "ID": 1482,
+        "Popularity": 1,
+        "NormalizedIngredientID": 662
+    },
+    {
+        "Name": "kool aid",
+        "ID": 647,
+        "Popularity": 1,
+        "NormalizedIngredientID": 145
+    },
+    {
+        "Name": "kraken rum",
+        "ID": 1498,
+        "Popularity": 0,
+        "NormalizedIngredientID": 35
+    },
+    {
+        "Name": "krupnik honey liqueur",
+        "ID": 273,
+        "Popularity": 0,
+        "NormalizedIngredientID": 76
+    },
+    {
+        "Name": "kummel",
+        "ID": 1117,
+        "Popularity": 11,
+        "NormalizedIngredientID": 364
+    },
+    {
+        "Name": "kumquat",
+        "ID": 1118,
+        "Popularity": 0,
+        "NormalizedIngredientID": 365
+    },
+    {
+        "Name": "lager",
+        "ID": 1121,
+        "Popularity": 3,
+        "NormalizedIngredientID": 368
+    },
+    {
+        "Name": "lager beer",
+        "ID": 1600,
+        "Popularity": 1,
+        "NormalizedIngredientID": 78
+    },
+    {
+        "Name": "la grande passion liqueur",
+        "ID": 1120,
+        "Popularity": 0,
+        "NormalizedIngredientID": 367
+    },
+    {
+        "Name": "laphroaig",
+        "ID": 612,
+        "Popularity": 0,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "lapponia blueberry liqueur",
+        "ID": 860,
+        "Popularity": 0,
+        "NormalizedIngredientID": 218
+    },
+    {
+        "Name": "lapponia lakka cloudberry liqueur",
+        "ID": 1122,
+        "Popularity": 0,
+        "NormalizedIngredientID": 369
+    },
+    {
+        "Name": "lapponia polar cranberry liqueur",
+        "ID": 966,
+        "Popularity": 0,
+        "NormalizedIngredientID": 276
+    },
+    {
+        "Name": "lavender",
+        "ID": 1438,
+        "Popularity": 1,
+        "NormalizedIngredientID": 644
+    },
+    {
+        "Name": "lbv port",
+        "ID": 1119,
+        "Popularity": 0,
+        "NormalizedIngredientID": 366
+    },
+    {
+        "Name": "leblon",
+        "ID": 1651,
+        "Popularity": 8,
+        "NormalizedIngredientID": 227
+    },
+    {
+        "Name": "lemon",
+        "ID": 328,
+        "Popularity": 50,
+        "NormalizedIngredientID": 87
+    },
+    {
+        "Name": "lemonade",
+        "ID": 64,
+        "Popularity": 20,
+        "NormalizedIngredientID": 54
+    },
+    {
+        "Name": "lemonade mix",
+        "ID": 1132,
+        "Popularity": 0,
+        "NormalizedIngredientID": 379
+    },
+    {
+        "Name": "lemon-flavored iced tea",
+        "ID": 1129,
+        "Popularity": 0,
+        "NormalizedIngredientID": 376
+    },
+    {
+        "Name": "lemon gin",
+        "ID": 187,
+        "Popularity": 1,
+        "NormalizedIngredientID": 10
+    },
+    {
+        "Name": "lemon italian ice",
+        "ID": 1123,
+        "Popularity": 0,
+        "NormalizedIngredientID": 370
+    },
+    {
+        "Name": "lemon juice",
+        "ID": 13,
+        "Popularity": 683,
+        "NormalizedIngredientID": 12
+    },
+    {
+        "Name": "lemon-lime kool-aid",
+        "ID": 1130,
+        "Popularity": 0,
+        "NormalizedIngredientID": 377
+    },
+    {
+        "Name": "lemon lime soda",
+        "ID": 65,
+        "Popularity": 3,
+        "NormalizedIngredientID": 31
+    },
+    {
+        "Name": "lemon-lime soda",
+        "ID": 1131,
+        "Popularity": 3,
+        "NormalizedIngredientID": 378
+    },
+    {
+        "Name": "lemon rum",
+        "ID": 1124,
+        "Popularity": 0,
+        "NormalizedIngredientID": 371
+    },
+    {
+        "Name": "lemon schnapps",
+        "ID": 1125,
+        "Popularity": 0,
+        "NormalizedIngredientID": 372
+    },
+    {
+        "Name": "lemon sherbet",
+        "ID": 1126,
+        "Popularity": 0,
+        "NormalizedIngredientID": 373
+    },
+    {
+        "Name": "lemon soda",
+        "ID": 1127,
+        "Popularity": 1,
+        "NormalizedIngredientID": 374
+    },
+    {
+        "Name": "lemon syrup",
+        "ID": 1128,
+        "Popularity": 2,
+        "NormalizedIngredientID": 375
+    },
+    {
+        "Name": "lemon vodka",
+        "ID": 101,
+        "Popularity": 3,
+        "NormalizedIngredientID": 158
+    },
+    {
+        "Name": "leopold brothers new england cranberry liqueur",
+        "ID": 965,
+        "Popularity": 0,
+        "NormalizedIngredientID": 276
+    },
+    {
+        "Name": "licor 43",
+        "ID": 635,
+        "Popularity": 15,
+        "NormalizedIngredientID": 140
+    },
+    {
+        "Name": "light beer",
+        "ID": 1452,
+        "Popularity": 3,
+        "NormalizedIngredientID": 648
+    },
+    {
+        "Name": "light cream",
+        "ID": 1133,
+        "Popularity": 0,
+        "NormalizedIngredientID": 380
+    },
+    {
+        "Name": "light creme de cacao",
+        "ID": 219,
+        "Popularity": 1,
+        "NormalizedIngredientID": 21
+    },
+    {
+        "Name": "light rum",
+        "ID": 15,
+        "Popularity": 87,
+        "NormalizedIngredientID": 14
+    },
+    {
+        "Name": "lilikoi syrup",
+        "ID": 1134,
+        "Popularity": 0,
+        "NormalizedIngredientID": 381
+    },
+    {
+        "Name": "lillet",
+        "ID": 652,
+        "Popularity": 4,
+        "NormalizedIngredientID": 147
+    },
+    {
+        "Name": "lillet rose",
+        "ID": 1442,
+        "Popularity": 5,
+        "NormalizedIngredientID": 147
+    },
+    {
+        "Name": "lillet rouge",
+        "ID": 1655,
+        "Popularity": 4,
+        "NormalizedIngredientID": 147
+    },
+    {
+        "Name": "lime",
+        "ID": 332,
+        "Popularity": 68,
+        "NormalizedIngredientID": 88
+    },
+    {
+        "Name": "limeade",
+        "ID": 1147,
+        "Popularity": 4,
+        "NormalizedIngredientID": 394
+    },
+    {
+        "Name": "lime citron liqueur",
+        "ID": 1135,
+        "Popularity": 0,
+        "NormalizedIngredientID": 382
+    },
+    {
+        "Name": "lime gin",
+        "ID": 1136,
+        "Popularity": 0,
+        "NormalizedIngredientID": 383
+    },
+    {
+        "Name": "lime ice",
+        "ID": 1137,
+        "Popularity": 0,
+        "NormalizedIngredientID": 384
+    },
+    {
+        "Name": "lime jello",
+        "ID": 1138,
+        "Popularity": 0,
+        "NormalizedIngredientID": 385
+    },
+    {
+        "Name": "lime juice",
+        "ID": 5,
+        "Popularity": 538,
+        "NormalizedIngredientID": 3
+    },
+    {
+        "Name": "lime kool-aid",
+        "ID": 1139,
+        "Popularity": 0,
+        "NormalizedIngredientID": 386
+    },
+    {
+        "Name": "lime liqueur",
+        "ID": 1140,
+        "Popularity": 0,
+        "NormalizedIngredientID": 387
+    },
+    {
+        "Name": "lime mix",
+        "ID": 1141,
+        "Popularity": 0,
+        "NormalizedIngredientID": 388
+    },
+    {
+        "Name": "lime peel",
+        "ID": 1142,
+        "Popularity": 20,
+        "NormalizedIngredientID": 389
+    },
+    {
+        "Name": "lime sherbet",
+        "ID": 1143,
+        "Popularity": 0,
+        "NormalizedIngredientID": 390
+    },
+    {
+        "Name": "lime soda",
+        "ID": 1144,
+        "Popularity": 0,
+        "NormalizedIngredientID": 391
+    },
+    {
+        "Name": "lime syrup",
+        "ID": 1145,
+        "Popularity": 0,
+        "NormalizedIngredientID": 392
+    },
+    {
+        "Name": "lime vodka",
+        "ID": 1146,
+        "Popularity": 0,
+        "NormalizedIngredientID": 393
+    },
+    {
+        "Name": "limoncello",
+        "ID": 613,
+        "Popularity": 12,
+        "NormalizedIngredientID": 132
+    },
+    {
+        "Name": "lingonberry jam",
+        "ID": 1148,
+        "Popularity": 0,
+        "NormalizedIngredientID": 395
+    },
+    {
+        "Name": "liquer 43",
+        "ID": 190,
+        "Popularity": 0,
+        "NormalizedIngredientID": 61
+    },
+    {
+        "Name": "london dry gin",
+        "ID": 1614,
+        "Popularity": 1,
+        "NormalizedIngredientID": 10
+    },
+    {
+        "Name": "long island iced tea mix",
+        "ID": 1149,
+        "Popularity": 0,
+        "NormalizedIngredientID": 396
+    },
+    {
+        "Name": "looza mango nectar",
+        "ID": 1150,
+        "Popularity": 0,
+        "NormalizedIngredientID": 397
+    },
+    {
+        "Name": "louisiana hot sauce",
+        "ID": 1151,
+        "Popularity": 0,
+        "NormalizedIngredientID": 398
+    },
+    {
+        "Name": "luxardo amaro abano",
+        "ID": 1586,
+        "Popularity": 1,
+        "NormalizedIngredientID": 704
+    },
+    {
+        "Name": "lychee",
+        "ID": 1152,
+        "Popularity": 1,
+        "NormalizedIngredientID": 399
+    },
+    {
+        "Name": "lychee juice",
+        "ID": 1153,
+        "Popularity": 0,
+        "NormalizedIngredientID": 400
+    },
+    {
+        "Name": "lychee liqueur",
+        "ID": 1154,
+        "Popularity": 2,
+        "NormalizedIngredientID": 401
+    },
+    {
+        "Name": "lychee wine",
+        "ID": 1155,
+        "Popularity": 0,
+        "NormalizedIngredientID": 402
+    },
+    {
+        "Name": "macallan 12 year scotch",
+        "ID": 340,
+        "Popularity": 1,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "mace",
+        "ID": 1156,
+        "Popularity": 0,
+        "NormalizedIngredientID": 403
+    },
+    {
+        "Name": "mad dog",
+        "ID": 1157,
+        "Popularity": 0,
+        "NormalizedIngredientID": 404
+    },
+    {
+        "Name": "madeira",
+        "ID": 637,
+        "Popularity": 11,
+        "NormalizedIngredientID": 141
+    },
+    {
+        "Name": "maker's mark bourbon",
+        "ID": 485,
+        "Popularity": 0,
+        "NormalizedIngredientID": 25
+    },
+    {
+        "Name": "malibu coconut liqueur",
+        "ID": 564,
+        "Popularity": 1,
+        "NormalizedIngredientID": 116
+    },
+    {
+        "Name": "malibu coconut rum",
+        "ID": 69,
+        "Popularity": 19,
+        "NormalizedIngredientID": 17
+    },
+    {
+        "Name": "malibu mango rum ",
+        "ID": 1004,
+        "Popularity": 0,
+        "NormalizedIngredientID": 17
+    },
+    {
+        "Name": "malted milk",
+        "ID": 1158,
+        "Popularity": 0,
+        "NormalizedIngredientID": 405
+    },
+    {
+        "Name": "mandarine napoleon",
+        "ID": 1160,
+        "Popularity": 2,
+        "NormalizedIngredientID": 407
+    },
+    {
+        "Name": "mandarin-flavored vodka",
+        "ID": 304,
+        "Popularity": 1,
+        "NormalizedIngredientID": 157
+    },
+    {
+        "Name": "mandarin juice",
+        "ID": 1159,
+        "Popularity": 0,
+        "NormalizedIngredientID": 406
+    },
+    {
+        "Name": "mandarin liqueur",
+        "ID": 60,
+        "Popularity": 2,
+        "NormalizedIngredientID": 51
+    },
+    {
+        "Name": "mandarin vodka",
+        "ID": 116,
+        "Popularity": 1,
+        "NormalizedIngredientID": 157
+    },
+    {
+        "Name": "mango",
+        "ID": 455,
+        "Popularity": 0,
+        "NormalizedIngredientID": 102
+    },
+    {
+        "Name": "mango juice",
+        "ID": 99,
+        "Popularity": 4,
+        "NormalizedIngredientID": 62
+    },
+    {
+        "Name": "mango kool-aid",
+        "ID": 1161,
+        "Popularity": 0,
+        "NormalizedIngredientID": 408
+    },
+    {
+        "Name": "mango liqueur",
+        "ID": 1162,
+        "Popularity": 0,
+        "NormalizedIngredientID": 409
+    },
+    {
+        "Name": "mango nectar",
+        "ID": 1163,
+        "Popularity": 0,
+        "NormalizedIngredientID": 410
+    },
+    {
+        "Name": "mango passion liqueur",
+        "ID": 1164,
+        "Popularity": 0,
+        "NormalizedIngredientID": 411
+    },
+    {
+        "Name": "mango sherbet",
+        "ID": 1165,
+        "Popularity": 0,
+        "NormalizedIngredientID": 412
+    },
+    {
+        "Name": "mango soda",
+        "ID": 1166,
+        "Popularity": 0,
+        "NormalizedIngredientID": 413
+    },
+    {
+        "Name": "mango syrup",
+        "ID": 1167,
+        "Popularity": 0,
+        "NormalizedIngredientID": 414
+    },
+    {
+        "Name": "manzanilla sherry",
+        "ID": 1496,
+        "Popularity": 15,
+        "NormalizedIngredientID": 669
+    },
+    {
+        "Name": "maple syrup",
+        "ID": 1168,
+        "Popularity": 42,
+        "NormalizedIngredientID": 415
+    },
+    {
+        "Name": "maracuja juice",
+        "ID": 1169,
+        "Popularity": 0,
+        "NormalizedIngredientID": 416
+    },
+    {
+        "Name": "maracuja syrup",
+        "ID": 1170,
+        "Popularity": 0,
+        "NormalizedIngredientID": 417
+    },
+    {
+        "Name": "maraschino cherry",
+        "ID": 713,
+        "Popularity": 14,
+        "NormalizedIngredientID": 89
+    },
+    {
+        "Name": "maraschino liqueur",
+        "ID": 413,
+        "Popularity": 166,
+        "NormalizedIngredientID": 44
+    },
+    {
+        "Name": "margarita mix",
+        "ID": 545,
+        "Popularity": 0,
+        "NormalizedIngredientID": 121
+    },
+    {
+        "Name": "marie brizzard",
+        "ID": 842,
+        "Popularity": 0,
+        "NormalizedIngredientID": 211
+    },
+    {
+        "Name": "marijuana",
+        "ID": 1485,
+        "Popularity": 0,
+        "NormalizedIngredientID": 663
+    },
+    {
+        "Name": "marijuana bud",
+        "ID": 1486,
+        "Popularity": 1,
+        "NormalizedIngredientID": 663
+    },
+    {
+        "Name": "marimba spiced breeze flavored rum",
+        "ID": 189,
+        "Popularity": 3,
+        "NormalizedIngredientID": 35
+    },
+    {
+        "Name": "marjoram",
+        "ID": 1171,
+        "Popularity": 0,
+        "NormalizedIngredientID": 418
+    },
+    {
+        "Name": "marmalade",
+        "ID": 1172,
+        "Popularity": 1,
+        "NormalizedIngredientID": 419
+    },
+    {
+        "Name": "marshmallows",
+        "ID": 1173,
+        "Popularity": 0,
+        "NormalizedIngredientID": 420
+    },
+    {
+        "Name": "martinique rum",
+        "ID": 1650,
+        "Popularity": 10,
+        "NormalizedIngredientID": 14
+    },
+    {
+        "Name": "martini & rossi extra dry vermouth",
+        "ID": 302,
+        "Popularity": 0,
+        "NormalizedIngredientID": 32
+    },
+    {
+        "Name": "mati hari ladies vodka",
+        "ID": 473,
+        "Popularity": 1,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "maui blue hawaiian schnapps",
+        "ID": 1174,
+        "Popularity": 0,
+        "NormalizedIngredientID": 421
+    },
+    {
+        "Name": "mcguinness cherry whisky",
+        "ID": 397,
+        "Popularity": 1,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "mellow yello",
+        "ID": 1428,
+        "Popularity": 0,
+        "NormalizedIngredientID": 422
+    },
+    {
+        "Name": "mellow yellow",
+        "ID": 645,
+        "Popularity": 0,
+        "NormalizedIngredientID": 422
+    },
+    {
+        "Name": "mello yello",
+        "ID": 1175,
+        "Popularity": 0,
+        "NormalizedIngredientID": 422
+    },
+    {
+        "Name": "melon",
+        "ID": 1549,
+        "Popularity": 1,
+        "NormalizedIngredientID": 604
+    },
+    {
+        "Name": "melon liqueur",
+        "ID": 70,
+        "Popularity": 6,
+        "NormalizedIngredientID": 57
+    },
+    {
+        "Name": "melon schnapps",
+        "ID": 1176,
+        "Popularity": 0,
+        "NormalizedIngredientID": 423
+    },
+    {
+        "Name": "melon vodka",
+        "ID": 1177,
+        "Popularity": 0,
+        "NormalizedIngredientID": 424
+    },
+    {
+        "Name": "mentholmint schnapps",
+        "ID": 1178,
+        "Popularity": 0,
+        "NormalizedIngredientID": 425
+    },
+    {
+        "Name": "meridian fennel",
+        "ID": 899,
+        "Popularity": 0,
+        "NormalizedIngredientID": 238
+    },
+    {
+        "Name": "mexican chocolate",
+        "ID": 1179,
+        "Popularity": 0,
+        "NormalizedIngredientID": 426
+    },
+    {
+        "Name": "mexican hot chocolate",
+        "ID": 1180,
+        "Popularity": 0,
+        "NormalizedIngredientID": 427
+    },
+    {
+        "Name": "meyer lemon juice",
+        "ID": 1653,
+        "Popularity": 3,
+        "NormalizedIngredientID": 12
+    },
+    {
+        "Name": "mezcal",
+        "ID": 1181,
+        "Popularity": 119,
+        "NormalizedIngredientID": 428
+    },
+    {
+        "Name": "midori melon liqueur",
+        "ID": 164,
+        "Popularity": 11,
+        "NormalizedIngredientID": 57
+    },
+    {
+        "Name": "milk",
+        "ID": 173,
+        "Popularity": 13,
+        "NormalizedIngredientID": 77
+    },
+    {
+        "Name": "mineral water",
+        "ID": 247,
+        "Popularity": 1,
+        "NormalizedIngredientID": 82
+    },
+    {
+        "Name": "mint gin",
+        "ID": 1182,
+        "Popularity": 0,
+        "NormalizedIngredientID": 429
+    },
+    {
+        "Name": "mint leaves",
+        "ID": 45,
+        "Popularity": 19,
+        "NormalizedIngredientID": 45
+    },
+    {
+        "Name": "mint liqueur",
+        "ID": 176,
+        "Popularity": 0,
+        "NormalizedIngredientID": 79
+    },
+    {
+        "Name": "mint schnapps",
+        "ID": 1183,
+        "Popularity": 0,
+        "NormalizedIngredientID": 430
+    },
+    {
+        "Name": "mint syrup",
+        "ID": 1184,
+        "Popularity": 4,
+        "NormalizedIngredientID": 431
+    },
+    {
+        "Name": "minute maid fruit punch",
+        "ID": 1185,
+        "Popularity": 0,
+        "NormalizedIngredientID": 641
+    },
+    {
+        "Name": "molasses",
+        "ID": 1186,
+        "Popularity": 1,
+        "NormalizedIngredientID": 433
+    },
+    {
+        "Name": "mole bitters",
+        "ID": 1668,
+        "Popularity": 1,
+        "NormalizedIngredientID": 719
+    },
+    {
+        "Name": "monster energy drink",
+        "ID": 1187,
+        "Popularity": 0,
+        "NormalizedIngredientID": 434
+    },
+    {
+        "Name": "mountain dew",
+        "ID": 644,
+        "Popularity": 1,
+        "NormalizedIngredientID": 66
+    },
+    {
+        "Name": "myer's dark rum",
+        "ID": 122,
+        "Popularity": 1,
+        "NormalizedIngredientID": 36
+    },
+    {
+        "Name": "nocello",
+        "ID": 282,
+        "Popularity": 1,
+        "NormalizedIngredientID": 85
+    },
+    {
+        "Name": "noilly prat ambre vermouth",
+        "ID": 1464,
+        "Popularity": 1,
+        "NormalizedIngredientID": 48
+    },
+    {
+        "Name": "noily prat dry vermouth",
+        "ID": 221,
+        "Popularity": 0,
+        "NormalizedIngredientID": 32
+    },
+    {
+        "Name": "nutella",
+        "ID": 1424,
+        "Popularity": 1,
+        "NormalizedIngredientID": 636
+    },
+    {
+        "Name": "nutmeg",
+        "ID": 619,
+        "Popularity": 25,
+        "NormalizedIngredientID": 134
+    },
+    {
+        "Name": "nuts",
+        "ID": 1188,
+        "Popularity": 0,
+        "NormalizedIngredientID": 435
+    },
+    {
+        "Name": "ojen",
+        "ID": 1189,
+        "Popularity": 0,
+        "NormalizedIngredientID": 436
+    },
+    {
+        "Name": "old tom gin",
+        "ID": 1649,
+        "Popularity": 35,
+        "NormalizedIngredientID": 10
+    },
+    {
+        "Name": "olive",
+        "ID": 550,
+        "Popularity": 2,
+        "NormalizedIngredientID": 122
+    },
+    {
+        "Name": "olive brine",
+        "ID": 720,
+        "Popularity": 2,
+        "NormalizedIngredientID": 144
+    },
+    {
+        "Name": "olive juice",
+        "ID": 1190,
+        "Popularity": 0,
+        "NormalizedIngredientID": 437
+    },
+    {
+        "Name": "olives",
+        "ID": 1191,
+        "Popularity": 1,
+        "NormalizedIngredientID": 438
+    },
+    {
+        "Name": "oloroso sherry",
+        "ID": 1594,
+        "Popularity": 8,
+        "NormalizedIngredientID": 708
+    },
+    {
+        "Name": "onion",
+        "ID": 1192,
+        "Popularity": 0,
+        "NormalizedIngredientID": 439
+    },
+    {
+        "Name": "opal nera",
+        "ID": 599,
+        "Popularity": 0,
+        "NormalizedIngredientID": 68
+    },
+    {
+        "Name": "orange",
+        "ID": 358,
+        "Popularity": 37,
+        "NormalizedIngredientID": 92
+    },
+    {
+        "Name": "orangeade",
+        "ID": 1204,
+        "Popularity": 0,
+        "NormalizedIngredientID": 451
+    },
+    {
+        "Name": "orange-banana fruit punch",
+        "ID": 1203,
+        "Popularity": 0,
+        "NormalizedIngredientID": 641
+    },
+    {
+        "Name": "orange bitters",
+        "ID": 434,
+        "Popularity": 289,
+        "NormalizedIngredientID": 128
+    },
+    {
+        "Name": "orange brandy",
+        "ID": 1193,
+        "Popularity": 0,
+        "NormalizedIngredientID": 440
+    },
+    {
+        "Name": "orangecello",
+        "ID": 1608,
+        "Popularity": 1,
+        "NormalizedIngredientID": 34
+    },
+    {
+        "Name": "orange curacao",
+        "ID": 196,
+        "Popularity": 1,
+        "NormalizedIngredientID": 34
+    },
+    {
+        "Name": "orange-flavored vermouth",
+        "ID": 935,
+        "Popularity": 0,
+        "NormalizedIngredientID": 257
+    },
+    {
+        "Name": "orange flower water",
+        "ID": 617,
+        "Popularity": 20,
+        "NormalizedIngredientID": 133
+    },
+    {
+        "Name": "orange gin",
+        "ID": 1194,
+        "Popularity": 0,
+        "NormalizedIngredientID": 441
+    },
+    {
+        "Name": "orange ice",
+        "ID": 1195,
+        "Popularity": 0,
+        "NormalizedIngredientID": 442
+    },
+    {
+        "Name": "orange jello",
+        "ID": 1196,
+        "Popularity": 0,
+        "NormalizedIngredientID": 443
+    },
+    {
+        "Name": "orange juice",
+        "ID": 4,
+        "Popularity": 222,
+        "NormalizedIngredientID": 2
+    },
+    {
+        "Name": "orange kool-aid",
+        "ID": 1197,
+        "Popularity": 0,
+        "NormalizedIngredientID": 444
+    },
+    {
+        "Name": "orange liqueur",
+        "ID": 199,
+        "Popularity": 84,
+        "NormalizedIngredientID": 34
+    },
+    {
+        "Name": "orange pekoe tea",
+        "ID": 1198,
+        "Popularity": 0,
+        "NormalizedIngredientID": 445
+    },
+    {
+        "Name": "orange sherbet",
+        "ID": 1199,
+        "Popularity": 0,
+        "NormalizedIngredientID": 446
+    },
+    {
+        "Name": "orange soda",
+        "ID": 433,
+        "Popularity": 1,
+        "NormalizedIngredientID": 96
+    },
+    {
+        "Name": "orange spiral",
+        "ID": 1202,
+        "Popularity": 0,
+        "NormalizedIngredientID": 449
+    },
+    {
+        "Name": "orange syrup",
+        "ID": 1200,
+        "Popularity": 0,
+        "NormalizedIngredientID": 447
+    },
+    {
+        "Name": "orange vodka",
+        "ID": 1201,
+        "Popularity": 0,
+        "NormalizedIngredientID": 448
+    },
+    {
+        "Name": "orange zest",
+        "ID": 1461,
+        "Popularity": 1,
+        "NormalizedIngredientID": 651
+    },
+    {
+        "Name": "orangina",
+        "ID": 1205,
+        "Popularity": 0,
+        "NormalizedIngredientID": 452
+    },
+    {
+        "Name": "oregano",
+        "ID": 825,
+        "Popularity": 1,
+        "NormalizedIngredientID": 203
+    },
+    {
+        "Name": "oreo cookie",
+        "ID": 641,
+        "Popularity": 1,
+        "NormalizedIngredientID": 143
+    },
+    {
+        "Name": "orgeat syrup",
+        "ID": 633,
+        "Popularity": 2,
+        "NormalizedIngredientID": 139
+    },
+    {
+        "Name": "ouzo",
+        "ID": 506,
+        "Popularity": 4,
+        "NormalizedIngredientID": 108
+    },
+    {
+        "Name": "palo cortado sherry",
+        "ID": 1627,
+        "Popularity": 5,
+        "NormalizedIngredientID": 708
+    },
+    {
+        "Name": "pama pomegranate liqueur",
+        "ID": 1409,
+        "Popularity": 1,
+        "NormalizedIngredientID": 633
+    },
+    {
+        "Name": "papaya",
+        "ID": 1206,
+        "Popularity": 0,
+        "NormalizedIngredientID": 453
+    },
+    {
+        "Name": "papaya juice",
+        "ID": 1207,
+        "Popularity": 0,
+        "NormalizedIngredientID": 454
+    },
+    {
+        "Name": "papaya nectar",
+        "ID": 1208,
+        "Popularity": 0,
+        "NormalizedIngredientID": 455
+    },
+    {
+        "Name": "paprika",
+        "ID": 1529,
+        "Popularity": 0,
+        "NormalizedIngredientID": 682
+    },
+    {
+        "Name": "parfait d'amour",
+        "ID": 598,
+        "Popularity": 0,
+        "NormalizedIngredientID": 126
+    },
+    {
+        "Name": "parrot bay coconut rum",
+        "ID": 407,
+        "Popularity": 1,
+        "NormalizedIngredientID": 17
+    },
+    {
+        "Name": "parrot bay rum",
+        "ID": 67,
+        "Popularity": 1,
+        "NormalizedIngredientID": 17
+    },
+    {
+        "Name": "passion-fruit",
+        "ID": 1209,
+        "Popularity": 0,
+        "NormalizedIngredientID": 456
+    },
+    {
+        "Name": "passionfruit juice",
+        "ID": 410,
+        "Popularity": 1,
+        "NormalizedIngredientID": 95
+    },
+    {
+        "Name": "passion-fruit juice",
+        "ID": 1210,
+        "Popularity": 0,
+        "NormalizedIngredientID": 457
+    },
+    {
+        "Name": "passion-fruit liqueur",
+        "ID": 1211,
+        "Popularity": 0,
+        "NormalizedIngredientID": 458
+    },
+    {
+        "Name": "passionfruit puree",
+        "ID": 1554,
+        "Popularity": 1,
+        "NormalizedIngredientID": 666
+    },
+    {
+        "Name": "passionfruit syrup",
+        "ID": 1489,
+        "Popularity": 1,
+        "NormalizedIngredientID": 666
+    },
+    {
+        "Name": "passion-fruit syrup",
+        "ID": 1212,
+        "Popularity": 0,
+        "NormalizedIngredientID": 459
+    },
+    {
+        "Name": "passoa",
+        "ID": 1213,
+        "Popularity": 0,
+        "NormalizedIngredientID": 460
+    },
+    {
+        "Name": "pastis",
+        "ID": 1214,
+        "Popularity": 19,
+        "NormalizedIngredientID": 461
+    },
+    {
+        "Name": "patron incendio",
+        "ID": 1553,
+        "Popularity": 1,
+        "NormalizedIngredientID": 692
+    },
+    {
+        "Name": "patron reposado",
+        "ID": 1552,
+        "Popularity": 1,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "patron silver tequila",
+        "ID": 606,
+        "Popularity": 0,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "peach bitters",
+        "ID": 639,
+        "Popularity": 14,
+        "NormalizedIngredientID": 142
+    },
+    {
+        "Name": "peach brandy",
+        "ID": 709,
+        "Popularity": 1,
+        "NormalizedIngredientID": 165
+    },
+    {
+        "Name": "peaches",
+        "ID": 1472,
+        "Popularity": 1,
+        "NormalizedIngredientID": 164
+    },
+    {
+        "Name": "peach juice",
+        "ID": 111,
+        "Popularity": 1,
+        "NormalizedIngredientID": 25
+    },
+    {
+        "Name": "peach liqueur",
+        "ID": 1215,
+        "Popularity": 16,
+        "NormalizedIngredientID": 462
+    },
+    {
+        "Name": "peach nectar",
+        "ID": 1216,
+        "Popularity": 1,
+        "NormalizedIngredientID": 463
+    },
+    {
+        "Name": "peach passion-fruit jello",
+        "ID": 1217,
+        "Popularity": 0,
+        "NormalizedIngredientID": 464
+    },
+    {
+        "Name": "peach puree",
+        "ID": 1218,
+        "Popularity": 2,
+        "NormalizedIngredientID": 465
+    },
+    {
+        "Name": "peach schnapps",
+        "ID": 104,
+        "Popularity": 36,
+        "NormalizedIngredientID": 63
+    },
+    {
+        "Name": "peach sherbet",
+        "ID": 1219,
+        "Popularity": 0,
+        "NormalizedIngredientID": 466
+    },
+    {
+        "Name": "peach vodka",
+        "ID": 1220,
+        "Popularity": 0,
+        "NormalizedIngredientID": 467
+    },
+    {
+        "Name": "peanut butter",
+        "ID": 1221,
+        "Popularity": 0,
+        "NormalizedIngredientID": 468
+    },
+    {
+        "Name": "peanut liqueur",
+        "ID": 1222,
+        "Popularity": 0,
+        "NormalizedIngredientID": 469
+    },
+    {
+        "Name": "pear",
+        "ID": 1592,
+        "Popularity": 5,
+        "NormalizedIngredientID": 707
+    },
+    {
+        "Name": "pear brandy",
+        "ID": 1223,
+        "Popularity": 2,
+        "NormalizedIngredientID": 470
+    },
+    {
+        "Name": "pear cider",
+        "ID": 1035,
+        "Popularity": 0,
+        "NormalizedIngredientID": 29
+    },
+    {
+        "Name": "pear eau de vie",
+        "ID": 1641,
+        "Popularity": 26,
+        "NormalizedIngredientID": 470
+    },
+    {
+        "Name": "pear juice",
+        "ID": 1224,
+        "Popularity": 0,
+        "NormalizedIngredientID": 471
+    },
+    {
+        "Name": "pear liqueur",
+        "ID": 1225,
+        "Popularity": 20,
+        "NormalizedIngredientID": 472
+    },
+    {
+        "Name": "pearl vodka",
+        "ID": 483,
+        "Popularity": 0,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "pear nectar",
+        "ID": 1590,
+        "Popularity": 1,
+        "NormalizedIngredientID": 706
+    },
+    {
+        "Name": "pear puree",
+        "ID": 1591,
+        "Popularity": 1,
+        "NormalizedIngredientID": 706
+    },
+    {
+        "Name": "pear schnapps",
+        "ID": 1226,
+        "Popularity": 0,
+        "NormalizedIngredientID": 473
+    },
+    {
+        "Name": "pear soda",
+        "ID": 1227,
+        "Popularity": 0,
+        "NormalizedIngredientID": 474
+    },
+    {
+        "Name": "pecans",
+        "ID": 1228,
+        "Popularity": 0,
+        "NormalizedIngredientID": 475
+    },
+    {
+        "Name": "pecher mignon",
+        "ID": 1229,
+        "Popularity": 0,
+        "NormalizedIngredientID": 476
+    },
+    {
+        "Name": "pedro ximenez sherry",
+        "ID": 1628,
+        "Popularity": 17,
+        "NormalizedIngredientID": 708
+    },
+    {
+        "Name": "pepper",
+        "ID": 1230,
+        "Popularity": 0,
+        "NormalizedIngredientID": 477
+    },
+    {
+        "Name": "peppercorn",
+        "ID": 1597,
+        "Popularity": 0,
+        "NormalizedIngredientID": 710
+    },
+    {
+        "Name": "peppermint extract",
+        "ID": 1232,
+        "Popularity": 0,
+        "NormalizedIngredientID": 479
+    },
+    {
+        "Name": "peppermint liquer",
+        "ID": 193,
+        "Popularity": 0,
+        "NormalizedIngredientID": 79
+    },
+    {
+        "Name": "peppermint liqueur",
+        "ID": 1233,
+        "Popularity": 0,
+        "NormalizedIngredientID": 480
+    },
+    {
+        "Name": "peppermint schnapps",
+        "ID": 150,
+        "Popularity": 9,
+        "NormalizedIngredientID": 74
+    },
+    {
+        "Name": "peppermint syrup",
+        "ID": 1234,
+        "Popularity": 0,
+        "NormalizedIngredientID": 481
+    },
+    {
+        "Name": "peppers",
+        "ID": 1235,
+        "Popularity": 0,
+        "NormalizedIngredientID": 482
+    },
+    {
+        "Name": "pepper sauce",
+        "ID": 1231,
+        "Popularity": 0,
+        "NormalizedIngredientID": 478
+    },
+    {
+        "Name": "pepper vodka ",
+        "ID": 1029,
+        "Popularity": 0,
+        "NormalizedIngredientID": 160
+    },
+    {
+        "Name": "pepsi",
+        "ID": 601,
+        "Popularity": 0,
+        "NormalizedIngredientID": 278
+    },
+    {
+        "Name": "pernod",
+        "ID": 624,
+        "Popularity": 12,
+        "NormalizedIngredientID": 97
+    },
+    {
+        "Name": "perrier sparkling natural mineral water",
+        "ID": 248,
+        "Popularity": 5,
+        "NormalizedIngredientID": 82
+    },
+    {
+        "Name": "persian cumin",
+        "ID": 900,
+        "Popularity": 0,
+        "NormalizedIngredientID": 238
+    },
+    {
+        "Name": "peychaud's bitters",
+        "ID": 608,
+        "Popularity": 121,
+        "NormalizedIngredientID": 131
+    },
+    {
+        "Name": "pickle juice",
+        "ID": 1236,
+        "Popularity": 0,
+        "NormalizedIngredientID": 483
+    },
+    {
+        "Name": "pimento bitters",
+        "ID": 1584,
+        "Popularity": 1,
+        "NormalizedIngredientID": 705
+    },
+    {
+        "Name": "pimento liqueur",
+        "ID": 1237,
+        "Popularity": 0,
+        "NormalizedIngredientID": 484
+    },
+    {
+        "Name": "pimm's no.1",
+        "ID": 1238,
+        "Popularity": 2,
+        "NormalizedIngredientID": 485
+    },
+    {
+        "Name": "pimp juice",
+        "ID": 1239,
+        "Popularity": 0,
+        "NormalizedIngredientID": 486
+    },
+    {
+        "Name": "pina colada mix",
+        "ID": 524,
+        "Popularity": 3,
+        "NormalizedIngredientID": 115
+    },
+    {
+        "Name": "pina colada schnapps",
+        "ID": 1240,
+        "Popularity": 0,
+        "NormalizedIngredientID": 487
+    },
+    {
+        "Name": "pineapple",
+        "ID": 530,
+        "Popularity": 14,
+        "NormalizedIngredientID": 117
+    },
+    {
+        "Name": "pineapple juice",
+        "ID": 16,
+        "Popularity": 137,
+        "NormalizedIngredientID": 15
+    },
+    {
+        "Name": "pineapple rum ",
+        "ID": 1005,
+        "Popularity": 0,
+        "NormalizedIngredientID": 234
+    },
+    {
+        "Name": "pineapple sherbet",
+        "ID": 1242,
+        "Popularity": 0,
+        "NormalizedIngredientID": 489
+    },
+    {
+        "Name": "pineapple soda",
+        "ID": 1243,
+        "Popularity": 0,
+        "NormalizedIngredientID": 490
+    },
+    {
+        "Name": "pineapple syrup",
+        "ID": 1244,
+        "Popularity": 13,
+        "NormalizedIngredientID": 491
+    },
+    {
+        "Name": "pineapple vodka",
+        "ID": 252,
+        "Popularity": 1,
+        "NormalizedIngredientID": 642
+    },
+    {
+        "Name": "pineapple wine",
+        "ID": 1245,
+        "Popularity": 0,
+        "NormalizedIngredientID": 492
+    },
+    {
+        "Name": "pine-orange-banana juice",
+        "ID": 1241,
+        "Popularity": 0,
+        "NormalizedIngredientID": 488
+    },
+    {
+        "Name": "pink lemonade",
+        "ID": 567,
+        "Popularity": 1,
+        "NormalizedIngredientID": 54
+    },
+    {
+        "Name": "pinnacle marshmallow vodka",
+        "ID": 1427,
+        "Popularity": 0,
+        "NormalizedIngredientID": 637
+    },
+    {
+        "Name": "pinnacle salted caramel vodka",
+        "ID": 1631,
+        "Popularity": 1,
+        "NormalizedIngredientID": 634
+    },
+    {
+        "Name": "pinnacle vodka coffee flavor",
+        "ID": 955,
+        "Popularity": 0,
+        "NormalizedIngredientID": 268
+    },
+    {
+        "Name": "pinnacle whipped",
+        "ID": 1547,
+        "Popularity": 0,
+        "NormalizedIngredientID": 689
+    },
+    {
+        "Name": "pisang ambon",
+        "ID": 542,
+        "Popularity": 3,
+        "NormalizedIngredientID": 37
+    },
+    {
+        "Name": "pisco",
+        "ID": 603,
+        "Popularity": 34,
+        "NormalizedIngredientID": 130
+    },
+    {
+        "Name": "pistachio ice cream",
+        "ID": 1246,
+        "Popularity": 0,
+        "NormalizedIngredientID": 493
+    },
+    {
+        "Name": "pistachio liqueur",
+        "ID": 1247,
+        "Popularity": 2,
+        "NormalizedIngredientID": 494
+    },
+    {
+        "Name": "plum brandy",
+        "ID": 1248,
+        "Popularity": 0,
+        "NormalizedIngredientID": 495
+    },
+    {
+        "Name": "plum liqueur",
+        "ID": 1249,
+        "Popularity": 0,
+        "NormalizedIngredientID": 114
+    },
+    {
+        "Name": "plums",
+        "ID": 1251,
+        "Popularity": 0,
+        "NormalizedIngredientID": 498
+    },
+    {
+        "Name": "plum wine",
+        "ID": 1250,
+        "Popularity": 0,
+        "NormalizedIngredientID": 497
+    },
+    {
+        "Name": "poire williams liqueur",
+        "ID": 1252,
+        "Popularity": 0,
+        "NormalizedIngredientID": 499
+    },
+    {
+        "Name": "pomegranate juice",
+        "ID": 1253,
+        "Popularity": 9,
+        "NormalizedIngredientID": 500
+    },
+    {
+        "Name": "pomegranate molasses",
+        "ID": 1521,
+        "Popularity": 3,
+        "NormalizedIngredientID": 433
+    },
+    {
+        "Name": "popsicle",
+        "ID": 1254,
+        "Popularity": 0,
+        "NormalizedIngredientID": 501
+    },
+    {
+        "Name": "port",
+        "ID": 717,
+        "Popularity": 16,
+        "NormalizedIngredientID": 135
+    },
+    {
+        "Name": "porter",
+        "ID": 1535,
+        "Popularity": 1,
+        "NormalizedIngredientID": 686
+    },
+    {
+        "Name": "pot",
+        "ID": 1484,
+        "Popularity": 0,
+        "NormalizedIngredientID": 663
+    },
+    {
+        "Name": "potato vodka",
+        "ID": 1519,
+        "Popularity": 1,
+        "NormalizedIngredientID": 677
+    },
+    {
+        "Name": "pot-infused whiskey",
+        "ID": 1487,
+        "Popularity": 0,
+        "NormalizedIngredientID": 665
+    },
+    {
+        "Name": "powdered sugar",
+        "ID": 262,
+        "Popularity": 7,
+        "NormalizedIngredientID": 83
+    },
+    {
+        "Name": "powers irish whiskey",
+        "ID": 239,
+        "Popularity": 0,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "pravda vodka",
+        "ID": 1255,
+        "Popularity": 0,
+        "NormalizedIngredientID": 502
+    },
+    {
+        "Name": "prosecco",
+        "ID": 1396,
+        "Popularity": 14,
+        "NormalizedIngredientID": 40
+    },
+    {
+        "Name": "prune juice",
+        "ID": 1256,
+        "Popularity": 0,
+        "NormalizedIngredientID": 503
+    },
+    {
+        "Name": "prunelle",
+        "ID": 521,
+        "Popularity": 1,
+        "NormalizedIngredientID": 114
+    },
+    {
+        "Name": "puerto rican rum",
+        "ID": 1632,
+        "Popularity": 8,
+        "NormalizedIngredientID": 14
+    },
+    {
+        "Name": "pumpkin",
+        "ID": 1257,
+        "Popularity": 0,
+        "NormalizedIngredientID": 504
+    },
+    {
+        "Name": "pumpkin pie vodka",
+        "ID": 1423,
+        "Popularity": 1,
+        "NormalizedIngredientID": 635
+    },
+    {
+        "Name": "pumpkin pudding mix",
+        "ID": 1513,
+        "Popularity": 1,
+        "NormalizedIngredientID": 675
+    },
+    {
+        "Name": "pumpkin puree",
+        "ID": 1507,
+        "Popularity": 4,
+        "NormalizedIngredientID": 504
+    },
+    {
+        "Name": "pumpkin spice",
+        "ID": 1522,
+        "Popularity": 1,
+        "NormalizedIngredientID": 678
+    },
+    {
+        "Name": "pumpkin spice liqueur",
+        "ID": 1402,
+        "Popularity": 0,
+        "NormalizedIngredientID": 629
+    },
+    {
+        "Name": "punt e mes",
+        "ID": 1258,
+        "Popularity": 0,
+        "NormalizedIngredientID": 505
+    },
+    {
+        "Name": "que pentas silver tequila",
+        "ID": 568,
+        "Popularity": 0,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "radish",
+        "ID": 1515,
+        "Popularity": 0,
+        "NormalizedIngredientID": 659
+    },
+    {
+        "Name": "rainbow sherbet",
+        "ID": 1259,
+        "Popularity": 0,
+        "NormalizedIngredientID": 506
+    },
+    {
+        "Name": "rain vodka",
+        "ID": 246,
+        "Popularity": 0,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "raisins",
+        "ID": 1260,
+        "Popularity": 0,
+        "NormalizedIngredientID": 507
+    },
+    {
+        "Name": "raki liqueur",
+        "ID": 1261,
+        "Popularity": 0,
+        "NormalizedIngredientID": 508
+    },
+    {
+        "Name": "ramazzotti",
+        "ID": 1642,
+        "Popularity": 36,
+        "NormalizedIngredientID": 704
+    },
+    {
+        "Name": "raspberry",
+        "ID": 363,
+        "Popularity": 0,
+        "NormalizedIngredientID": 93
+    },
+    {
+        "Name": "raspberry cordial",
+        "ID": 1262,
+        "Popularity": 0,
+        "NormalizedIngredientID": 509
+    },
+    {
+        "Name": "raspberry ice cream",
+        "ID": 1263,
+        "Popularity": 0,
+        "NormalizedIngredientID": 510
+    },
+    {
+        "Name": "raspberry jam",
+        "ID": 1264,
+        "Popularity": 0,
+        "NormalizedIngredientID": 511
+    },
+    {
+        "Name": "raspberry juice",
+        "ID": 1265,
+        "Popularity": 0,
+        "NormalizedIngredientID": 512
+    },
+    {
+        "Name": "raspberry lemonade",
+        "ID": 1266,
+        "Popularity": 0,
+        "NormalizedIngredientID": 513
+    },
+    {
+        "Name": "raspberry puree",
+        "ID": 1267,
+        "Popularity": 1,
+        "NormalizedIngredientID": 514
+    },
+    {
+        "Name": "raspberry schnapps",
+        "ID": 1268,
+        "Popularity": 0,
+        "NormalizedIngredientID": 515
+    },
+    {
+        "Name": "raspberry sherbet",
+        "ID": 1269,
+        "Popularity": 0,
+        "NormalizedIngredientID": 516
+    },
+    {
+        "Name": "raspberry soda",
+        "ID": 1270,
+        "Popularity": 0,
+        "NormalizedIngredientID": 517
+    },
+    {
+        "Name": "raspberry syrup",
+        "ID": 621,
+        "Popularity": 20,
+        "NormalizedIngredientID": 136
+    },
+    {
+        "Name": "raspberry vodka",
+        "ID": 1271,
+        "Popularity": 1,
+        "NormalizedIngredientID": 518
+    },
+    {
+        "Name": "raspberry yogurt",
+        "ID": 1272,
+        "Popularity": 0,
+        "NormalizedIngredientID": 519
+    },
+    {
+        "Name": "red bull",
+        "ID": 217,
+        "Popularity": 3,
+        "NormalizedIngredientID": 80
+    },
+    {
+        "Name": "red chili pepper",
+        "ID": 1617,
+        "Popularity": 1,
+        "NormalizedIngredientID": 716
+    },
+    {
+        "Name": "red curacao",
+        "ID": 220,
+        "Popularity": 1,
+        "NormalizedIngredientID": 34
+    },
+    {
+        "Name": "red devil",
+        "ID": 699,
+        "Popularity": 8,
+        "NormalizedIngredientID": 155
+    },
+    {
+        "Name": "red food coloring",
+        "ID": 1273,
+        "Popularity": 0,
+        "NormalizedIngredientID": 520
+    },
+    {
+        "Name": "red pepper flakes",
+        "ID": 1030,
+        "Popularity": 1,
+        "NormalizedIngredientID": 209
+    },
+    {
+        "Name": "redrum",
+        "ID": 1276,
+        "Popularity": 0,
+        "NormalizedIngredientID": 523
+    },
+    {
+        "Name": "red soda",
+        "ID": 1274,
+        "Popularity": 0,
+        "NormalizedIngredientID": 521
+    },
+    {
+        "Name": "red sparkling wine",
+        "ID": 1275,
+        "Popularity": 0,
+        "NormalizedIngredientID": 522
+    },
+    {
+        "Name": "red vodka",
+        "ID": 544,
+        "Popularity": 1,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "red wine",
+        "ID": 446,
+        "Popularity": 15,
+        "NormalizedIngredientID": 99
+    },
+    {
+        "Name": "regans orange bitters",
+        "ID": 607,
+        "Popularity": 0,
+        "NormalizedIngredientID": 128
+    },
+    {
+        "Name": "remy martin cognac ",
+        "ID": 985,
+        "Popularity": 0,
+        "NormalizedIngredientID": 7
+    },
+    {
+        "Name": "rhubarb",
+        "ID": 1277,
+        "Popularity": 0,
+        "NormalizedIngredientID": 524
+    },
+    {
+        "Name": "rhubarb bitters",
+        "ID": 1568,
+        "Popularity": 15,
+        "NormalizedIngredientID": 698
+    },
+    {
+        "Name": "ricard",
+        "ID": 1278,
+        "Popularity": 0,
+        "NormalizedIngredientID": 525
+    },
+    {
+        "Name": "riserva 100% anejo tequila",
+        "ID": 98,
+        "Popularity": 1,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "rockstar energy drink",
+        "ID": 1279,
+        "Popularity": 0,
+        "NormalizedIngredientID": 526
+    },
+    {
+        "Name": "root beer",
+        "ID": 106,
+        "Popularity": 2,
+        "NormalizedIngredientID": 64
+    },
+    {
+        "Name": "rose",
+        "ID": 867,
+        "Popularity": 2,
+        "NormalizedIngredientID": 40
+    },
+    {
+        "Name": "rose brut champagne",
+        "ID": 1432,
+        "Popularity": 1,
+        "NormalizedIngredientID": 40
+    },
+    {
+        "Name": "rosemary",
+        "ID": 1504,
+        "Popularity": 18,
+        "NormalizedIngredientID": 672
+    },
+    {
+        "Name": "rosemary simple syrup",
+        "ID": 1556,
+        "Popularity": 1,
+        "NormalizedIngredientID": 672
+    },
+    {
+        "Name": "rosewater",
+        "ID": 1280,
+        "Popularity": 0,
+        "NormalizedIngredientID": 527
+    },
+    {
+        "Name": "ruby port",
+        "ID": 727,
+        "Popularity": 13,
+        "NormalizedIngredientID": 135
+    },
+    {
+        "Name": "rumchata",
+        "ID": 1420,
+        "Popularity": 3,
+        "NormalizedIngredientID": 146
+    },
+    {
+        "Name": "rumpleminz",
+        "ID": 152,
+        "Popularity": 3,
+        "NormalizedIngredientID": 74
+    },
+    {
+        "Name": "rum tree",
+        "ID": 1281,
+        "Popularity": 0,
+        "NormalizedIngredientID": 528
+    },
+    {
+        "Name": "rye whiskey",
+        "ID": 611,
+        "Popularity": 11,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "safari liqueur",
+        "ID": 1282,
+        "Popularity": 0,
+        "NormalizedIngredientID": 529
+    },
+    {
+        "Name": "sailor jerry spiced rum",
+        "ID": 1502,
+        "Popularity": 0,
+        "NormalizedIngredientID": 35
+    },
+    {
+        "Name": "sake",
+        "ID": 11,
+        "Popularity": 9,
+        "NormalizedIngredientID": 9
+    },
+    {
+        "Name": "sakura muro machi tomato liqueur",
+        "ID": 1543,
+        "Popularity": 0,
+        "NormalizedIngredientID": 688
+    },
+    {
+        "Name": "salsa verde",
+        "ID": 1599,
+        "Popularity": 1,
+        "NormalizedIngredientID": 711
+    },
+    {
+        "Name": "salt",
+        "ID": 716,
+        "Popularity": 36,
+        "NormalizedIngredientID": 166
+    },
+    {
+        "Name": "sambuca",
+        "ID": 166,
+        "Popularity": 6,
+        "NormalizedIngredientID": 68
+    },
+    {
+        "Name": "sanding sugar",
+        "ID": 1510,
+        "Popularity": 1,
+        "NormalizedIngredientID": 83
+    },
+    {
+        "Name": "sangria",
+        "ID": 1283,
+        "Popularity": 0,
+        "NormalizedIngredientID": 530
+    },
+    {
+        "Name": "sapphire gin",
+        "ID": 222,
+        "Popularity": 0,
+        "NormalizedIngredientID": 10
+    },
+    {
+        "Name": "sarsaparilla",
+        "ID": 1284,
+        "Popularity": 0,
+        "NormalizedIngredientID": 531
+    },
+    {
+        "Name": "sauternes",
+        "ID": 1285,
+        "Popularity": 0,
+        "NormalizedIngredientID": 532
+    },
+    {
+        "Name": "sauvignon blanc",
+        "ID": 1468,
+        "Popularity": 1,
+        "NormalizedIngredientID": 105
+    },
+    {
+        "Name": "sauza blanco",
+        "ID": 430,
+        "Popularity": 1,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "sauza commemorativo tequila",
+        "ID": 197,
+        "Popularity": 1,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "sauza extra gold tequila",
+        "ID": 216,
+        "Popularity": 1,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "sauza hornitos tequila",
+        "ID": 313,
+        "Popularity": 2,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "sauza tequila",
+        "ID": 401,
+        "Popularity": 0,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "sauza tres generations tequila",
+        "ID": 594,
+        "Popularity": 0,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "schweppes indian tonic water",
+        "ID": 1286,
+        "Popularity": 0,
+        "NormalizedIngredientID": 533
+    },
+    {
+        "Name": "schweppes russian",
+        "ID": 1287,
+        "Popularity": 0,
+        "NormalizedIngredientID": 534
+    },
+    {
+        "Name": "schweppes tonic water",
+        "ID": 1288,
+        "Popularity": 0,
+        "NormalizedIngredientID": 535
+    },
+    {
+        "Name": "scotch",
+        "ID": 10,
+        "Popularity": 57,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "scotch whiskey",
+        "ID": 260,
+        "Popularity": 1,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "seagram's seven crown whiskey",
+        "ID": 1394,
+        "Popularity": 0,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "seagram's vanilla vodka ",
+        "ID": 1017,
+        "Popularity": 0,
+        "NormalizedIngredientID": 159
+    },
+    {
+        "Name": "sea salt",
+        "ID": 1491,
+        "Popularity": 5,
+        "NormalizedIngredientID": 166
+    },
+    {
+        "Name": "seltzer water",
+        "ID": 616,
+        "Popularity": 11,
+        "NormalizedIngredientID": 82
+    },
+    {
+        "Name": "seville orange",
+        "ID": 1605,
+        "Popularity": 1,
+        "NormalizedIngredientID": 713
+    },
+    {
+        "Name": "sherbet",
+        "ID": 1289,
+        "Popularity": 0,
+        "NormalizedIngredientID": 536
+    },
+    {
+        "Name": "sherry",
+        "ID": 636,
+        "Popularity": 27,
+        "NormalizedIngredientID": 141
+    },
+    {
+        "Name": "shochu",
+        "ID": 1290,
+        "Popularity": 0,
+        "NormalizedIngredientID": 537
+    },
+    {
+        "Name": "silver rum",
+        "ID": 1291,
+        "Popularity": 0,
+        "NormalizedIngredientID": 538
+    },
+    {
+        "Name": "silver tequila",
+        "ID": 471,
+        "Popularity": 3,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "simple syrup",
+        "ID": 452,
+        "Popularity": 350,
+        "NormalizedIngredientID": 101
+    },
+    {
+        "Name": "skyy cinnamon clove infused vodka",
+        "ID": 89,
+        "Popularity": 1,
+        "NormalizedIngredientID": 639
+    },
+    {
+        "Name": "skyy pumpkin infused vodka",
+        "ID": 460,
+        "Popularity": 1,
+        "NormalizedIngredientID": 629
+    },
+    {
+        "Name": "skyy vodka",
+        "ID": 91,
+        "Popularity": 1,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "sloe gin",
+        "ID": 263,
+        "Popularity": 31,
+        "NormalizedIngredientID": 720
+    },
+    {
+        "Name": "smirnoff fluffed marshmallow vodka",
+        "ID": 1425,
+        "Popularity": 1,
+        "NormalizedIngredientID": 637
+    },
+    {
+        "Name": "smirnoff green apple twist",
+        "ID": 1292,
+        "Popularity": 0,
+        "NormalizedIngredientID": 539
+    },
+    {
+        "Name": "smirnoff ice",
+        "ID": 1293,
+        "Popularity": 0,
+        "NormalizedIngredientID": 540
+    },
+    {
+        "Name": "smirnoff kissed caramel",
+        "ID": 1417,
+        "Popularity": 0,
+        "NormalizedIngredientID": 634
+    },
+    {
+        "Name": "smirnoff orange twist vodka",
+        "ID": 1294,
+        "Popularity": 0,
+        "NormalizedIngredientID": 541
+    },
+    {
+        "Name": "smirnoff raspberry twist vodka",
+        "ID": 1295,
+        "Popularity": 0,
+        "NormalizedIngredientID": 542
+    },
+    {
+        "Name": "smirnoff vanilla twist vodka",
+        "ID": 1296,
+        "Popularity": 0,
+        "NormalizedIngredientID": 543
+    },
+    {
+        "Name": "smirnoff vodka",
+        "ID": 114,
+        "Popularity": 2,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "smirnoff watermelon twist",
+        "ID": 1297,
+        "Popularity": 0,
+        "NormalizedIngredientID": 544
+    },
+    {
+        "Name": "snap ginger liqueur",
+        "ID": 1506,
+        "Popularity": 1,
+        "NormalizedIngredientID": 233
+    },
+    {
+        "Name": "snap peas",
+        "ID": 1474,
+        "Popularity": 0,
+        "NormalizedIngredientID": 656
+    },
+    {
+        "Name": "snapple",
+        "ID": 1298,
+        "Popularity": 0,
+        "NormalizedIngredientID": 545
+    },
+    {
+        "Name": "snapple raspberry iced tea",
+        "ID": 1299,
+        "Popularity": 0,
+        "NormalizedIngredientID": 546
+    },
+    {
+        "Name": "soda water",
+        "ID": 417,
+        "Popularity": 83,
+        "NormalizedIngredientID": 31
+    },
+    {
+        "Name": "sour apple",
+        "ID": 1300,
+        "Popularity": 0,
+        "NormalizedIngredientID": 547
+    },
+    {
+        "Name": "sour apple jello",
+        "ID": 1301,
+        "Popularity": 0,
+        "NormalizedIngredientID": 548
+    },
+    {
+        "Name": "sour mix",
+        "ID": 440,
+        "Popularity": 25,
+        "NormalizedIngredientID": 19
+    },
+    {
+        "Name": "sour orange",
+        "ID": 1603,
+        "Popularity": 0,
+        "NormalizedIngredientID": 713
+    },
+    {
+        "Name": "southern comfort",
+        "ID": 46,
+        "Popularity": 24,
+        "NormalizedIngredientID": 47
+    },
+    {
+        "Name": "soy sauce",
+        "ID": 1302,
+        "Popularity": 0,
+        "NormalizedIngredientID": 549
+    },
+    {
+        "Name": "spanish brandy",
+        "ID": 1303,
+        "Popularity": 0,
+        "NormalizedIngredientID": 550
+    },
+    {
+        "Name": "sparkling apple juice",
+        "ID": 1304,
+        "Popularity": 0,
+        "NormalizedIngredientID": 551
+    },
+    {
+        "Name": "sparkling moscato",
+        "ID": 1455,
+        "Popularity": 1,
+        "NormalizedIngredientID": 40
+    },
+    {
+        "Name": "sparkling rose",
+        "ID": 1538,
+        "Popularity": 1,
+        "NormalizedIngredientID": 40
+    },
+    {
+        "Name": "sparkling water",
+        "ID": 350,
+        "Popularity": 18,
+        "NormalizedIngredientID": 82
+    },
+    {
+        "Name": "sparkling wine",
+        "ID": 632,
+        "Popularity": 4,
+        "NormalizedIngredientID": 40
+    },
+    {
+        "Name": "spiced demerara syrup",
+        "ID": 1512,
+        "Popularity": 1,
+        "NormalizedIngredientID": 674
+    },
+    {
+        "Name": "spiced rum",
+        "ID": 35,
+        "Popularity": 20,
+        "NormalizedIngredientID": 35
+    },
+    {
+        "Name": "spiced vodka",
+        "ID": 1305,
+        "Popularity": 0,
+        "NormalizedIngredientID": 552
+    },
+    {
+        "Name": "spicy hot vegetable juice",
+        "ID": 1306,
+        "Popularity": 0,
+        "NormalizedIngredientID": 553
+    },
+    {
+        "Name": "spicy paprika",
+        "ID": 1530,
+        "Popularity": 1,
+        "NormalizedIngredientID": 682
+    },
+    {
+        "Name": "sprite",
+        "ID": 117,
+        "Popularity": 11,
+        "NormalizedIngredientID": 66
+    },
+    {
+        "Name": "squid ink",
+        "ID": 1612,
+        "Popularity": 1,
+        "NormalizedIngredientID": 715
+    },
+    {
+        "Name": "squirt",
+        "ID": 1307,
+        "Popularity": 0,
+        "NormalizedIngredientID": 554
+    },
+    {
+        "Name": "steamed milk",
+        "ID": 366,
+        "Popularity": 2,
+        "NormalizedIngredientID": 77
+    },
+    {
+        "Name": "st germain",
+        "ID": 1381,
+        "Popularity": 162,
+        "NormalizedIngredientID": 305
+    },
+    {
+        "Name": "st. hallvard liqueur",
+        "ID": 1308,
+        "Popularity": 0,
+        "NormalizedIngredientID": 555
+    },
+    {
+        "Name": "stolichnaya gold vodka",
+        "ID": 584,
+        "Popularity": 1,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "stolichnaya pertsovka pepper vodka",
+        "ID": 238,
+        "Popularity": 0,
+        "NormalizedIngredientID": 160
+    },
+    {
+        "Name": "stolichnaya vodka",
+        "ID": 289,
+        "Popularity": 2,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "stoli kafya",
+        "ID": 83,
+        "Popularity": 0,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "stoli orahnj vodka",
+        "ID": 202,
+        "Popularity": 0,
+        "NormalizedIngredientID": 158
+    },
+    {
+        "Name": "stoli orange",
+        "ID": 208,
+        "Popularity": 0,
+        "NormalizedIngredientID": 158
+    },
+    {
+        "Name": "stoli raspberry vodka",
+        "ID": 149,
+        "Popularity": 1,
+        "NormalizedIngredientID": 156
+    },
+    {
+        "Name": "stoli strawberry vodka",
+        "ID": 85,
+        "Popularity": 2,
+        "NormalizedIngredientID": 156
+    },
+    {
+        "Name": "stoli vanilla",
+        "ID": 209,
+        "Popularity": 2,
+        "NormalizedIngredientID": 159
+    },
+    {
+        "Name": "stoli vodka",
+        "ID": 163,
+        "Popularity": 1,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "stout",
+        "ID": 1309,
+        "Popularity": 1,
+        "NormalizedIngredientID": 556
+    },
+    {
+        "Name": "strawberry",
+        "ID": 353,
+        "Popularity": 1,
+        "NormalizedIngredientID": 91
+    },
+    {
+        "Name": "strawberry brandy",
+        "ID": 1310,
+        "Popularity": 0,
+        "NormalizedIngredientID": 557
+    },
+    {
+        "Name": "strawberry daiquiri mix",
+        "ID": 1311,
+        "Popularity": 0,
+        "NormalizedIngredientID": 558
+    },
+    {
+        "Name": "strawberry guava juice",
+        "ID": 1312,
+        "Popularity": 0,
+        "NormalizedIngredientID": 559
+    },
+    {
+        "Name": "strawberry ice cream",
+        "ID": 1313,
+        "Popularity": 0,
+        "NormalizedIngredientID": 560
+    },
+    {
+        "Name": "strawberry jello",
+        "ID": 1314,
+        "Popularity": 0,
+        "NormalizedIngredientID": 561
+    },
+    {
+        "Name": "strawberry juice",
+        "ID": 827,
+        "Popularity": 0,
+        "NormalizedIngredientID": 91
+    },
+    {
+        "Name": "strawberry kool-aid",
+        "ID": 1315,
+        "Popularity": 0,
+        "NormalizedIngredientID": 562
+    },
+    {
+        "Name": "strawberry liqueur",
+        "ID": 155,
+        "Popularity": 2,
+        "NormalizedIngredientID": 75
+    },
+    {
+        "Name": "strawberry margarita mix",
+        "ID": 1316,
+        "Popularity": 0,
+        "NormalizedIngredientID": 563
+    },
+    {
+        "Name": "strawberry schnapps",
+        "ID": 1317,
+        "Popularity": 1,
+        "NormalizedIngredientID": 564
+    },
+    {
+        "Name": "strawberry soda",
+        "ID": 1318,
+        "Popularity": 0,
+        "NormalizedIngredientID": 565
+    },
+    {
+        "Name": "strawberry syrup",
+        "ID": 671,
+        "Popularity": 4,
+        "NormalizedIngredientID": 150
+    },
+    {
+        "Name": "strawberry vodka",
+        "ID": 1319,
+        "Popularity": 0,
+        "NormalizedIngredientID": 566
+    },
+    {
+        "Name": "strawberry yogurt",
+        "ID": 1320,
+        "Popularity": 0,
+        "NormalizedIngredientID": 567
+    },
+    {
+        "Name": "strega",
+        "ID": 1321,
+        "Popularity": 16,
+        "NormalizedIngredientID": 568
+    },
+    {
+        "Name": "strongbow cider",
+        "ID": 1322,
+        "Popularity": 0,
+        "NormalizedIngredientID": 569
+    },
+    {
+        "Name": "sugar",
+        "ID": 256,
+        "Popularity": 49,
+        "NormalizedIngredientID": 83
+    },
+    {
+        "Name": "sugar snap pea pods",
+        "ID": 1473,
+        "Popularity": 1,
+        "NormalizedIngredientID": 656
+    },
+    {
+        "Name": "sugar syrup",
+        "ID": 493,
+        "Popularity": 8,
+        "NormalizedIngredientID": 101
+    },
+    {
+        "Name": "sunny delight",
+        "ID": 1323,
+        "Popularity": 0,
+        "NormalizedIngredientID": 570
+    },
+    {
+        "Name": "svedka vodka",
+        "ID": 609,
+        "Popularity": 0,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "swedish punsch",
+        "ID": 1324,
+        "Popularity": 16,
+        "NormalizedIngredientID": 571
+    },
+    {
+        "Name": "sweet and sour sauce",
+        "ID": 1325,
+        "Popularity": 0,
+        "NormalizedIngredientID": 572
+    },
+    {
+        "Name": "sweet cream",
+        "ID": 26,
+        "Popularity": 8,
+        "NormalizedIngredientID": 26
+    },
+    {
+        "Name": "sweetened lime juice",
+        "ID": 1326,
+        "Popularity": 0,
+        "NormalizedIngredientID": 573
+    },
+    {
+        "Name": "sweet & sour mix",
+        "ID": 20,
+        "Popularity": 4,
+        "NormalizedIngredientID": 19
+    },
+    {
+        "Name": "sweet tea vodka",
+        "ID": 1534,
+        "Popularity": 1,
+        "NormalizedIngredientID": 685
+    },
+    {
+        "Name": "sweet vermouth",
+        "ID": 123,
+        "Popularity": 360,
+        "NormalizedIngredientID": 48
+    },
+    {
+        "Name": "swiss chocolate almond",
+        "ID": 1327,
+        "Popularity": 0,
+        "NormalizedIngredientID": 574
+    },
+    {
+        "Name": "swiss chocolate almond liqueur",
+        "ID": 299,
+        "Popularity": 1,
+        "NormalizedIngredientID": 23
+    },
+    {
+        "Name": "syrup",
+        "ID": 1328,
+        "Popularity": 0,
+        "NormalizedIngredientID": 575
+    },
+    {
+        "Name": "syrup of roses",
+        "ID": 1329,
+        "Popularity": 0,
+        "NormalizedIngredientID": 576
+    },
+    {
+        "Name": "tabasco",
+        "ID": 1572,
+        "Popularity": 3,
+        "NormalizedIngredientID": 104
+    },
+    {
+        "Name": "tabasco sauce",
+        "ID": 487,
+        "Popularity": 5,
+        "NormalizedIngredientID": 104
+    },
+    {
+        "Name": "taboo",
+        "ID": 1330,
+        "Popularity": 0,
+        "NormalizedIngredientID": 577
+    },
+    {
+        "Name": "tahitian treat soda",
+        "ID": 1331,
+        "Popularity": 0,
+        "NormalizedIngredientID": 578
+    },
+    {
+        "Name": "tang",
+        "ID": 1332,
+        "Popularity": 0,
+        "NormalizedIngredientID": 579
+    },
+    {
+        "Name": "tangerine kool-aid",
+        "ID": 1333,
+        "Popularity": 0,
+        "NormalizedIngredientID": 580
+    },
+    {
+        "Name": "tangerine schnapps",
+        "ID": 1334,
+        "Popularity": 0,
+        "NormalizedIngredientID": 581
+    },
+    {
+        "Name": "tanqueray gin",
+        "ID": 505,
+        "Popularity": 0,
+        "NormalizedIngredientID": 10
+    },
+    {
+        "Name": "tanqueray sterling vodka",
+        "ID": 369,
+        "Popularity": 1,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "tarragon",
+        "ID": 1475,
+        "Popularity": 1,
+        "NormalizedIngredientID": 657
+    },
+    {
+        "Name": "tarragon leaves",
+        "ID": 1476,
+        "Popularity": 1,
+        "NormalizedIngredientID": 657
+    },
+    {
+        "Name": "tawny port",
+        "ID": 620,
+        "Popularity": 8,
+        "NormalizedIngredientID": 135
+    },
+    {
+        "Name": "tea",
+        "ID": 561,
+        "Popularity": 9,
+        "NormalizedIngredientID": 124
+    },
+    {
+        "Name": "tea leaves",
+        "ID": 1335,
+        "Popularity": 0,
+        "NormalizedIngredientID": 124
+    },
+    {
+        "Name": "teeling irish whiskey",
+        "ID": 1570,
+        "Popularity": 1,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "tennessee whiskey",
+        "ID": 476,
+        "Popularity": 5,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "tequila",
+        "ID": 8,
+        "Popularity": 94,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "tequila blanco",
+        "ID": 470,
+        "Popularity": 2,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "tequila rose",
+        "ID": 214,
+        "Popularity": 1,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "thai tea",
+        "ID": 1336,
+        "Popularity": 0,
+        "NormalizedIngredientID": 583
+    },
+    {
+        "Name": "three olives cherry vodka",
+        "ID": 920,
+        "Popularity": 0,
+        "NormalizedIngredientID": 250
+    },
+    {
+        "Name": "three olives chocolate vodka",
+        "ID": 930,
+        "Popularity": 0,
+        "NormalizedIngredientID": 254
+    },
+    {
+        "Name": "three olives triple shot espresso vodka",
+        "ID": 1415,
+        "Popularity": 1,
+        "NormalizedIngredientID": 268
+    },
+    {
+        "Name": "three olives vodka",
+        "ID": 73,
+        "Popularity": 0,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "thyme",
+        "ID": 1558,
+        "Popularity": 8,
+        "NormalizedIngredientID": 694
+    },
+    {
+        "Name": "tia maria",
+        "ID": 142,
+        "Popularity": 7,
+        "NormalizedIngredientID": 42
+    },
+    {
+        "Name": "tomato juice",
+        "ID": 445,
+        "Popularity": 9,
+        "NormalizedIngredientID": 98
+    },
+    {
+        "Name": "tomato liqueur",
+        "ID": 1542,
+        "Popularity": 1,
+        "NormalizedIngredientID": 688
+    },
+    {
+        "Name": "tonic water",
+        "ID": 2,
+        "Popularity": 28,
+        "NormalizedIngredientID": 5
+    },
+    {
+        "Name": "tres generations tequila",
+        "ID": 484,
+        "Popularity": 0,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "triple sec",
+        "ID": 14,
+        "Popularity": 189,
+        "NormalizedIngredientID": 13
+    },
+    {
+        "Name": "tropical blue liqueur",
+        "ID": 1337,
+        "Popularity": 0,
+        "NormalizedIngredientID": 584
+    },
+    {
+        "Name": "tropical fruit",
+        "ID": 1338,
+        "Popularity": 0,
+        "NormalizedIngredientID": 585
+    },
+    {
+        "Name": "tropical-fruit schnapps",
+        "ID": 1341,
+        "Popularity": 0,
+        "NormalizedIngredientID": 586
+    },
+    {
+        "Name": "tropical fruit schnapps",
+        "ID": 1339,
+        "Popularity": 0,
+        "NormalizedIngredientID": 586
+    },
+    {
+        "Name": "tropical punch kool-aid",
+        "ID": 1340,
+        "Popularity": 0,
+        "NormalizedIngredientID": 587
+    },
+    {
+        "Name": "tropicana fruit punch ",
+        "ID": 1009,
+        "Popularity": 0,
+        "NormalizedIngredientID": 641
+    },
+    {
+        "Name": "tuaca",
+        "ID": 168,
+        "Popularity": 6,
+        "NormalizedIngredientID": 61
+    },
+    {
+        "Name": "turkish apple tea",
+        "ID": 1342,
+        "Popularity": 0,
+        "NormalizedIngredientID": 589
+    },
+    {
+        "Name": "underberg bitters",
+        "ID": 1343,
+        "Popularity": 1,
+        "NormalizedIngredientID": 590
+    },
+    {
+        "Name": "ursus vodka",
+        "ID": 566,
+        "Popularity": 1,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "uv red cherry vodka",
+        "ID": 918,
+        "Popularity": 0,
+        "NormalizedIngredientID": 250
+    },
+    {
+        "Name": "v8",
+        "ID": 849,
+        "Popularity": 0,
+        "NormalizedIngredientID": 98
+    },
+    {
+        "Name": "van der hum",
+        "ID": 1345,
+        "Popularity": 0,
+        "NormalizedIngredientID": 592
+    },
+    {
+        "Name": "vandermint",
+        "ID": 212,
+        "Popularity": 0,
+        "NormalizedIngredientID": 79
+    },
+    {
+        "Name": "van gogh vodka",
+        "ID": 1346,
+        "Popularity": 0,
+        "NormalizedIngredientID": 593
+    },
+    {
+        "Name": "vanilla",
+        "ID": 1347,
+        "Popularity": 0,
+        "NormalizedIngredientID": 594
+    },
+    {
+        "Name": "vanilla bean",
+        "ID": 1348,
+        "Popularity": 0,
+        "NormalizedIngredientID": 595
+    },
+    {
+        "Name": "vanilla bean pod",
+        "ID": 1609,
+        "Popularity": 1,
+        "NormalizedIngredientID": 594
+    },
+    {
+        "Name": "vanilla beans",
+        "ID": 1511,
+        "Popularity": 1,
+        "NormalizedIngredientID": 594
+    },
+    {
+        "Name": "vanilla coke",
+        "ID": 1349,
+        "Popularity": 0,
+        "NormalizedIngredientID": 596
+    },
+    {
+        "Name": "vanilla extract",
+        "ID": 1350,
+        "Popularity": 5,
+        "NormalizedIngredientID": 597
+    },
+    {
+        "Name": "vanilla ice cream",
+        "ID": 312,
+        "Popularity": 13,
+        "NormalizedIngredientID": 86
+    },
+    {
+        "Name": "vanilla liqueur",
+        "ID": 97,
+        "Popularity": 4,
+        "NormalizedIngredientID": 61
+    },
+    {
+        "Name": "vanilla rum",
+        "ID": 1351,
+        "Popularity": 0,
+        "NormalizedIngredientID": 598
+    },
+    {
+        "Name": "vanilla schnapps",
+        "ID": 1352,
+        "Popularity": 0,
+        "NormalizedIngredientID": 599
+    },
+    {
+        "Name": "vanilla sugar",
+        "ID": 1353,
+        "Popularity": 1,
+        "NormalizedIngredientID": 600
+    },
+    {
+        "Name": "vanilla sugar syrup",
+        "ID": 1354,
+        "Popularity": 0,
+        "NormalizedIngredientID": 602
+    },
+    {
+        "Name": "vanilla syrup",
+        "ID": 1355,
+        "Popularity": 13,
+        "NormalizedIngredientID": 602
+    },
+    {
+        "Name": "veev",
+        "ID": 1527,
+        "Popularity": 1,
+        "NormalizedIngredientID": 680
+    },
+    {
+        "Name": "vegetable juice",
+        "ID": 1356,
+        "Popularity": 0,
+        "NormalizedIngredientID": 603
+    },
+    {
+        "Name": "versinthe",
+        "ID": 596,
+        "Popularity": 0,
+        "NormalizedIngredientID": 97
+    },
+    {
+        "Name": "vincent van gogh chocolate vodka",
+        "ID": 931,
+        "Popularity": 0,
+        "NormalizedIngredientID": 254
+    },
+    {
+        "Name": "vincent van gogh double espresso vodka",
+        "ID": 952,
+        "Popularity": 0,
+        "NormalizedIngredientID": 268
+    },
+    {
+        "Name": "vinegar",
+        "ID": 828,
+        "Popularity": 0,
+        "NormalizedIngredientID": 204
+    },
+    {
+        "Name": "vodka",
+        "ID": 3,
+        "Popularity": 184,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "vox vodka",
+        "ID": 259,
+        "Popularity": 1,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "vsplash fruit juice",
+        "ID": 1344,
+        "Popularity": 0,
+        "NormalizedIngredientID": 591
+    },
+    {
+        "Name": "walnut liqueur",
+        "ID": 283,
+        "Popularity": 12,
+        "NormalizedIngredientID": 85
+    },
+    {
+        "Name": "water",
+        "ID": 120,
+        "Popularity": 37,
+        "NormalizedIngredientID": 67
+    },
+    {
+        "Name": "watermelon",
+        "ID": 1357,
+        "Popularity": 6,
+        "NormalizedIngredientID": 604
+    },
+    {
+        "Name": "watermelon-cherry kool-aid",
+        "ID": 1362,
+        "Popularity": 0,
+        "NormalizedIngredientID": 609
+    },
+    {
+        "Name": "watermelon jello",
+        "ID": 1358,
+        "Popularity": 0,
+        "NormalizedIngredientID": 605
+    },
+    {
+        "Name": "watermelon juice",
+        "ID": 1359,
+        "Popularity": 5,
+        "NormalizedIngredientID": 604
+    },
+    {
+        "Name": "watermelon liqueur ",
+        "ID": 1020,
+        "Popularity": 0,
+        "NormalizedIngredientID": 57
+    },
+    {
+        "Name": "watermelons",
+        "ID": 1363,
+        "Popularity": 0,
+        "NormalizedIngredientID": 610
+    },
+    {
+        "Name": "watermelon schnapps",
+        "ID": 1360,
+        "Popularity": 0,
+        "NormalizedIngredientID": 607
+    },
+    {
+        "Name": "watermelon vodka",
+        "ID": 1361,
+        "Popularity": 0,
+        "NormalizedIngredientID": 608
+    },
+    {
+        "Name": "weis blueberry liqueur",
+        "ID": 861,
+        "Popularity": 0,
+        "NormalizedIngredientID": 218
+    },
+    {
+        "Name": "whipped cream",
+        "ID": 672,
+        "Popularity": 8,
+        "NormalizedIngredientID": 676
+    },
+    {
+        "Name": "whipped topping",
+        "ID": 1514,
+        "Popularity": 1,
+        "NormalizedIngredientID": 676
+    },
+    {
+        "Name": "whiskey",
+        "ID": 134,
+        "Popularity": 28,
+        "NormalizedIngredientID": 71
+    },
+    {
+        "Name": "white chocolate",
+        "ID": 1364,
+        "Popularity": 0,
+        "NormalizedIngredientID": 611
+    },
+    {
+        "Name": "white chocolate liquer",
+        "ID": 298,
+        "Popularity": 0,
+        "NormalizedIngredientID": 21
+    },
+    {
+        "Name": "white cranberry juice",
+        "ID": 1610,
+        "Popularity": 1,
+        "NormalizedIngredientID": 4
+    },
+    {
+        "Name": "white cranberry & strawberry juice",
+        "ID": 1365,
+        "Popularity": 0,
+        "NormalizedIngredientID": 612
+    },
+    {
+        "Name": "white creme de cacao",
+        "ID": 136,
+        "Popularity": 16,
+        "NormalizedIngredientID": 21
+    },
+    {
+        "Name": "white curacao",
+        "ID": 235,
+        "Popularity": 1,
+        "NormalizedIngredientID": 34
+    },
+    {
+        "Name": "white curaco",
+        "ID": 234,
+        "Popularity": 1,
+        "NormalizedIngredientID": 34
+    },
+    {
+        "Name": "white food coloring",
+        "ID": 1366,
+        "Popularity": 0,
+        "NormalizedIngredientID": 613
+    },
+    {
+        "Name": "white pineau des charentes",
+        "ID": 1367,
+        "Popularity": 0,
+        "NormalizedIngredientID": 614
+    },
+    {
+        "Name": "white port",
+        "ID": 1368,
+        "Popularity": 4,
+        "NormalizedIngredientID": 615
+    },
+    {
+        "Name": "white rum",
+        "ID": 154,
+        "Popularity": 23,
+        "NormalizedIngredientID": 14
+    },
+    {
+        "Name": "white sugar",
+        "ID": 1566,
+        "Popularity": 1,
+        "NormalizedIngredientID": 83
+    },
+    {
+        "Name": "white tequila",
+        "ID": 139,
+        "Popularity": 4,
+        "NormalizedIngredientID": 6
+    },
+    {
+        "Name": "white wine",
+        "ID": 488,
+        "Popularity": 2,
+        "NormalizedIngredientID": 105
+    },
+    {
+        "Name": "wildberry schnapps",
+        "ID": 1370,
+        "Popularity": 0,
+        "NormalizedIngredientID": 617
+    },
+    {
+        "Name": "wildberry vodka",
+        "ID": 1371,
+        "Popularity": 0,
+        "NormalizedIngredientID": 618
+    },
+    {
+        "Name": "wild spirit liqueur",
+        "ID": 1369,
+        "Popularity": 0,
+        "NormalizedIngredientID": 616
+    },
+    {
+        "Name": "wild turkey 101",
+        "ID": 1403,
+        "Popularity": 2,
+        "NormalizedIngredientID": 25
+    },
+    {
+        "Name": "wild turkey 101 ",
+        "ID": 1022,
+        "Popularity": 0,
+        "NormalizedIngredientID": 25
+    },
+    {
+        "Name": "woodford reserve bourbon",
+        "ID": 195,
+        "Popularity": 1,
+        "NormalizedIngredientID": 25
+    },
+    {
+        "Name": "woods 100 dark rum",
+        "ID": 491,
+        "Popularity": 1,
+        "NormalizedIngredientID": 36
+    },
+    {
+        "Name": "worcestershire sauce",
+        "ID": 486,
+        "Popularity": 5,
+        "NormalizedIngredientID": 103
+    },
+    {
+        "Name": "wormwood",
+        "ID": 1372,
+        "Popularity": 0,
+        "NormalizedIngredientID": 619
+    },
+    {
+        "Name": "wormwood extract",
+        "ID": 1373,
+        "Popularity": 0,
+        "NormalizedIngredientID": 620
+    },
+    {
+        "Name": "wyborowa vodka",
+        "ID": 148,
+        "Popularity": 1,
+        "NormalizedIngredientID": 1
+    },
+    {
+        "Name": "yeast",
+        "ID": 829,
+        "Popularity": 0,
+        "NormalizedIngredientID": 205
+    },
+    {
+        "Name": "yellow cotton candy",
+        "ID": 1596,
+        "Popularity": 1,
+        "NormalizedIngredientID": 709
+    },
+    {
+        "Name": "yellow food coloring",
+        "ID": 1374,
+        "Popularity": 0,
+        "NormalizedIngredientID": 621
+    },
+    {
+        "Name": "yogurt",
+        "ID": 991,
+        "Popularity": 0,
+        "NormalizedIngredientID": 280
+    },
+    {
+        "Name": "yogurt liqueur",
+        "ID": 1539,
+        "Popularity": 1,
+        "NormalizedIngredientID": 687
+    },
+    {
+        "Name": "yukon jack",
+        "ID": 1375,
+        "Popularity": 0,
+        "NormalizedIngredientID": 622
+    },
+    {
+        "Name": "yukon jack perma frost schnapps",
+        "ID": 1376,
+        "Popularity": 0,
+        "NormalizedIngredientID": 623
+    },
+    {
+        "Name": "zima",
+        "ID": 1377,
+        "Popularity": 0,
+        "NormalizedIngredientID": 624
+    }
+]

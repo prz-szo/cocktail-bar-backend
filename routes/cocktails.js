@@ -8,19 +8,19 @@ router.post('/', function (req, res) {
 
 
 // READ
-router.get('/', function(req, res, next) {
+router.get('/', function(req, res) {
   res.json({ message: `Lista wszystkich koktajli with query ${JSON.stringify(req.query)}` });
 });
 
-router.get('/:id(\\d+)', function(req, res, next) {
+router.get('/:id(\\d+)', function(req, res) {
   res.json({ message: `szczegoly koktajlu ${req.params.id}` });
 });
 
-router.get('/top10', function(req, res, next) {
+router.get('/top10', function(req, res) {
   res.json({ message: 'Lista top 10 koktajli' });
 });
 
-router.get('/random', function(req, res, next) {
+router.get('/random', function(req, res) {
   res.json({ message: 'losowy koktajl' });
 });
 
