@@ -160,3 +160,15 @@ REFERENCES koktajl_bar.Uzytkownik (id_uzytkownika)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
+
+CREATE VIEW koktajl_bar.Przepisy AS
+    SELECT k_s.id_koktajlu, k.nazwa AS koktajl, s.nazwa AS skladnik, k_s.ilosc, m.nazwa AS miara, k.tresc_instrukcji FROM koktajl_bar.koktajle_skladniki k_s
+        INNER JOIN koktajl_bar.koktajle k USING(id_koktajlu)
+        INNER JOIN koktajl_bar.skladniki s USING(id_skladnika)
+        INNER JOIN koktajl_bar.miary m USING(id_miary);
+
+CREATE VIEW koktajl_bar.PrzepisyPoIlosciSkladnikow AS
+    SELECT k.id_koktajlu, k.nazwa AS koktajl, COUNT(*) AS ilosc_skladnikow FROM koktajle_skladniki k_s
+        INNER JOIN koktajle k USING(id_koktajlu)
+        GROUP BY (k.id_koktajlu, k.nazwa)
+        ORDER BY ilosc_skladnikow DESC, k.nazwa ASC;

@@ -1,10 +1,10 @@
 const chai = require('chai');
 const should = chai.should();
 const chaiHttp = require('chai-http');
-const router = require('../../routes/cocktails');
-chai.use(chaiHttp);
-
 const server = require('../../app');
+
+chai.use(chaiHttp);
+const expect = chai.expect;
 
 
 describe('routes : cocktails', () => {
@@ -18,21 +18,24 @@ describe('routes : cocktails', () => {
             should.not.exist(err);
             res.status.should.equal(200);
             res.type.should.equal('application/json');
-            res.body.message.should.eql('Lista wszystkich koktajli with query {}');
+            res.body.cocktails.map(cocktail => {
+              expect(cocktail).to.have.property('id_koktajlu');
+              expect(cocktail).to.have.property('nazwa');
+            });
             done();
           });
       });
     });
 
     describe(`GET ${prefix}?q=find`, () => {
-      it('should respond with all cocktails filling query', (done) => {
+      it.skip('should respond with all cocktails meeting query', (done) => {
         chai.request(server)
           .get(`${prefix}?q=find`)
           .end((err, res) => {
             should.not.exist(err);
             res.status.should.equal(200);
             res.type.should.equal('application/json');
-            res.body.message.should.eql('Lista wszystkich koktajli with query {"q":"find"}');
+            res.body.length.should.eql(1);
             done();
           });
       });
@@ -46,10 +49,9 @@ describe('routes : cocktails', () => {
             should.not.exist(err);
             res.status.should.equal(200);
             res.type.should.equal('application/json');
-            res.body.message.should.eql('szczegoly koktajlu 1');
-            //res.body.data[0].should.include.keys(
-            //         'id', 'username', 'email', 'created_at'
-            //       );
+            res.body.cocktail.should.not.be.undefined;
+            res.body.cocktail.should.include.keys('id', 'name', 'recipe', 'ingredients');
+            res.body.cocktail.ingredients.map(ing => ing.should.include.keys('name', 'amount', 'measure'));
             done();
           });
       });
@@ -63,7 +65,7 @@ describe('routes : cocktails', () => {
             should.not.exist(err);
             res.status.should.equal(200);
             res.type.should.equal('application/json');
-            res.body.message.should.eql('Lista top 10 koktajli');
+            res.body.cocktails.length.should.eql(10);
             done();
           });
       });

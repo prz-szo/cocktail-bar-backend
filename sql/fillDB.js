@@ -1,5 +1,5 @@
-var pgp = require('pg-promise')(/*options*/);
-var db = pgp('postgres://pszopa:@localhost:5432/pszopa');
+const pgp = require('pg-promise')(/*options*/);
+const db = pgp('postgres://pszopa:@localhost:5432/pszopa');
 
 const QueryFile = pgp.QueryFile;
 const path = require('path');

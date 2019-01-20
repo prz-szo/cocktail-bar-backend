@@ -1,39 +1,21 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
+
+const Cocktails = require('../controllers/cocktails');
 
 // CREATE
-router.post('/', function (req, res) {
-  res.json({ message: 'Stworzenie nowego koktajlu' });
-});
-
+router.post('/', Cocktails.createCocktail);
 
 // READ
-router.get('/', function(req, res) {
-  res.json({ message: `Lista wszystkich koktajli with query ${JSON.stringify(req.query)}` });
-});
-
-router.get('/:id(\\d+)', function(req, res) {
-  res.json({ message: `szczegoly koktajlu ${req.params.id}` });
-});
-
-router.get('/top10', function(req, res) {
-  res.json({ message: 'Lista top 10 koktajli' });
-});
-
-router.get('/random', function(req, res) {
-  res.json({ message: 'losowy koktajl' });
-});
-
+router.get('/', Cocktails.listAllCocktails);
+router.get('/:id(\\d+)', Cocktails.cocktailDetail);
+router.get('/top10', Cocktails.top10Cocktails);
+router.get('/random', Cocktails.randomCocktail);
 
 // UPDATE
-router.put('/:id(\\d+)', function (req, res) {
-  res.json({ message: `Update koktajlu ${req.params.id}` })
-});
-
+router.put('/:id(\\d+)', Cocktails.updateCocktail);
 
 // DELETE
-router.delete('/:id', function (req, res) {
-  res.json({ message: 'Usuniecie koktajlu' })
-});
+router.delete('/:id', Cocktails.deleteCocktail);
 
 module.exports = router;
