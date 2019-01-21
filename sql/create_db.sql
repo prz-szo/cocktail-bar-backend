@@ -1,8 +1,7 @@
 DROP SCHEMA koktajl_bar CASCADE;
 CREATE SCHEMA koktajl_bar;
-set search_path to koktajl_bar;
 
-CREATE DOMAIN koktajl_bar.ocena AS NUMERIC(1) CONSTRAINT check_sign CHECK (VALUE > 0);
+CREATE DOMAIN koktajl_bar.ocena AS NUMERIC(1) CONSTRAINT check_sign CHECK (VALUE >= 0);
 COMMENT ON DOMAIN koktajl_bar.ocena IS 'Ocena koktajlu';
 
 CREATE DOMAIN koktajl_bar.ilosc AS NUMERIC(6,2) CONSTRAINT check_sign CHECK (VALUE > 0);
@@ -172,3 +171,27 @@ CREATE VIEW koktajl_bar.PrzepisyPoIlosciSkladnikow AS
         INNER JOIN koktajle k USING(id_koktajlu)
         GROUP BY (k.id_koktajlu, k.nazwa)
         ORDER BY ilosc_skladnikow DESC, k.nazwa ASC;
+
+CREATE VIEW koktajl_bar.NazwyPoOcenach as
+    select id_koktajlu, nazwa, AVG(ocena) from oceny
+    INNER JOIN koktajl_bar.koktajle k USING(id_koktajlu)
+    GROUP BY (id_koktajlu, nazwa)
+    ORDER BY AVG(ocena) DESC;
+
+CREATE OR REPLACE FUNCTION koktajl_bar.random_koktajl() RETURNS TABLE (
+ id INTEGER,
+ koktajl VARCHAR(120),
+ skladnik VARCHAR(100),
+ ilosc koktajl_bar.ilosc,
+ miara VARCHAR(20),
+ instrukcja VARCHAR(1500)
+) AS $$
+DECLARE
+    high integer;
+    random_id integer;
+BEGIN
+    SELECT count(*)::integer INTO high FROM koktajl_bar.koktajle;
+    random_id := floor(random() * high) + 1;
+    RETURN QUERY SELECT * FROM koktajl_bar.przepisy WHERE id_koktajlu = random_id;
+END; $$
+language PLPGSQL;

@@ -25,8 +25,8 @@ async function fillAll() {
 fillAll();
 
 
-function fillMeasurements() {
-  Object.keys(measurements).map( async (measurement, index) => {
+async function fillMeasurements() {
+  await Object.keys(measurements).map( async (measurement, index) => {
     await db.any('INSERT INTO koktajl_bar.miary(id_miary, nazwa) VALUES($1, $2)', [index+1, measurement])
       .catch(function (error) {
         console.log('ERROR:', error)
@@ -34,8 +34,8 @@ function fillMeasurements() {
   });
 }
 
-function fillIngredients() {
-  Object.keys(ingredients).map(async (ing, index) => {
+async function fillIngredients() {
+  await Object.keys(ingredients).map(async (ing, index) => {
     await db.any('INSERT INTO koktajl_bar.skladniki(id_skladnika, nazwa) VALUES($1, $2)', [index+1, ing])
       .catch(function (error) {
         console.log('ERROR:', error)

@@ -59,11 +59,12 @@ const Cocktails = {
     });
   },
   top10Cocktails: async (req, res) => {
-    const top10Cocktails = await db.any('SELECT k.id_koktajlu, k.nazwa FROM koktajl_bar.koktajle k LIMIT 10;')
+    const top10Cocktails = await db.any('SELECT * FROM koktajl_bar.NazwyPoOcenach LIMIT 10;')
       .catch(error => console.log('ERROR:', error));
     res.json({cocktails: top10Cocktails});
   },
   randomCocktail: async (req, res) => {
+    // select * FROM random_koktajl();
     res.json({message: 'losowy koktajl'});
   },
   updateCocktail: async (req, res) => {
