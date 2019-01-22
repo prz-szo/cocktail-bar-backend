@@ -1,4 +1,4 @@
-INSERT INTO uzytkownik(email, haslo) values
+INSERT INTO koktajl_bar.uzytkownik(email, haslo) values
     ('prz@szo.com', '123'),
     ('pr@sz.com', '123'),
     ('p@s.com', '123'),
@@ -9,7 +9,7 @@ INSERT INTO uzytkownik(email, haslo) values
     ('pr@so.com', '123'),
     ('pr@o.com', '123');
 
-INSERT into oceny VALUES
+INSERT into koktajl_bar.oceny VALUES
     (1, 1, 9),
     (1, 2, 9),
     (1, 3, 9),
@@ -26,4 +26,13 @@ INSERT into oceny VALUES
     (2, 5, 8),
     (2, 6, 8),
     (2, 7, 8),
-    (2, 8, 8);
+    (2, 8, 8),
+
+    (13, 1, 8),
+    (13, 2, 2),
+    (13, 3, 3),
+    (13, 4, 7),
+    (13, 5, 4),
+    (13, 6, 6),
+    (13, 7, 5),
+    (13, 8, 0);

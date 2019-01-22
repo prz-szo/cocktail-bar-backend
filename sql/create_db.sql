@@ -167,13 +167,13 @@ CREATE VIEW koktajl_bar.Przepisy AS
         INNER JOIN koktajl_bar.miary m USING(id_miary);
 
 CREATE VIEW koktajl_bar.PrzepisyPoIlosciSkladnikow AS
-    SELECT k.id_koktajlu, k.nazwa AS koktajl, COUNT(*) AS ilosc_skladnikow FROM koktajle_skladniki k_s
-        INNER JOIN koktajle k USING(id_koktajlu)
+    SELECT k.id_koktajlu, k.nazwa AS koktajl, COUNT(*) AS ilosc_skladnikow FROM koktajl_bar.koktajle_skladniki k_s
+        INNER JOIN koktajl_bar.koktajle k USING(id_koktajlu)
         GROUP BY (k.id_koktajlu, k.nazwa)
         ORDER BY ilosc_skladnikow DESC, k.nazwa ASC;
 
 CREATE VIEW koktajl_bar.NazwyPoOcenach as
-    select id_koktajlu, nazwa, AVG(ocena) from oceny
+    select id_koktajlu, nazwa, AVG(ocena) from koktajl_bar.oceny
     INNER JOIN koktajl_bar.koktajle k USING(id_koktajlu)
     GROUP BY (id_koktajlu, nazwa)
     ORDER BY AVG(ocena) DESC;

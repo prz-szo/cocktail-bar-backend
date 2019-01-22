@@ -3,19 +3,18 @@ const router = express.Router();
 
 const Cocktails = require('../controllers/cocktails');
 
-// CREATE
-router.post('/', Cocktails.createCocktail);
+router.route('/')
+  .get(Cocktails.listAllCocktails)
+  .post(Cocktails.createCocktail);
 
-// READ
-router.get('/', Cocktails.listAllCocktails);
-router.get('/:id(\\d+)', Cocktails.cocktailDetail);
+router.route('/:id(\\d+)')
+  .get(Cocktails.cocktailDetail)
+  .put(Cocktails.updateCocktail)
+  .delete(Cocktails.deleteCocktail);
+
 router.get('/top10', Cocktails.top10Cocktails);
+
 router.get('/random', Cocktails.randomCocktail);
 
-// UPDATE
-router.put('/:id(\\d+)', Cocktails.updateCocktail);
-
-// DELETE
-router.delete('/:id', Cocktails.deleteCocktail);
 
 module.exports = router;
