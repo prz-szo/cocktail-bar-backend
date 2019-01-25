@@ -3,12 +3,17 @@ const should = chai.should();
 const chaiHttp = require('chai-http');
 const server = require('../../app');
 
+const pgp = require('pg-promise')();
+const db = pgp('postgres://pszopa:@localhost:5432/pszopa');
+
 chai.use(chaiHttp);
 const expect = chai.expect;
 
 
 describe('routes : cocktails', () => {
   const prefix = '/cocktails';
+  const cocktailId = 10;
+
   describe('GET Method', () => {
     describe('GET /', () => {
       it('should respond with all cocktails', (done) => {
@@ -29,7 +34,7 @@ describe('routes : cocktails', () => {
       });
     });
 
-    describe(`GET ${prefix} with QUERY_STRING`, () => {
+    describe(`GET / with QUERY_STRING`, () => {
       it('should respond with all cocktails that have exact number of ingredients', (done) => {
         chai.request(server)
           .get(`${prefix}?ingredients=4`)
@@ -98,10 +103,10 @@ describe('routes : cocktails', () => {
       });
     });
 
-    describe(`GET ${prefix}/:id`, () => {
+    describe(`GET /:id`, () => {
       it('should respond with specific cocktail details', (done) => {
         chai.request(server)
-          .get(`${prefix}/1`)
+          .get(`${prefix}/${cocktailId}`)
           .end((err, res) => {
             should.not.exist(err);
             res.status.should.equal(200);
@@ -153,7 +158,7 @@ describe('routes : cocktails', () => {
       });
     });
 
-    describe(`GET ${prefix}/top10`, () => {
+    describe(`GET /top10`, () => {
       it('should respond with top 10 most rated cocktails', (done) => {
         chai.request(server)
           .get(`${prefix}/top10`)
@@ -169,7 +174,7 @@ describe('routes : cocktails', () => {
       });
     });
 
-    describe(`GET ${prefix}/random`, () => {
+    describe(`GET /random`, () => {
       it('should respond with random cocktail detail', (done) => {
         let cocktail1;
         chai.request(server)
@@ -200,16 +205,31 @@ describe('routes : cocktails', () => {
     });
   });
 
-  describe('POST Method', () => {
+  describe.skip('POST Method', () => {
     describe('POST /', () => {
-      it.skip('should respond with all cocktails', (done) => {
+      it('should respond with added cocktail id', (done) => {
         chai.request(server)
           .post(`${prefix}`)
           .end((err, res) => {
             should.not.exist(err);
             res.status.should.equal(200);
             res.type.should.equal('application/json');
-            res.body.message.should.eql('Stworzenie nowego koktajlu');
+            res.body.cocktail.should.not.be.undefined;
+            res.body.cocktail.should.include.keys('id');
+            done();
+          });
+      });
+
+      it('should respond with error due to not unique name', (done) => {
+        chai.request(server)
+          .post(`${prefix}`)
+          .end((err, res) => {
+            should.not.exist(err);
+            res.status.should.equal(200);
+            res.type.should.equal('application/json');
+            res.body.cocktail.should.be.undefined;
+            res.body.message.should.not.be.undefined;
+            res.body.message.should.equal('There is already addded cocktail with such name');
             done();
           });
       });
@@ -233,15 +253,52 @@ describe('routes : cocktails', () => {
   });
 
   describe('DELETE Method', () => {
-    describe('DELETE /:id', () => {
-      it.skip('should respond with all cocktails', (done) => {
+    let testCocktail;
+
+    before(async () => {
+      const data = await db.any('SELECT * FROM koktajl_bar.Przepisy WHERE id_koktajlu = $1;', cocktailId)
+        .catch(error => console.log('ERROR:', error));
+
+      testCocktail = {
+        id: data[0].id_koktajlu,
+        name: data[0].koktajl,
+        recipe: data[0].tresc_instrukcji,
+        ingredients: data.map(s => ({
+          name: s.skladnik,
+          amount: s.ilosc,
+          measure: s.miara
+        }))
+      };
+    });
+
+    after(async () => {
+      await db.any('SELECT * FROM koktajl_bar.dodaj_koktajl_uzytkownika(1, ${name}, ${recipe}, ${ingredients});', testCocktail)
+        .catch(error => console.log('ERROR:', error));
+    });
+
+    describe('#DELETE /:id', () => {
+      it('should respond with already removed cocktail', (done) => {
         chai.request(server)
-          .delete(`${prefix}/1`)
+          .delete(`${prefix}/${cocktailId}`)
           .end((err, res) => {
             should.not.exist(err);
             res.status.should.equal(200);
             res.type.should.equal('application/json');
-            res.body.message.should.eql('Usuniecie koktajlu');
+            res.body.message.should.not.be.undefined;
+            res.body.message.should.eql('Removed');
+            done();
+          });
+      });
+
+      it('should respond with message There is no such cocktail', (done) => {
+        chai.request(server)
+          .delete(`${prefix}/${cocktailId}`)
+          .end((err, res) => {
+            should.not.exist(err);
+            res.status.should.equal(200);
+            res.type.should.equal('application/json');
+            res.body.message.should.not.be.undefined;
+            res.body.message.should.eql('Nothing has been removed');
             done();
           });
       });

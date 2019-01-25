@@ -32,6 +32,8 @@ async function fillMeasurements() {
         console.log('ERROR:', error)
       });
   });
+
+  db.any('ALTER SEQUENCE koktajl_bar.miary_id_miary_seq  RESTART WITH $1;', Object.keys(measurements).length + 1);
 }
 
 async function fillIngredients() {
@@ -41,6 +43,8 @@ async function fillIngredients() {
         console.log('ERROR:', error)
       });
   });
+
+  db.any('ALTER SEQUENCE koktajl_bar.skladniki_id_skladnika_seq  RESTART WITH $1;', Object.keys(ingredients).length + 1);
 }
 
 async function fillRecipes() {
@@ -61,4 +65,6 @@ async function fillRecipes() {
         console.log('ERROR:', error)
       });
   });
+
+  db.any('ALTER SEQUENCE koktajl_bar.koktajle_id_koktajlu_seq  RESTART WITH $1;', Object.keys(recipes).length + 1);
 }

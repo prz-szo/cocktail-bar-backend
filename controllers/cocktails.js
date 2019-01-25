@@ -3,6 +3,16 @@ const pgp = require('pg-promise')();
 const db = pgp('postgres://pszopa:@localhost:5432/pszopa');
 
 
+const MESSAGES = {
+  ERRORS: {
+    INVALID_REQUEST_DATA: 'Invalid request data',
+  },
+  DELETE: {
+    REMOVED: 'Removed',
+    NOTHING_REMOVED: 'Nothing has been removed'
+  }
+};
+
 const queryTypes = {
   ingredients: 'ingredients',
   name: 'name',
@@ -20,7 +30,7 @@ const schemaParams = Joi.object().keys({
 });
 
 const schemaBody = Joi.object().keys({
-  id: Joi.number().positive().required(),
+  id: Joi.number().positive().optional(),
   name: Joi.string().min(1, 'utf-8').max(120, 'utf-8').required(),
   recipe: Joi.string().min(1, 'utf-8').max(1500, 'utf-8').required(),
   ingredients: Joi.array().items(
@@ -33,19 +43,16 @@ const schemaBody = Joi.object().keys({
 });
 
 const Cocktails = {
-  // Wszystkie: SELECT k.id_koktajlu, k.nazwa FROM koktajle k;
-  // kursor? paginacja?
-  // Po ilosci skladnikow: SELECT * FROM koktajl_bar.PrzepisyPoIlosciSkladnikow;
-  //
   listAllCocktails: async (req, res) => Joi.validate(req.query, schemaQuery, async (err, value) => {
     if (err) {
-      res.status(422).json({ message: 'Invalid request data' });
+      res.status(422).json({ message: MESSAGES.ERRORS.INVALID_REQUEST_DATA });
     } else {
       switch (Object.keys(value)[0]) {
         case queryTypes.ingredients:
-          let cocktailsByIngredients = await db.any('SELECT id_koktajlu, koktajl FROM koktajl_bar.przepisypoilosciskladnikow WHERE ilosc_skladnikow = $1;', value.ingredients)
+          let cocktailsByIngredients = await db.any('SELECT id_koktajlu, koktajl FROM koktajl_bar.przepisy_po_ilosci_skladnikow WHERE ilosc_skladnikow = ${ingredients};', value)
             .catch(error => console.log('ERROR:', error));
-          res.json({cocktails: cocktailsByIngredients});
+
+          res.json({ cocktails: cocktailsByIngredients });
           break;
 
         case queryTypes.name:
@@ -62,23 +69,22 @@ const Cocktails = {
               measure: s.miara
             }))
           };
-          res.json({cocktail});
+          res.json({ cocktail });
           break;
 
         case queryTypes.bar:
         case queryTypes.marks:
         default:
-          let cocktails = await db.any('SELECT k.id_koktajlu, k.nazwa FROM koktajl_bar.koktajle k;')
+          // Wszystkie: SELECT k.id_koktajlu, k.nazwa FROM koktajle k; kursor? paginacja? 7.6. LIMIT and OFFSET
+          db.any('SELECT k.id_koktajlu, k.nazwa FROM koktajl_bar.koktajle k;')
+            .then(cocktails => res.json({ cocktails }))
             .catch(error => console.log('ERROR:', error));
-          res.json({cocktails});
       }
     }
   }),
   cocktailDetail: async (req, res) => Joi.validate(req.params, schemaParams, async (err, value) => {
     if (err) {
-      res.status(422).json({
-        message: 'Invalid request data'
-      });
+      res.status(422).json({ message: MESSAGES.ERRORS.INVALID_REQUEST_DATA });
     } else {
       const data = await db.any('SELECT * FROM koktajl_bar.Przepisy WHERE id_koktajlu = ${id};', value)
         .catch(error => console.log('ERROR:', error));
@@ -93,16 +99,14 @@ const Cocktails = {
           measure: s.miara
         }))
       };
-      res.json({cocktail});
+      res.json({ cocktail });
     }
   }),
-  top10Cocktails: async (req, res) => {
-    const top10Cocktails = await db.any('SELECT * FROM koktajl_bar.NazwyPoOcenach LIMIT 10;')
-      .catch(error => console.log('ERROR:', error));
-    res.json({cocktails: top10Cocktails});
-  },
+  top10Cocktails: (req, res) => db.any('SELECT * FROM koktajl_bar.nazwy_po_ocenach LIMIT 10;')
+    .then(cocktails => res.json({ cocktails }))
+    .catch(error => console.log('ERROR:', error)),
   randomCocktail: async (req, res) => {
-    const data = await db.any('select * FROM koktajl_bar.random_koktajl();')
+    const data = await db.any('select * FROM koktajl_bar.losowy_koktajl();')
       .catch(error => console.log('ERROR:', error));
     const cocktail = {
       id: data[0].id,
@@ -114,36 +118,43 @@ const Cocktails = {
         measure: s.miara
       }))
     };
-    res.json({cocktail});
+    res.json({ cocktail });
   },
   createCocktail: async (req, res) => Joi.validate(req.body, schemaBody, async (err, value) => {
     if (err) {
-      res.status(422).json({
-        message: 'Invalid request data'
-      });
+      res.status(422).json({ message: MESSAGES.ERRORS.INVALID_REQUEST_DATA });
     } else {
-      // const data = await db.any('SELECT k.id_koktajlu, k.nazwa FROM koktajl_bar.koktajle k;')
+      // await db.one('SELECT * FROM koktajl_bar.dodaj_koktajl_uzytkownika(1, ${name}, ${recipe}, ${ingredients});', testCocktail)
       //   .catch(error => console.log('ERROR:', error));
-      // res.json({cocktails: data});
-      res.json({message: `Update koktajlu ${value}`})
+
+      const data = await db.one('SELECT * FROM koktajl_bar.dodaj_koktajl_uzytkownika(1, ${name}, ${recipe}, ${ingredients:json});', value)
+        .catch(error => console.error(error));
+
+      res.json({ cocktail: data });
     }
   }),
   updateCocktail: async (req, res) => Joi.validate(req.body, schemaBody, async (err, value) => {
     if (err) {
-      res.status(422).json({ message: 'Invalid request data' });
+      res.status(422).json({ message: MESSAGES.ERRORS.INVALID_REQUEST_DATA });
     } else {
-      // const data = await db.any('SELECT k.id_koktajlu, k.nazwa FROM koktajl_bar.koktajle k;')
-      //   .catch(error => console.log('ERROR:', error));
-      // res.json({cocktails: data});
-      res.json({message: `Update koktajlu ${value}`})
+      const data = await db.one('SELECT * FROM aktualizuj_koktajl(${id}, ${name}, ${recipe}, ${ingredients});', value)
+        .catch(error => console.log('ERROR:', error));
+
+      res.json({ cocktail: data });
     }
   }),
   deleteCocktail: async (req, res) => Joi.validate(req.params, schemaParams, async (err, value) => {
     if (err) {
-      res.status(422).json({ message: 'Invalid request data' });
+      res.status(422).json({ message: MESSAGES.ERRORS.INVALID_REQUEST_DATA });
     } else {
-      // DELETE
-      res.json({cocktail});
+      const data = await db.one('SELECT * FROM koktajl_bar.usun_koktajl_uzytkownika(${id})', value)
+        .catch(error => console.log('ERROR:', error));
+
+      res.json({
+        message: data.usun_koktajl_uzytkownika > 0
+          ? MESSAGES.DELETE.REMOVED
+          : MESSAGES.DELETE.NOTHING_REMOVED
+      });
     }
   })
 };

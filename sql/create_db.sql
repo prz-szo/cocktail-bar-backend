@@ -166,19 +166,20 @@ CREATE VIEW koktajl_bar.Przepisy AS
         INNER JOIN koktajl_bar.skladniki s USING(id_skladnika)
         INNER JOIN koktajl_bar.miary m USING(id_miary);
 
-CREATE VIEW koktajl_bar.PrzepisyPoIlosciSkladnikow AS
+CREATE VIEW koktajl_bar.przepisy_po_ilosci_skladnikow AS
     SELECT k.id_koktajlu, k.nazwa AS koktajl, COUNT(*) AS ilosc_skladnikow FROM koktajl_bar.koktajle_skladniki k_s
         INNER JOIN koktajl_bar.koktajle k USING(id_koktajlu)
         GROUP BY (k.id_koktajlu, k.nazwa)
         ORDER BY ilosc_skladnikow DESC, k.nazwa ASC;
 
-CREATE VIEW koktajl_bar.NazwyPoOcenach as
+CREATE VIEW koktajl_bar.nazwy_po_ocenach as
     select id_koktajlu, nazwa, AVG(ocena) from koktajl_bar.oceny
     INNER JOIN koktajl_bar.koktajle k USING(id_koktajlu)
     GROUP BY (id_koktajlu, nazwa)
     ORDER BY AVG(ocena) DESC;
 
-CREATE OR REPLACE FUNCTION koktajl_bar.random_koktajl() RETURNS TABLE (
+
+CREATE OR REPLACE FUNCTION koktajl_bar.losowy_koktajl() RETURNS TABLE (
  id INTEGER,
  koktajl VARCHAR(120),
  skladnik VARCHAR(100),
@@ -193,5 +194,50 @@ BEGIN
     SELECT count(*)::integer INTO high FROM koktajl_bar.koktajle;
     random_id := floor(random() * high) + 1;
     RETURN QUERY SELECT * FROM koktajl_bar.przepisy WHERE id_koktajlu = random_id;
+END; $$
+language PLPGSQL;
+
+
+CREATE OR REPLACE FUNCTION koktajl_bar.usun_koktajl_uzytkownika(id_do_usuniecia INTEGER) RETURNS BIGINT AS $$
+    DELETE FROM koktajl_bar.koktajle_uzytkownicy WHERE id_koktajlu = id_do_usuniecia;
+    DELETE FROM koktajl_bar.oceny WHERE id_koktajlu = id_do_usuniecia;
+    WITH deleted as (
+        DELETE FROM koktajl_bar.koktajle WHERE id_koktajlu = id_do_usuniecia RETURNING *
+       ) SELECT COUNT(*) FROM deleted;
+$$ LANGUAGE SQL;
+
+
+CREATE OR REPLACE FUNCTION koktajl_bar.dodaj_koktajl_uzytkownika(id_usera INTEGER, _nazwa VARCHAR(120), _tresc_instrukcji VARCHAR(1500), _skladniki JSON) RETURNS INTEGER AS $$
+DECLARE
+    _id_koktajlu INTEGER;
+
+    _id_skladnika INTEGER;
+    _id_miary SMALLINT;
+
+    skladnik record;
+BEGIN
+    IF EXISTS (SELECT * FROM koktajl_bar.koktajle k WHERE k.nazwa = _nazwa) THEN
+        RAISE EXCEPTION 'There is already existing cocktail with the provided name'
+            USING HINT = 'Please provide another name';
+    END IF;
+
+    IF json_array_length(_skladniki) = 0 THEN
+        RAISE EXCEPTION 'There is no ingredients in the providing recipe'
+            USING HINT = 'Please provide at least one ingredient';
+    END IF;
+
+
+    INSERT INTO koktajl_bar.koktajle(nazwa, tresc_instrukcji) VALUES(_nazwa, _tresc_instrukcji) RETURNING id_koktajlu INTO _id_koktajlu;
+    INSERT INTO koktajl_bar.koktajle_uzytkownicy VALUES(_id_koktajlu, id_usera);
+
+    FOR skladnik IN (SELECT * FROM json_to_recordset(_skladniki) AS skladnik(name VARCHAR(100), amount NUMERIC(6,2), measure VARCHAR(20)))
+    LOOP
+        select id_skladnika from koktajl_bar.skladniki where nazwa = skladnik.name INTO _id_skladnika;
+        select id_miary from koktajl_bar.miary where nazwa = skladnik.measure INTO _id_miary;
+
+        INSERT INTO koktajl_bar.koktajle_skladniki VALUES(_id_koktajlu, _id_skladnika, skladnik.amount, _id_miary);
+    END LOOP;
+
+    RETURN _id_koktajlu;
 END; $$
 language PLPGSQL;
