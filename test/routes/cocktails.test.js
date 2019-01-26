@@ -3,16 +3,18 @@ const should = chai.should();
 const chaiHttp = require('chai-http');
 const server = require('../../app');
 
-const pgp = require('pg-promise')();
-const db = pgp('postgres://pszopa:@localhost:5432/pszopa');
+const pgp = require('pg-promise')({ schema: 'koktajl_bar' });
 
 chai.use(chaiHttp);
 const expect = chai.expect;
+
+const now = new Date();
 
 
 describe('routes : cocktails', () => {
   const prefix = '/cocktails';
   const cocktailId = 10;
+  let db = pgp('postgres://pszopa:@localhost:5432/pszopa');
 
   describe('GET Method', () => {
     describe('GET /', () => {
@@ -35,71 +37,75 @@ describe('routes : cocktails', () => {
     });
 
     describe(`GET / with QUERY_STRING`, () => {
-      it('should respond with all cocktails that have exact number of ingredients', (done) => {
-        chai.request(server)
-          .get(`${prefix}?ingredients=4`)
-          .end((err, res) => {
-            should.not.exist(err);
-            res.status.should.equal(200);
-            res.type.should.equal('application/json');
-            res.body.cocktails.should.not.be.undefined;
-            res.body.cocktails.length.should.greaterThan(0);
-            res.body.cocktails.map(cocktail => cocktail.should.include.keys('id_koktajlu', 'koktajl'));
-            done();
-          });
+      describe('?ingredients', () => {
+        it('should respond with all cocktails that have exact number of ingredients', (done) => {
+          chai.request(server)
+            .get(`${prefix}?ingredients=4`)
+            .end((err, res) => {
+              should.not.exist(err);
+              res.status.should.equal(200);
+              res.type.should.equal('application/json');
+              res.body.cocktails.should.not.be.undefined;
+              res.body.cocktails.length.should.greaterThan(0);
+              res.body.cocktails.map(cocktail => cocktail.should.include.keys('id_koktajlu', 'koktajl'));
+              done();
+            });
+        });
+
+        it('should respond with error 422', (done) => {
+          chai.request(server)
+            .get(`${prefix}?ingredients=0`)
+            .end((err, res) => {
+              should.not.exist(err);
+              res.status.should.equal(422);
+              res.type.should.equal('application/json');
+              res.body.message.should.not.be.undefined;
+              res.body.message.should.eql('Invalid request data');
+              done();
+            });
+        });
       });
 
-      it('should respond with error 422', (done) => {
-        chai.request(server)
-          .get(`${prefix}?ingredients=0`)
-          .end((err, res) => {
-            should.not.exist(err);
-            res.status.should.equal(422);
-            res.type.should.equal('application/json');
-            res.body.message.should.not.be.undefined;
-            res.body.message.should.equal('Invalid request data');
-            done();
-          });
-      });
+      describe('?name', () => {
+        it('should respond with cocktail detail', (done) => {
+          chai.request(server)
+            .get(`${prefix}?name=Allegheny`)
+            .end((err, res) => {
+              should.not.exist(err);
+              res.status.should.equal(200);
+              res.type.should.equal('application/json');
+              res.body.cocktail.should.not.be.undefined;
+              res.body.cocktail.should.include.keys('id', 'name', 'recipe', 'ingredients');
+              res.body.cocktail.ingredients.map(ing => ing.should.include.keys('name', 'amount', 'measure'));
+              done();
+            });
+        });
 
-      it('should respond with cocktail detail', (done) => {
-        chai.request(server)
-          .get(`${prefix}?name=Allegheny`)
-          .end((err, res) => {
-            should.not.exist(err);
-            res.status.should.equal(200);
-            res.type.should.equal('application/json');
-            res.body.cocktail.should.not.be.undefined;
-            res.body.cocktail.should.include.keys('id', 'name', 'recipe', 'ingredients');
-            res.body.cocktail.ingredients.map(ing => ing.should.include.keys('name', 'amount', 'measure'));
-            done();
-          });
-      });
+        it('should properly decode cocktail name and respond with cocktail detail', (done) => {
+          chai.request(server)
+            .get(`${prefix}?name=Affinity%20Cocktail`)
+            .end((err, res) => {
+              should.not.exist(err);
+              res.status.should.equal(200);
+              res.type.should.equal('application/json');
+              res.body.cocktail.should.not.be.undefined;
+              res.body.cocktail.should.include.keys('id', 'name', 'recipe', 'ingredients');
+              res.body.cocktail.ingredients.map(ing => ing.should.include.keys('name', 'amount', 'measure'));
+              done();
+            });
+        });
 
-      it('should properly decode cocktail name and respond with cocktail detail', (done) => {
-        chai.request(server)
-          .get(`${prefix}?name=Affinity%20Cocktail`)
-          .end((err, res) => {
-            should.not.exist(err);
-            res.status.should.equal(200);
-            res.type.should.equal('application/json');
-            res.body.cocktail.should.not.be.undefined;
-            res.body.cocktail.should.include.keys('id', 'name', 'recipe', 'ingredients');
-            res.body.cocktail.ingredients.map(ing => ing.should.include.keys('name', 'amount', 'measure'));
-            done();
-          });
-      });
-
-      it.skip('should respond with empty message cocktail not found', (done) => {
-        chai.request(server)
-          .get(`${prefix}?name=qwerty123qweqweqwe`)
-          .end((err, res) => {
-            should.not.exist(err);
-            res.status.should.equal(200);
-            res.type.should.equal('application/json');
-            res.body.cocktail.should.be.undefined;
-            done();
-          });
+        it('should respond with message cocktail not found', (done) => {
+          chai.request(server)
+            .get(`${prefix}?name=qwerty123qweqweqwe`)
+            .end((err, res) => {
+              should.not.exist(err);
+              res.status.should.equal(200);
+              res.type.should.equal('application/json');
+              res.body.should.not.include.keys('cocktail');
+              done();
+            });
+        });
       });
     });
 
@@ -118,22 +124,22 @@ describe('routes : cocktails', () => {
           });
       });
 
-      it('should respond with en error 422', (done) => {
+      it('should respond with message: Not found specific cocktail', (done) => {
         chai.request(server)
-          .get(`${prefix}/0`)
+          .get(`${prefix}/1000000000000`)
           .end((err, res) => {
             should.not.exist(err);
-            res.status.should.equal(422);
+            res.status.should.equal(200);
             res.type.should.equal('application/json');
             res.body.message.should.not.be.undefined;
-            res.body.message.should.equal('Invalid request data');
+            res.body.message.should.equal('Not found specific cocktail');
             done();
           });
       });
 
-      it.skip('should respond with en error 422', (done) => {
+      it('should respond with en error 422', (done) => {
         chai.request(server)
-          .get(`${prefix}/1000000000000`)
+          .get(`${prefix}/0`)
           .end((err, res) => {
             should.not.exist(err);
             res.status.should.equal(422);
@@ -168,7 +174,7 @@ describe('routes : cocktails', () => {
             res.type.should.equal('application/json');
             res.body.cocktails.should.not.be.undefined;
             res.body.cocktails.length.should.lessThan(11);
-            res.body.cocktails.map(cocktail => cocktail.should.include.keys('id_koktajlu', 'nazwa', 'avg'));
+            res.body.cocktails.map(cocktail => cocktail.should.include.keys('id_koktajlu', 'nazwa', 'srednia_ocen'));
             done();
           });
       });
@@ -197,7 +203,7 @@ describe('routes : cocktails', () => {
                 res.body.cocktail.should.not.be.undefined;
                 res.body.cocktail.should.include.keys('id', 'name', 'recipe', 'ingredients');
                 res.body.cocktail.ingredients.map(ing => ing.should.include.keys('name', 'amount', 'measure'));
-                res.body.cocktail.should.not.equal(cocktail1);
+                res.body.cocktail.should.not.eql(cocktail1);
                 done();
               });
           });
@@ -205,11 +211,34 @@ describe('routes : cocktails', () => {
     });
   });
 
-  describe.skip('POST Method', () => {
+  describe('POST Method', () => {
+    const cocktailToAdd = {
+      name: `Cocktail ${now.toISOString()}`,
+      recipe: 'Fill glass with ice. Add vermouths. Add club soda and stir. Add lemon twist.',
+      ingredients: [
+        {
+          name: 'dry vermouth',
+          amount: 45,
+          measure: 'ml'
+        },
+        {
+          name: 'sweet vermouth',
+          amount: '45.00',
+          measure: 'ml'
+        },
+        {
+          name: 'club soda',
+          amount: 120,
+          measure: 'ml'
+        }
+      ]
+    };
+
     describe('POST /', () => {
       it('should respond with added cocktail id', (done) => {
         chai.request(server)
           .post(`${prefix}`)
+          .send(cocktailToAdd)
           .end((err, res) => {
             should.not.exist(err);
             res.status.should.equal(200);
@@ -223,29 +252,111 @@ describe('routes : cocktails', () => {
       it('should respond with error due to not unique name', (done) => {
         chai.request(server)
           .post(`${prefix}`)
+          .send(cocktailToAdd)
           .end((err, res) => {
             should.not.exist(err);
             res.status.should.equal(200);
             res.type.should.equal('application/json');
-            res.body.cocktail.should.be.undefined;
             res.body.message.should.not.be.undefined;
-            res.body.message.should.equal('There is already addded cocktail with such name');
+            res.body.message.should.eql('Please provide another name');
             done();
           });
+      });
+
+      describe('Invalid request', () => {
+        it('# no name provided', (done) => {
+          chai.request(server)
+            .post(`${prefix}`)
+            .send({ ...cocktailToAdd, name: "" })
+            .end((err, res) => {
+              should.not.exist(err);
+              res.status.should.equal(422);
+              res.type.should.equal('application/json');
+              res.body.message.should.not.be.undefined;
+              res.body.message.should.equal('Invalid request data');
+              done();
+            });
+        });
+
+        it('# name too long', (done) => {
+          chai.request(server)
+            .post(`${prefix}`)
+            .send({ ...cocktailToAdd, name: "123".repeat(41) })
+            .end((err, res) => {
+              should.not.exist(err);
+              res.status.should.equal(422);
+              res.type.should.equal('application/json');
+              res.body.message.should.not.be.undefined;
+              res.body.message.should.equal('Invalid request data');
+              done();
+            });
+        });
+
+        it('# no recipe provided', (done) => {
+          chai.request(server)
+            .post(`${prefix}`)
+            .send({ ...cocktailToAdd, recipe: "" })
+            .end((err, res) => {
+              should.not.exist(err);
+              res.status.should.equal(422);
+              res.type.should.equal('application/json');
+              res.body.message.should.not.be.undefined;
+              res.body.message.should.equal('Invalid request data');
+              done();
+            });
+        });
+
+        it('# no ingredients provided', (done) => {
+          chai.request(server)
+            .post(`${prefix}`)
+            .send({ ...cocktailToAdd, ingredients: [] })
+            .end((err, res) => {
+              should.not.exist(err);
+              res.status.should.equal(422);
+              res.type.should.equal('application/json');
+              res.body.message.should.not.be.undefined;
+              res.body.message.should.equal('Invalid request data');
+              done();
+            });
+        });
       });
     });
   });
 
   describe('PUT Method', () => {
+    const cocktailToUpdate = {
+      id: cocktailId,
+      name: `Cocktail ${now.toDateString()}`,
+      recipe: 'Add vermouths.',
+      ingredients: [
+        {
+          name: 'dry vermouth',
+          amount: 45,
+          measure: 'ml'
+        },
+        {
+          name: 'sweet vermouth',
+          amount: '45.00',
+          measure: 'ml'
+        },
+        {
+          name: 'club soda',
+          amount: 120,
+          measure: 'ml'
+        }
+      ]
+    };
+
     describe('PUT /:id', () => {
-      it.skip('should respond with all cocktails', (done) => {
+      it('should respond with message', (done) => {
         chai.request(server)
-          .put(`${prefix}/1`)
+          .put(`${prefix}/${cocktailId}`)
+          .send(cocktailToUpdate)
           .end((err, res) => {
             should.not.exist(err);
             res.status.should.equal(200);
             res.type.should.equal('application/json');
-            res.body.message.should.eql('Update koktajlu 1');
+            res.body.message.should.eql(`Updated ${cocktailId}`);
             done();
           });
       });
@@ -272,11 +383,13 @@ describe('routes : cocktails', () => {
     });
 
     after(async () => {
-      await db.any('SELECT * FROM koktajl_bar.dodaj_koktajl_uzytkownika(1, ${name}, ${recipe}, ${ingredients});', testCocktail)
+      await db.any('INSERT INTO koktajle(id_koktajlu, nazwa, tresc_instrukcji) VALUES(${id}, ${name}, ${recipe})', testCocktail)
+        .catch(error => console.log('ERROR:', error));
+      await db.any('SELECT * FROM aktualizuj_koktajl(${id}, ${name}, ${recipe}, ${ingredients:json});', testCocktail)
         .catch(error => console.log('ERROR:', error));
     });
 
-    describe('#DELETE /:id', () => {
+    describe('DELETE /:id', () => {
       it('should respond with already removed cocktail', (done) => {
         chai.request(server)
           .delete(`${prefix}/${cocktailId}`)
