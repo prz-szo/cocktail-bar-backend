@@ -376,10 +376,9 @@ RETURNS BOOLEAN AS $$
 DECLARE
     flag BOOLEAN;
 BEGIN
-
     IF NOT EXISTS (select * from koktajl_bar.skladniki where id_skladnika = _id_skladnika) THEN
-        RAISE EXCEPTION 'Provided ingredient name is empty'
-            USING HINT = 'Provided ingredient name is empty.';
+        RAISE EXCEPTION 'Provided ingredient does not exist'
+            USING HINT = 'Provided ingredient does not exist.';
     END IF;
 
     IF NOT EXISTS (SELECT * FROM koktajl_bar.uzytkownik u WHERE u.id_uzytkownika = _id_uzytkownika) THEN
@@ -436,5 +435,44 @@ BEGIN
 
     RETURN QUERY SELECT *
         FROM koktajl_bar.barek_uzytkownika(_id_uzytkownika);
+END;
+$$ LANGUAGE PLPGSQL;
+
+-- Dodaj skladnik
+
+CREATE OR REPLACE FUNCTION koktajl_bar.dodaj_skladnik(_skladnik VARCHAR(100))
+RETURNS TABLE (
+ id INTEGER,
+ name VARCHAR(100)
+) AS $$
+BEGIN
+    IF char_length(_skladnik) = 0 THEN
+        RAISE EXCEPTION 'Provided ingredient name is empty'
+            USING HINT = 'Provided ingredient name is empty.';
+    END IF;
+
+    IF EXISTS (SELECT * FROM koktajl_bar.skladniki s WHERE s.nazwa = _skladnik) THEN
+        RAISE EXCEPTION 'Ingredient with provided name already exists'
+            USING HINT = 'Ingredient with provided name already exists.';
+    END IF;
+
+    insert into koktajl_bar.skladniki(nazwa) values(_skladnik);
+
+    RETURN QUERY select id_skladnika as id, nazwa as name from skladniki order by id;
+END;
+$$ LANGUAGE PLPGSQL;
+
+--- Usun skladnik
+
+CREATE OR REPLACE FUNCTION koktajl_bar.usun_skladnik(_id_skladnika integer)
+RETURNS boolean AS $$
+DECLARE
+    flag BOOLEAN;
+BEGIN
+    WITH deleted as (
+        DELETE FROM koktajl_bar.skladniki s WHERE s.id_skladnika = _id_skladnika
+        RETURNING *
+    ) SELECT COUNT(*) > 0 FROM deleted INTO flag;
+    RETURN flag;
 END;
 $$ LANGUAGE PLPGSQL;

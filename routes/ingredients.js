@@ -7,8 +7,7 @@ router.route('/')
   .get(IngredientsController.listAll)
   .post(IngredientsController.addProduct);
 
-router.route('/:id')
-  .put(IngredientsController.updateProduct)
+router.route('/:ingredientId')
   .delete(IngredientsController.deleteProduct);
 
 module.exports = router;

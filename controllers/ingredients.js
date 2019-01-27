@@ -14,54 +14,38 @@ const MESSAGES = {
 };
 
 const schemaParams = Joi.object().keys({
-  userId: Joi.number().integer().positive().required(),
-  ingredientId: Joi.number().integer().positive().optional()
+  ingredientId: Joi.number().integer().positive().required()
 });
 
-const schema = Joi.object().keys({
-  params: {
-    userId: Joi.number().integer().positive().required(),
-    ingredientId: Joi.number().integer().positive().optional()
-  },
-  body: {
-    ingredient: Joi.string().min(1, 'utf-8').max(100, 'utf-8').optional(),
-    amount: Joi.number().min(.01).max(9999.99).required(),
-    measure: Joi.string().min(1, 'utf-8').max(20, 'utf-8').required()
-  }
+const schemaBody = Joi.object().keys({
+  name: Joi.string().min(1, 'utf-8').max(100, 'utf-8').required()
 });
 
 
-const listAll = (req, res) => Validator(req.params, schemaParams, res, (value) => {
-  db.any('SELECT id, ingredient, amount::float, measure FROM barek_uzytkownika(${userId});', value)
-    .then(bar => res.json({ bar }))
+const listAll = (req, res) => {
+  db.any('select id_skladnika as id, nazwa as name from skladniki order by id;')
+    .then(ingredients => res.json({ ingredients }))
+    .catch(error => console.log('ERROR:', error));
+};
+
+const addProduct = (req, res) => Validator(req.body, schemaBody, res, value => {
+  db.any('select * from dodaj_skladnik(${name});', value)
+    .then(ingredients => res.json({ ingredients }))
     .catch(error => console.log('ERROR:', error))
 });
 
-const addProduct = (req, res) => Validator({ body: req.body, params: req.params }, schema, res,
-  (value) => db.any('select id, ingredient, amount::float, measure from dodaj_do_barku(${userId}, ${ingredient}, ${amount}, ${measure});', { ...value.body, ...value.params })
-    .then(bar => res.json({ bar }))
-    .catch(error => console.log('ERROR:', error))
-);
-
-const deleteProduct = (req, res) => Validator(req.params, schemaParams, res, value =>
-  db.one('SELECT * FROM usun_z_barku(${userId}, ${ingredientId});', value)
+const deleteProduct = (req, res) => Validator(req.params, schemaParams, res, value => {
+  db.one('SELECT * FROM usun_skladnik(${ingredientId});', value)
     .then(data => res.json({
-      message: data.usun_z_barku
+      message: data.usun_skladnik
         ? MESSAGES.DELETE.REMOVED
         : MESSAGES.DELETE.NOTHING_REMOVED
     }))
     .catch(error => console.log('ERROR:', error))
-);
-
-const updateProduct = (req, res) => Validator({ body: req.body, params: req.params }, schema, res,
-  value => db.any('select id, ingredient, amount::float, measure from aktualizuj_barek(${userId}, ${ingredientId}, ${amount}, ${measure});', { ...value.body, ...value.params })
-    .then(bar => res.json({ bar }))
-    .catch(error => console.log('ERROR:', error))
-);
+});
 
 module.exports = {
   listAll,
   addProduct,
-  deleteProduct,
-  updateProduct
+  deleteProduct
 };

@@ -22,9 +22,7 @@ describe('routes : bar', () => {
 
   before(() => {
     db.any('SELECT * FROM barek_uzytkownika(${userId});', { userId })
-      .then(data => {
-        barLength = data.length;
-      })
+      .then(data => barLength = data.length)
       .catch(error => console.error(error));
   });
 
@@ -68,7 +66,7 @@ describe('routes : bar', () => {
 
   describe('DELETE Method', () => {
     before(() => {
-      db.any('SELECT * FROM dodaj_do_barku(${userId}, ${ingredient}, ${amount}, ${measure})', {
+      db.any('SELECT * FROM dodaj_do_barku(${userId}, ${ingredient}, ${amount}, ${measure});', {
         userId,
         ...testIngredient
       }).catch(error => console.error(error));
