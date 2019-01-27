@@ -6,6 +6,7 @@ const logger = require('morgan');
 const indexRouter = require('./routes/index');
 const cocktailsRouter = require('./routes/cocktails');
 const ingredientsRouter = require('./routes/ingredients');
+const barRouter = require('./routes/bar');
 const loginRouter = require('./routes/login');
 
 const app = express();
@@ -19,9 +20,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/cocktails', cocktailsRouter);
 app.use('/ingredients', ingredientsRouter);
+app.use('/bar', barRouter);
 app.use('/login', loginRouter);
 
-// 404 && 500
 app.use((req, res) => {
   res.status(404).json({ message: '404 - Not Found' })
 });

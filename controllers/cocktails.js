@@ -1,6 +1,5 @@
 const Joi = require('joi');
-const pgp = require('pg-promise')({ schema: 'koktajl_bar' });
-const db = pgp('postgres://pszopa:@localhost:5432/pszopa');
+const db = require('../sql/db');
 
 
 const MESSAGES = {
@@ -51,27 +50,27 @@ const Cocktails = {
     } else {
       switch (Object.keys(value)[0]) {
         case queryTypes.ingredients:
-          let cocktailsByIngredients = await db.any('SELECT id_koktajlu, koktajl FROM przepisy_po_ilosci_skladnikow WHERE ilosc_skladnikow = ${ingredients};', value)
+          let cocktailsByIngredients = await db.any('SELECT id, name FROM przepisy_po_ilosci_skladnikow WHERE ingredients_number = ${ingredients};', value)
             .catch(error => console.log('ERROR:', error));
 
           res.json({ cocktails: cocktailsByIngredients });
           break;
 
         case queryTypes.name:
-          const data = await db.any('SELECT * FROM Przepisy WHERE koktajl = ${name};', value)
+          const data = await db.any('SELECT * FROM Przepisy WHERE name = ${name};', value)
             .catch(error => console.log('ERROR:', error));
 
           if (data.length === 0) {
             res.json({ message: 'No results' });
           } else {
             const cocktail = {
-              id: data[0].id_koktajlu,
-              name: data[0].koktajl,
-              recipe: data[0].tresc_instrukcji,
+              id: data[0].id,
+              name: data[0].name,
+              recipe: data[0].recipe,
               ingredients: data.map(s => ({
-                name: s.skladnik,
-                amount: s.ilosc,
-                measure: s.miara
+                name: s.ingredient,
+                amount: +s.amount,
+                measure: s.measure
               }))
             };
             res.json({ cocktail });
@@ -79,7 +78,7 @@ const Cocktails = {
           break;
 
         case queryTypes.mark:
-          db.any('SELECT * FROM nazwy_po_ocenach WHERE srednia_ocen <= ${mark};', value)
+          db.any('SELECT * FROM nazwy_po_ocenach WHERE avg_mark <= ${mark};', value)
             .then(cocktails => res.json({ cocktails }))
             .catch(error => console.log('ERROR:', error));
           break;
@@ -87,7 +86,7 @@ const Cocktails = {
         case queryTypes.bar:
         default:
           // Wszystkie: SELECT k.id_koktajlu, k.nazwa FROM koktajle k; kursor? paginacja? 7.6. LIMIT and OFFSET
-          db.any('SELECT k.id_koktajlu, k.nazwa FROM koktajle k;')
+          db.any('SELECT k.id_koktajlu AS id, k.nazwa AS name FROM koktajle k;')
             .then(cocktails => res.json({ cocktails }))
             .catch(error => console.log('ERROR:', error));
       }
@@ -97,27 +96,27 @@ const Cocktails = {
     if (err) {
       res.status(422).json({ message: MESSAGES.ERRORS.INVALID_REQUEST_DATA });
     } else {
-      const data = await db.any('SELECT * FROM Przepisy WHERE id_koktajlu = ${id};', value)
+      const data = await db.any('SELECT * FROM Przepisy WHERE id = ${id};', value)
         .catch(error => console.log('ERROR:', error));
 
       if (data.length === 0) {
         res.status(200).json({ message: 'Not found specific cocktail' })
       } else {
         const cocktail = {
-          id: data[0].id_koktajlu,
-          name: data[0].koktajl,
-          recipe: data[0].tresc_instrukcji,
+          id: data[0].id,
+          name: data[0].name,
+          recipe: data[0].recipe,
           ingredients: data.map(s => ({
-            name: s.skladnik,
-            amount: s.ilosc,
-            measure: s.miara
+            name: s.ingredient,
+            amount: +s.amount,
+            measure: s.measure
           }))
         };
         res.json({ cocktail });
       }
     }
   }),
-  top10Cocktails: (req, res) => db.any('SELECT * FROM nazwy_po_ocenach LIMIT 10;')
+  top10Cocktails: (req, res) => db.any('SELECT id, name, avg_mark::numeric(6,2) FROM nazwy_po_ocenach LIMIT 10;')
     .then(cocktails => res.json({ cocktails }))
     .catch(error => console.log('ERROR:', error)),
   randomCocktail: async (req, res) => {
@@ -125,12 +124,12 @@ const Cocktails = {
       .catch(error => console.log('ERROR:', error));
     const cocktail = {
       id: data[0].id,
-      name: data[0].koktajl,
-      recipe: data[0].instrukcja,
+      name: data[0].name,
+      recipe: data[0].recipe,
       ingredients: data.map(s => ({
-        name: s.skladnik,
-        amount: s.ilosc,
-        measure: s.miara
+        name: s.ingredient,
+        amount: +s.amount,
+        measure: s.measure
       }))
     };
     res.json({ cocktail });
@@ -163,9 +162,9 @@ const Cocktails = {
     if (err) {
       res.status(422).json({ message: MESSAGES.ERRORS.INVALID_REQUEST_DATA });
     } else {
-      db.one('SELECT * FROM usun_koktajl_uzytkownika(${id}) AS liczba;', value)
+      db.one('SELECT * FROM usun_koktajl_uzytkownika(${id}) AS did_delete;', value)
         .then(data => res.json({
-          message: data.liczba > 0
+          message: data.did_delete
             ? MESSAGES.DELETE.REMOVED
             : MESSAGES.DELETE.NOTHING_REMOVED
         }))

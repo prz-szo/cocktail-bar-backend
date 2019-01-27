@@ -2,11 +2,10 @@ const chai = require('chai');
 const should = chai.should();
 const chaiHttp = require('chai-http');
 const server = require('../../app');
-
-const pgp = require('pg-promise')({ schema: 'koktajl_bar' });
-
 chai.use(chaiHttp);
-const expect = chai.expect;
+
+const db = require('../../sql/db');
+
 
 const now = new Date();
 
@@ -14,7 +13,6 @@ const now = new Date();
 describe('routes : cocktails', () => {
   const prefix = '/cocktails';
   const cocktailId = 10;
-  let db = pgp('postgres://pszopa:@localhost:5432/pszopa');
 
   describe('GET Method', () => {
     describe('GET /', () => {
@@ -27,10 +25,7 @@ describe('routes : cocktails', () => {
             res.type.should.equal('application/json');
             res.body.cocktails.should.not.be.undefined;
             res.body.cocktails.length.should.greaterThan(0);
-            res.body.cocktails.map(cocktail => {
-              expect(cocktail).to.have.property('id_koktajlu');
-              expect(cocktail).to.have.property('nazwa');
-            });
+            res.body.cocktails.map(cocktail => cocktail.should.include.keys('id', 'name'));
             done();
           });
       });
@@ -47,7 +42,7 @@ describe('routes : cocktails', () => {
               res.type.should.equal('application/json');
               res.body.cocktails.should.not.be.undefined;
               res.body.cocktails.length.should.greaterThan(0);
-              res.body.cocktails.map(cocktail => cocktail.should.include.keys('id_koktajlu', 'koktajl'));
+              res.body.cocktails.map(cocktail => cocktail.should.include.keys('id', 'name'));
               done();
             });
         });
@@ -174,7 +169,7 @@ describe('routes : cocktails', () => {
             res.type.should.equal('application/json');
             res.body.cocktails.should.not.be.undefined;
             res.body.cocktails.length.should.lessThan(11);
-            res.body.cocktails.map(cocktail => cocktail.should.include.keys('id_koktajlu', 'nazwa', 'srednia_ocen'));
+            res.body.cocktails.map(cocktail => cocktail.should.include.keys('id', 'name', 'avg_mark'));
             done();
           });
       });
@@ -367,23 +362,23 @@ describe('routes : cocktails', () => {
     let testCocktail;
 
     before(async () => {
-      const data = await db.any('SELECT * FROM koktajl_bar.Przepisy WHERE id_koktajlu = $1;', cocktailId)
+      const data = await db.any('SELECT * FROM koktajl_bar.Przepisy WHERE id = $1;', cocktailId)
         .catch(error => console.log('ERROR:', error));
 
       testCocktail = {
-        id: data[0].id_koktajlu,
-        name: data[0].koktajl,
-        recipe: data[0].tresc_instrukcji,
+        id: data[0].id,
+        name: data[0].name,
+        recipe: data[0].recipe,
         ingredients: data.map(s => ({
-          name: s.skladnik,
-          amount: s.ilosc,
-          measure: s.miara
+          name: s.ingredient,
+          amount: +s.amount,
+          measure: s.measure
         }))
       };
     });
 
     after(async () => {
-      await db.any('INSERT INTO koktajle(id_koktajlu, nazwa, tresc_instrukcji) VALUES(${id}, ${name}, ${recipe})', testCocktail)
+      await db.any('INSERT INTO koktajle VALUES(${id}, ${name}, ${recipe})', testCocktail)
         .catch(error => console.log('ERROR:', error));
       await db.any('SELECT * FROM aktualizuj_koktajl(${id}, ${name}, ${recipe}, ${ingredients:json});', testCocktail)
         .catch(error => console.log('ERROR:', error));

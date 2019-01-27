@@ -161,31 +161,32 @@ ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
 CREATE VIEW koktajl_bar.Przepisy AS
-    SELECT k_s.id_koktajlu, k.nazwa AS koktajl, s.nazwa AS skladnik, k_s.ilosc, m.nazwa AS miara, k.tresc_instrukcji FROM koktajl_bar.koktajle_skladniki k_s
+    SELECT k_s.id_koktajlu AS id, k.nazwa AS name, s.nazwa AS ingredient, k_s.ilosc::numeric as amount, m.nazwa AS measure, k.tresc_instrukcji AS recipe FROM koktajl_bar.koktajle_skladniki k_s
         INNER JOIN koktajl_bar.koktajle k USING(id_koktajlu)
         INNER JOIN koktajl_bar.skladniki s USING(id_skladnika)
         INNER JOIN koktajl_bar.miary m USING(id_miary);
 
 CREATE VIEW koktajl_bar.przepisy_po_ilosci_skladnikow AS
-    SELECT k.id_koktajlu, k.nazwa AS koktajl, COUNT(*) AS ilosc_skladnikow FROM koktajl_bar.koktajle_skladniki k_s
+    SELECT k.id_koktajlu AS id, k.nazwa AS name, COUNT(*) AS ingredients_number FROM koktajl_bar.koktajle_skladniki k_s
         INNER JOIN koktajl_bar.koktajle k USING(id_koktajlu)
         GROUP BY (k.id_koktajlu, k.nazwa)
-        ORDER BY ilosc_skladnikow DESC, k.nazwa ASC;
+        ORDER BY ingredients_number DESC, k.nazwa ASC;
 
 CREATE VIEW koktajl_bar.nazwy_po_ocenach as
-    select id_koktajlu, nazwa, AVG(ocena) as srednia_ocen from koktajl_bar.oceny
+    select id_koktajlu AS id , nazwa AS name, CAST(AVG(ocena) + 1 AS NUMERIC(4,2)) as avg_mark from koktajl_bar.oceny
     INNER JOIN koktajl_bar.koktajle k USING(id_koktajlu)
     GROUP BY (id_koktajlu, nazwa)
     ORDER BY AVG(ocena) DESC;
 
+--- Losowy koktaj
 
 CREATE OR REPLACE FUNCTION koktajl_bar.losowy_koktajl() RETURNS TABLE (
  id INTEGER,
- koktajl VARCHAR(120),
- skladnik VARCHAR(100),
- ilosc koktajl_bar.ilosc,
- miara VARCHAR(20),
- instrukcja VARCHAR(1500)
+ name VARCHAR(120),
+ ingredient VARCHAR(100),
+ amount NUMERIC(6,2),
+ measure VARCHAR(20),
+ recipe VARCHAR(1500)
 ) AS $$
 DECLARE
     high integer;
@@ -193,18 +194,25 @@ DECLARE
 BEGIN
     SELECT count(*)::integer INTO high FROM koktajl_bar.koktajle;
     random_id := floor(random() * high) + 1;
-    RETURN QUERY SELECT * FROM koktajl_bar.przepisy WHERE id_koktajlu = random_id;
+    RETURN QUERY SELECT * FROM koktajl_bar.przepisy p WHERE p.id = random_id;
 END; $$
 language PLPGSQL;
 
+--- Usun koktajl
 
-CREATE OR REPLACE FUNCTION koktajl_bar.usun_koktajl_uzytkownika(id_do_usuniecia INTEGER) RETURNS BIGINT AS $$
+CREATE OR REPLACE FUNCTION koktajl_bar.usun_koktajl_uzytkownika(id_do_usuniecia INTEGER) RETURNS BOOLEAN AS $$
+DECLARE
+    flag BOOLEAN;
+begin
     DELETE FROM koktajl_bar.oceny WHERE id_koktajlu = id_do_usuniecia;
     WITH deleted as (
         DELETE FROM koktajl_bar.koktajle WHERE id_koktajlu = id_do_usuniecia RETURNING *
-       ) SELECT COUNT(*) FROM deleted;
-$$ LANGUAGE SQL;
+       ) SELECT COUNT(*) > 0 FROM deleted into flag;
+    RETURN flag;
+end;
+$$ LANGUAGE PLPGSQL;
 
+--- Dodaj koktajl uzytkownika
 
 CREATE OR REPLACE FUNCTION koktajl_bar.dodaj_koktajl_uzytkownika(
     id_usera INTEGER,
@@ -246,6 +254,7 @@ BEGIN
 END; $$
 language PLPGSQL;
 
+--- Aktualizuj koktajl
 
 CREATE OR REPLACE FUNCTION koktajl_bar.aktualizuj_koktajl(
     _id_koktajlu INTEGER,
@@ -303,3 +312,129 @@ BEGIN
     RETURN _id_koktajlu;
 END; $$
 language PLPGSQL;
+
+-- barek uzytkownika
+
+CREATE OR REPLACE FUNCTION koktajl_bar.barek_uzytkownika(_id_uzytkownika INTEGER) RETURNS TABLE (
+ id INTEGER,
+ ingredient VARCHAR(100),
+ amount NUMERIC(6,2),
+ measure VARCHAR(20)
+) AS $$
+BEGIN
+    RETURN QUERY SELECT s.id_skladnika, s.nazwa, b.ilosc::numeric(6,2), m.nazwa from koktajl_bar.barek b
+        JOIN koktajl_bar.skladniki s USING (id_skladnika)
+        JOIN koktajl_bar.miary m USING (id_miary)
+        WHERE b.id_uzytkownika = _id_uzytkownika
+        ORDER BY s.nazwa;
+END;
+$$ LANGUAGE PLPGSQL;
+
+--- Dodaj do barku
+
+CREATE OR REPLACE FUNCTION koktajl_bar.dodaj_do_barku(_id_uzytkownika INTEGER, _skladnik VARCHAR(100), _ilosc koktajl_bar.ilosc, _miara VARCHAR(20))
+RETURNS TABLE (
+ id INTEGER,
+ ingredient VARCHAR(100),
+ amount NUMERIC(6,2),
+ measure VARCHAR(20)
+) AS $$
+DECLARE
+    _id_skladnika INTEGER;
+    _id_miary SMALLINT;
+BEGIN
+
+    IF char_length(_skladnik) = 0 THEN
+        RAISE EXCEPTION 'Provided ingredient name is empty'
+            USING HINT = 'Provided ingredient name is empty.';
+    END IF;
+
+    IF _ilosc = 0 THEN
+        RAISE EXCEPTION 'Provided ingredient amount is equal to 0'
+            USING HINT = 'Provided ingredient amount is equal to 0.';
+    END IF;
+
+    IF NOT EXISTS (SELECT * FROM koktajl_bar.uzytkownik u WHERE u.id_uzytkownika = _id_uzytkownika) THEN
+        RAISE EXCEPTION 'User with provided id does not exist'
+            USING HINT = 'User with provided id does not exist.';
+    END IF;
+
+    select id_skladnika from koktajl_bar.skladniki where nazwa = _skladnik INTO _id_skladnika;
+    select id_miary from koktajl_bar.miary where nazwa = _miara INTO _id_miary;
+
+    INSERT INTO koktajl_bar.barek VALUES (_id_uzytkownika, _id_skladnika, _ilosc, _id_miary);
+
+    RETURN QUERY SELECT *
+        FROM koktajl_bar.barek_uzytkownika(_id_uzytkownika);
+END;
+$$ LANGUAGE PLPGSQL;
+
+-- Usun z barku
+
+CREATE OR REPLACE FUNCTION koktajl_bar.usun_z_barku(_id_uzytkownika INTEGER, _id_skladnika INTEGER)
+RETURNS BOOLEAN AS $$
+DECLARE
+    flag BOOLEAN;
+BEGIN
+
+    IF NOT EXISTS (select * from koktajl_bar.skladniki where id_skladnika = _id_skladnika) THEN
+        RAISE EXCEPTION 'Provided ingredient name is empty'
+            USING HINT = 'Provided ingredient name is empty.';
+    END IF;
+
+    IF NOT EXISTS (SELECT * FROM koktajl_bar.uzytkownik u WHERE u.id_uzytkownika = _id_uzytkownika) THEN
+        RAISE EXCEPTION 'User with provided id does not exist'
+            USING HINT = 'User with provided id does not exist.';
+    END IF;
+
+
+    WITH deleted as (
+        DELETE FROM koktajl_bar.barek b
+        WHERE b.id_uzytkownika = _id_uzytkownika AND b.id_skladnika = _id_skladnika
+        RETURNING *
+       )  SELECT COUNT(*) > 0 FROM deleted INTO flag;
+    RETURN flag;
+END;
+$$ LANGUAGE PLPGSQL;
+
+--- Aktualizuj barek
+
+CREATE OR REPLACE FUNCTION koktajl_bar.aktualizuj_barek(
+    _id_uzytkownika INTEGER,
+    _id_skladnika INTEGER,
+    _amount NUMERIC(6,2),
+    _measure VARCHAR(20))
+RETURNS TABLE (
+ id INTEGER,
+ ingredient VARCHAR(100),
+ amount NUMERIC(6,2),
+ measure VARCHAR(20)
+) AS $$
+DECLARE
+    _measure_id SMALLINT;
+BEGIN
+    IF _amount = 0 THEN
+        RAISE EXCEPTION 'Provided ingredient amount is equal to 0'
+            USING HINT = 'Provided ingredient amount is equal to 0.';
+    END IF;
+
+    IF NOT EXISTS (SELECT * FROM koktajl_bar.uzytkownik u WHERE u.id_uzytkownika = _id_uzytkownika) THEN
+        RAISE EXCEPTION 'User with provided id does not exist'
+            USING HINT = 'User with provided id does not exist.';
+    END IF;
+
+    IF NOT EXISTS (select * from koktajl_bar.barek
+               where id_skladnika = _id_skladnika and id_uzytkownika = _id_uzytkownika) THEN
+        RAISE EXCEPTION 'Provided user does not have provided ingredient'
+            USING HINT = 'Provided user does not have provided ingredient.';
+    END IF;
+
+    select id_miary from koktajl_bar.miary where nazwa = _measure INTO _measure_id;
+
+    update koktajl_bar.barek set (ilosc,id_miary) = (_amount, _measure_id)
+        where id_uzytkownika = _id_uzytkownika and id_skladnika = _id_skladnika;
+
+    RETURN QUERY SELECT *
+        FROM koktajl_bar.barek_uzytkownika(_id_uzytkownika);
+END;
+$$ LANGUAGE PLPGSQL;
