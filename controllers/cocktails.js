@@ -78,7 +78,7 @@ const Cocktails = {
           break;
 
         case queryTypes.mark:
-          db.any('SELECT * FROM nazwy_po_ocenach WHERE avg_mark <= ${mark};', value)
+          db.any('SELECT id, name, avg_mark::float FROM nazwy_po_ocenach WHERE avg_mark <= ${mark};', value)
             .then(cocktails => res.json({ cocktails }))
             .catch(error => console.log('ERROR:', error));
           break;
@@ -116,7 +116,7 @@ const Cocktails = {
       }
     }
   }),
-  top10Cocktails: (req, res) => db.any('SELECT id, name, avg_mark::numeric(6,2) FROM nazwy_po_ocenach LIMIT 10;')
+  top10Cocktails: (req, res) => db.any('SELECT id, name, avg_mark::float FROM nazwy_po_ocenach LIMIT 10;')
     .then(cocktails => res.json({ cocktails }))
     .catch(error => console.log('ERROR:', error)),
   randomCocktail: async (req, res) => {
