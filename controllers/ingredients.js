@@ -2,6 +2,7 @@ const Joi = require('joi');
 const db = require('../sql/db');
 const Validator = require('./validate');
 
+
 const MESSAGES = {
   ERRORS: {
     INVALID_REQUEST_DATA: 'Invalid request data',
@@ -30,8 +31,7 @@ const schema = Joi.object().keys({
 });
 
 
-
-const listUserBar = (req, res) => Validator(req.params, schemaParams, res, (value) => {
+const listAll = (req, res) => Validator(req.params, schemaParams, res, (value) => {
   db.any('SELECT id, ingredient, amount::float, measure FROM barek_uzytkownika(${userId});', value)
     .then(bar => res.json({ bar }))
     .catch(error => console.log('ERROR:', error))
@@ -60,7 +60,7 @@ const updateProduct = (req, res) => Validator({ body: req.body, params: req.para
 );
 
 module.exports = {
-  listUserBar,
+  listAll,
   addProduct,
   deleteProduct,
   updateProduct

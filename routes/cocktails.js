@@ -1,20 +1,20 @@
 const express = require('express');
 const router = express.Router();
 
-const Cocktails = require('../controllers/cocktails');
+const CocktailsController = require('../controllers/cocktails');
 
 router.route('/')
-  .get(Cocktails.listAllCocktails)
-  .post(Cocktails.createCocktail);
+  .get(CocktailsController.listAllCocktails)
+  .post(CocktailsController.createCocktail);
 
 router.route('/:id(\\d+)')
-  .get(Cocktails.cocktailDetail)
-  .put(Cocktails.updateCocktail)
-  .delete(Cocktails.deleteCocktail);
+  .get(CocktailsController.cocktailDetail)
+  .put(CocktailsController.updateCocktail)
+  .delete(CocktailsController.deleteCocktail);
 
-router.get('/top10', Cocktails.top10Cocktails);
+router.get('/top10', CocktailsController.top10Cocktails);
 
-router.get('/random', Cocktails.randomCocktail);
+router.get('/random', CocktailsController.randomCocktail);
 
 
 module.exports = router;

@@ -1,23 +1,14 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
+const IngredientsController = require('../controllers/ingredients');
 
-router.get('/', function(req, res, next) {
-  res.send('Lista wszystkich skladnikow');
-});
+router.route('/')
+  .get(IngredientsController.listAll)
+  .post(IngredientsController.addProduct);
 
-router.get('/:id', function(req, res, next) {
-  res.send('Szczegoly skladniku');
-});
-
-
-router.post('/', function (req, res) {
-  res.send('Stworzenie nowego skladnika')
-});
-
-
-router.delete('/:id', function (req, res) {
-  res.send('Usuniecie skladnika')
-});
+router.route('/:id')
+  .put(IngredientsController.updateProduct)
+  .delete(IngredientsController.deleteProduct);
 
 module.exports = router;

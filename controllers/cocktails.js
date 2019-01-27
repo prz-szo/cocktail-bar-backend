@@ -1,6 +1,6 @@
 const Joi = require('joi');
 const db = require('../sql/db');
-
+const Validator = require('./validate');
 
 const MESSAGES = {
   ERRORS: {
@@ -43,85 +43,14 @@ const schemaBody = Joi.object().keys({
   ).min(1).required()
 });
 
-const Cocktails = {
-  listAllCocktails: async (req, res) => Joi.validate(req.query, schemaQuery, async (err, value) => {
-    if (err) {
-      res.status(422).json({ message: MESSAGES.ERRORS.INVALID_REQUEST_DATA });
-    } else {
-      switch (Object.keys(value)[0]) {
-        case queryTypes.ingredients:
-          let cocktailsByIngredients = await db.any('SELECT id, name FROM przepisy_po_ilosci_skladnikow WHERE ingredients_number = ${ingredients};', value)
-            .catch(error => console.log('ERROR:', error));
 
-          res.json({ cocktails: cocktailsByIngredients });
-          break;
+async function cocktailByName(value, res) {
+  const data = await db.any('SELECT * FROM Przepisy WHERE name = ${name};', value)
+    .catch(error => console.log('ERROR:', error));
 
-        case queryTypes.name:
-          const data = await db.any('SELECT * FROM Przepisy WHERE name = ${name};', value)
-            .catch(error => console.log('ERROR:', error));
-
-          if (data.length === 0) {
-            res.json({ message: 'No results' });
-          } else {
-            const cocktail = {
-              id: data[0].id,
-              name: data[0].name,
-              recipe: data[0].recipe,
-              ingredients: data.map(s => ({
-                name: s.ingredient,
-                amount: +s.amount,
-                measure: s.measure
-              }))
-            };
-            res.json({ cocktail });
-          }
-          break;
-
-        case queryTypes.mark:
-          db.any('SELECT id, name, avg_mark::float FROM nazwy_po_ocenach WHERE avg_mark <= ${mark};', value)
-            .then(cocktails => res.json({ cocktails }))
-            .catch(error => console.log('ERROR:', error));
-          break;
-
-        case queryTypes.bar:
-        default:
-          // Wszystkie: SELECT k.id_koktajlu, k.nazwa FROM koktajle k; kursor? paginacja? 7.6. LIMIT and OFFSET
-          db.any('SELECT k.id_koktajlu AS id, k.nazwa AS name FROM koktajle k;')
-            .then(cocktails => res.json({ cocktails }))
-            .catch(error => console.log('ERROR:', error));
-      }
-    }
-  }),
-  cocktailDetail: async (req, res) => Joi.validate(req.params, schemaParams, async (err, value) => {
-    if (err) {
-      res.status(422).json({ message: MESSAGES.ERRORS.INVALID_REQUEST_DATA });
-    } else {
-      const data = await db.any('SELECT * FROM Przepisy WHERE id = ${id};', value)
-        .catch(error => console.log('ERROR:', error));
-
-      if (data.length === 0) {
-        res.status(200).json({ message: 'Not found specific cocktail' })
-      } else {
-        const cocktail = {
-          id: data[0].id,
-          name: data[0].name,
-          recipe: data[0].recipe,
-          ingredients: data.map(s => ({
-            name: s.ingredient,
-            amount: +s.amount,
-            measure: s.measure
-          }))
-        };
-        res.json({ cocktail });
-      }
-    }
-  }),
-  top10Cocktails: (req, res) => db.any('SELECT id, name, avg_mark::float FROM nazwy_po_ocenach LIMIT 10;')
-    .then(cocktails => res.json({ cocktails }))
-    .catch(error => console.log('ERROR:', error)),
-  randomCocktail: async (req, res) => {
-    const data = await db.any('select * FROM losowy_koktajl();')
-      .catch(error => console.log('ERROR:', error));
+  if (data.length === 0) {
+    res.json({ message: 'No results' });
+  } else {
     const cocktail = {
       id: data[0].id,
       name: data[0].name,
@@ -133,44 +62,124 @@ const Cocktails = {
       }))
     };
     res.json({ cocktail });
-  },
-  createCocktail: (req, res) => Joi.validate(req.body, schemaBody, (err, value) => {
-    if (err) {
-      res.status(422).json({ message: MESSAGES.ERRORS.INVALID_REQUEST_DATA });
-    } else {
-      db.one('SELECT * FROM dodaj_koktajl_uzytkownika(1, ${name}, ${recipe}, ${ingredients:json}) AS id;', value)
-        .then(data => res.json({
-          cocktail: {
-            id: data.id
-          }
-        }))
-        .catch(error => res.json({ message: error.hint }));
-    }
-  }),
-  updateCocktail: (req, res) => Joi.validate(req.body, schemaBody, (err, value) => {
-    if (err) {
-      res.status(422).json({ message: MESSAGES.ERRORS.INVALID_REQUEST_DATA });
-    } else {
-      db.one('SELECT * FROM aktualizuj_koktajl(${id}, ${name}, ${recipe}, ${ingredients:json}) AS id;', value)
-        .then(data => res.json({ message: `Updated ${data.id}` }))
-        .catch(error => {
-          res.json({ message: error.hint })
-        });
-    }
-  }),
-  deleteCocktail: (req, res) => Joi.validate(req.params, schemaParams, (err, value) => {
-    if (err) {
-      res.status(422).json({ message: MESSAGES.ERRORS.INVALID_REQUEST_DATA });
-    } else {
-      db.one('SELECT * FROM usun_koktajl_uzytkownika(${id}) AS did_delete;', value)
-        .then(data => res.json({
-          message: data.did_delete
-            ? MESSAGES.DELETE.REMOVED
-            : MESSAGES.DELETE.NOTHING_REMOVED
-        }))
-        .catch(error => console.log('ERROR:', error));
-    }
-  })
+  }
+}
+
+
+const listAllCocktails = async (req, res) => Validator(req.query, schemaQuery, res, async value => {
+  switch (Object.keys(value)[0]) {
+    case queryTypes.ingredients:
+      await cocktailsByIngredients(value, res);
+      break;
+    case queryTypes.name:
+      await cocktailByName(value, res);
+      break;
+    case queryTypes.mark:
+      cocktailsByMark(value, res);
+      break;
+    case queryTypes.bar:
+    default:
+      // Wszystkie: SELECT k.id_koktajlu, k.nazwa FROM koktajle k; kursor? paginacja? 7.6. LIMIT and OFFSET
+      allCocktails(res);
+  }
+});
+
+async function cocktailsByIngredients(value, res) {
+  let cocktailsByIngredients = await db.any('SELECT id, name FROM przepisy_po_ilosci_skladnikow WHERE ingredients_number = ${ingredients};', value)
+    .catch(error => console.log('ERROR:', error));
+
+  res.json({ cocktails: cocktailsByIngredients });
+}
+
+function cocktailsByMark(value, res) {
+  db.any('SELECT id, name, avg_mark::float FROM nazwy_po_ocenach WHERE avg_mark <= ${mark};', value)
+    .then(cocktails => res.json({ cocktails }))
+    .catch(error => console.log('ERROR:', error));
+}
+
+function allCocktails(res) {
+  db.any('SELECT k.id_koktajlu AS id, k.nazwa AS name FROM koktajle k;')
+    .then(cocktails => res.json({ cocktails }))
+    .catch(error => console.log('ERROR:', error));
+}
+
+
+const cocktailDetail = async (req, res) => Validator(req.params, schemaParams, res, async value => {
+  const data = await db.any('SELECT * FROM Przepisy WHERE id = ${id};', value)
+    .catch(error => console.log('ERROR:', error));
+
+  if (data.length === 0) {
+    res.status(200).json({ message: 'Not found specific cocktail' })
+  } else {
+    const cocktail = {
+      id: data[0].id,
+      name: data[0].name,
+      recipe: data[0].recipe,
+      ingredients: data.map(s => ({
+        name: s.ingredient,
+        amount: +s.amount,
+        measure: s.measure
+      }))
+    };
+    res.json({ cocktail });
+  }
+});
+
+const top10Cocktails = (req, res) => db.any('SELECT id, name, avg_mark::float FROM nazwy_po_ocenach LIMIT 10;')
+  .then(cocktails => res.json({ cocktails }))
+  .catch(error => console.log('ERROR:', error));
+
+const randomCocktail = async (req, res) => {
+  const data = await db.any('select * FROM losowy_koktajl();')
+    .catch(error => console.log('ERROR:', error));
+  const cocktail = {
+    id: data[0].id,
+    name: data[0].name,
+    recipe: data[0].recipe,
+    ingredients: data.map(s => ({
+      name: s.ingredient,
+      amount: +s.amount,
+      measure: s.measure
+    }))
+  };
+  res.json({ cocktail });
 };
 
-module.exports = Cocktails;
+const createCocktail = (req, res) => Validator(req.body, schemaBody, res, value => {
+  db.one('SELECT * FROM dodaj_koktajl_uzytkownika(1, ${name}, ${recipe}, ${ingredients:json}) AS id;', value)
+    .then(data => res.json({
+      cocktail: {
+        id: data.id
+      }
+    }))
+    .catch(error => res.json({ message: error.hint }))
+});
+
+const updateCocktail = (req, res) => Validator(req.body, schemaBody, res, value => {
+  db.one('SELECT * FROM aktualizuj_koktajl(${id}, ${name}, ${recipe}, ${ingredients:json}) AS id;', value)
+    .then(data => res.json({ message: `Updated ${data.id}` }))
+    .catch(error => {
+      res.json({ message: error.hint })
+    })
+});
+
+const deleteCocktail = (req, res) => Validator(req.params, schemaParams, res, value => {
+  db.one('SELECT * FROM usun_koktajl_uzytkownika(${id}) AS did_delete;', value)
+    .then(data => res.json({
+      message: data.did_delete
+        ? MESSAGES.DELETE.REMOVED
+        : MESSAGES.DELETE.NOTHING_REMOVED
+    }))
+    .catch(error => console.log('ERROR:', error))
+});
+
+
+module.exports = {
+  listAllCocktails,
+  cocktailDetail,
+  top10Cocktails,
+  randomCocktail,
+  createCocktail,
+  updateCocktail,
+  deleteCocktail
+};

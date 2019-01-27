@@ -81,8 +81,8 @@ describe('routes : bar', () => {
           should.not.exist(err);
           res.status.should.equal(200);
           res.type.should.equal('application/json');
-          res.body.flag.should.not.be.undefined;
-          res.body.flag.should.equal(true);
+          res.body.message.should.not.be.undefined;
+          res.body.message.should.equal('Removed');
           done();
         });
     });
