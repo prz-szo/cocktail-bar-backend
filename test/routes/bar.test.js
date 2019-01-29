@@ -42,8 +42,8 @@ describe('routes : bar', () => {
   });
 
   describe('POST Method', () => {
-    after(() => {
-      db.any('SELECT * FROM usun_z_barku(${userId}, ${ingredientId});', { userId, ingredientId })
+    after( async() => {
+      await db.any('SELECT * FROM usun_z_barku(${userId}, ${ingredientId});', { userId, ingredientId })
         .catch(error => console.error(error));
     });
 
@@ -65,8 +65,8 @@ describe('routes : bar', () => {
   });
 
   describe('DELETE Method', () => {
-    before(() => {
-      db.any('SELECT * FROM dodaj_do_barku(${userId}, ${ingredient}, ${amount}, ${measure});', {
+    before(async () => {
+      await db.any('SELECT * FROM dodaj_do_barku(${userId}, ${ingredient}, ${amount}, ${measure});', {
         userId,
         ...testIngredient
       }).catch(error => console.error(error));
@@ -94,8 +94,8 @@ describe('routes : bar', () => {
       }).catch(error => console.error(error));
     });
 
-    after(() => {
-      db.any('SELECT * FROM usun_z_barku(${userId}, ${ingredientId});', { userId, ingredientId })
+    after(async () => {
+      await db.any('SELECT * FROM usun_z_barku(${userId}, ${ingredientId});', { userId, ingredientId })
         .catch(error => console.error(error));
     });
 

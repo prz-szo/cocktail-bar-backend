@@ -11,7 +11,7 @@ function fillAll() {
   fillMeasurements()
     .then(() => fillIngredients())
     .then(() => fillRecipes());
-  // await db.any(sql('./temp.sql'));
+  // await db.any(sql('./exampleData.sql'));
 }
 
 fillAll();

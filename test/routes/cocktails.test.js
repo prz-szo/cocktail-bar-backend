@@ -13,6 +13,7 @@ const now = new Date();
 describe('routes : cocktails', () => {
   const prefix = '/cocktails';
   const cocktailId = 10;
+  const cocktailIdWithMark = 1;
 
   describe('GET Method', () => {
     describe('GET /', () => {
@@ -105,7 +106,7 @@ describe('routes : cocktails', () => {
     });
 
     describe(`GET /:id`, () => {
-      it('should respond with specific cocktail details', (done) => {
+      it('should respond with specific cocktail details, no avg mark', (done) => {
         chai.request(server)
           .get(`${prefix}/${cocktailId}`)
           .end((err, res) => {
@@ -114,6 +115,20 @@ describe('routes : cocktails', () => {
             res.type.should.equal('application/json');
             res.body.cocktail.should.not.be.undefined;
             res.body.cocktail.should.include.keys('id', 'name', 'recipe', 'ingredients');
+            res.body.cocktail.ingredients.map(ing => ing.should.include.keys('name', 'amount', 'measure'));
+            done();
+          });
+      });
+
+      it('should respond with specific cocktail details, with avg mark', (done) => {
+        chai.request(server)
+          .get(`${prefix}/${cocktailIdWithMark}`)
+          .end((err, res) => {
+            should.not.exist(err);
+            res.status.should.equal(200);
+            res.type.should.equal('application/json');
+            res.body.cocktail.should.not.be.undefined;
+            res.body.cocktail.should.include.keys('id', 'name', 'recipe', 'ingredients', 'averageMark');
             res.body.cocktail.ingredients.map(ing => ing.should.include.keys('name', 'amount', 'measure'));
             done();
           });

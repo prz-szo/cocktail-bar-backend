@@ -160,11 +160,19 @@ ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
+CREATE VIEW koktajl_bar.nazwy_po_ocenach as
+    select id_koktajlu AS id , nazwa AS name, CAST(AVG(ocena) + 1 AS NUMERIC(4,2)) as avg_mark from koktajl_bar.oceny
+    INNER JOIN koktajl_bar.koktajle k USING(id_koktajlu)
+    GROUP BY (id_koktajlu, nazwa)
+    ORDER BY AVG(ocena) DESC;
+
 CREATE VIEW koktajl_bar.Przepisy AS
-    SELECT k_s.id_koktajlu AS id, k.nazwa AS name, s.nazwa AS ingredient, k_s.ilosc::numeric as amount, m.nazwa AS measure, k.tresc_instrukcji AS recipe FROM koktajl_bar.koktajle_skladniki k_s
+    SELECT k_s.id_koktajlu AS id, k.nazwa AS name, s.nazwa AS ingredient, k_s.ilosc::numeric as amount, m.nazwa AS measure, k.tresc_instrukcji AS recipe, avg_mark::float
+        FROM koktajl_bar.koktajle_skladniki k_s
         INNER JOIN koktajl_bar.koktajle k USING(id_koktajlu)
         INNER JOIN koktajl_bar.skladniki s USING(id_skladnika)
-        INNER JOIN koktajl_bar.miary m USING(id_miary);
+        INNER JOIN koktajl_bar.miary m USING(id_miary)
+        LEFT OUTER JOIN koktajl_bar.nazwy_po_ocenach ON id_koktajlu = id;
 
 CREATE VIEW koktajl_bar.przepisy_po_ilosci_skladnikow AS
     SELECT k.id_koktajlu AS id, k.nazwa AS name, COUNT(*) AS ingredients_number FROM koktajl_bar.koktajle_skladniki k_s
@@ -172,13 +180,7 @@ CREATE VIEW koktajl_bar.przepisy_po_ilosci_skladnikow AS
         GROUP BY (k.id_koktajlu, k.nazwa)
         ORDER BY ingredients_number DESC, k.nazwa ASC;
 
-CREATE VIEW koktajl_bar.nazwy_po_ocenach as
-    select id_koktajlu AS id , nazwa AS name, CAST(AVG(ocena) + 1 AS NUMERIC(4,2)) as avg_mark from koktajl_bar.oceny
-    INNER JOIN koktajl_bar.koktajle k USING(id_koktajlu)
-    GROUP BY (id_koktajlu, nazwa)
-    ORDER BY AVG(ocena) DESC;
-
---- Losowy koktaj
+--- Losowy koktajl
 
 CREATE OR REPLACE FUNCTION koktajl_bar.losowy_koktajl() RETURNS TABLE (
  id INTEGER,
@@ -186,7 +188,8 @@ CREATE OR REPLACE FUNCTION koktajl_bar.losowy_koktajl() RETURNS TABLE (
  ingredient VARCHAR(100),
  amount NUMERIC(6,2),
  measure VARCHAR(20),
- recipe VARCHAR(1500)
+ recipe VARCHAR(1500),
+ avg_mark float
 ) AS $$
 DECLARE
     high integer;
@@ -474,5 +477,78 @@ BEGIN
         RETURNING *
     ) SELECT COUNT(*) > 0 FROM deleted INTO flag;
     RETURN flag;
+END;
+$$ LANGUAGE PLPGSQL;
+
+
+--- Dodaj ocene
+
+CREATE OR REPLACE FUNCTION koktajl_bar.dodaj_ocene(_id_uzytkownika INTEGER, _id_koktajlu INTEGER, _ocena NUMERIC(1))
+RETURNS void AS $$
+BEGIN
+    IF NOT EXISTS (SELECT * FROM koktajl_bar.uzytkownik u WHERE u.id_uzytkownika = _id_uzytkownika) THEN
+        RAISE EXCEPTION 'User with provided id does not exist'
+            USING HINT = 'User with provided id does not exist.';
+    END IF;
+
+    IF NOT EXISTS (SELECT * FROM koktajl_bar.koktajle s WHERE s.id_koktajlu = _id_koktajlu) THEN
+        RAISE EXCEPTION 'Cocktail with provided id does not exist'
+            USING HINT = 'Cocktail with provided id does not exist.';
+    END IF;
+
+    IF EXISTS (SELECT * FROM koktajl_bar.oceny o
+            WHERE o.id_koktajlu = _id_koktajlu AND o.id_uzytkownika = _id_uzytkownika
+    ) THEN
+        RAISE EXCEPTION 'Mark with provided ids already exists'
+            USING HINT = 'Mark with provided ids already exists.';
+    END IF;
+
+    insert into koktajl_bar.oceny VALUES (_id_koktajlu, _id_uzytkownika, _ocena);
+END;
+$$ LANGUAGE PLPGSQL;
+
+--- Edytuj ocenę
+
+CREATE OR REPLACE FUNCTION koktajl_bar.aktualizuj_ocene(_id_uzytkownika INTEGER, _id_koktajlu INTEGER, _ocena NUMERIC(1))
+RETURNS void AS $$
+BEGIN
+    IF NOT EXISTS (SELECT * FROM koktajl_bar.uzytkownik u WHERE u.id_uzytkownika = _id_uzytkownika) THEN
+        RAISE EXCEPTION 'User with provided id does not exist'
+            USING HINT = 'User with provided id does not exist.';
+    END IF;
+
+    IF NOT EXISTS (SELECT * FROM koktajl_bar.koktajle s WHERE s.id_koktajlu = _id_koktajlu) THEN
+        RAISE EXCEPTION 'Cocktail with provided id does not exist'
+            USING HINT = 'Cocktail with provided id does not exist.';
+    END IF;
+
+    IF NOT EXISTS (SELECT * FROM koktajl_bar.oceny o
+            WHERE o.id_koktajlu = _id_koktajlu AND o.id_uzytkownika = _id_uzytkownika
+    ) THEN
+        RAISE EXCEPTION 'Provided mark does not exists'
+            USING HINT = 'Provided mark does not exists.';
+    END IF;
+
+    update koktajl_bar.oceny set ocena = _ocena where id_koktajlu = _id_koktajlu and id_uzytkownika = _id_uzytkownika;
+END;
+$$ LANGUAGE PLPGSQL;
+
+--- Oceny uzytkownika
+
+CREATE OR REPLACE FUNCTION koktajl_bar.oceny_uzytkownika(_id_uzytkownika INTEGER)
+RETURNS TABLE (
+ id INTEGER,
+ name VARCHAR(120),
+ mark float
+) AS $$
+BEGIN
+    IF NOT EXISTS (SELECT * FROM koktajl_bar.uzytkownik u WHERE u.id_uzytkownika = _id_uzytkownika) THEN
+        RAISE EXCEPTION 'User with provided id does not exist'
+            USING HINT = 'User with provided id does not exist.';
+    END IF;
+
+    return query select k.id_koktajlu as id, k.nazwa as name, o.ocena::float as mark from oceny o
+        JOIN koktajle k using (id_koktajlu)
+        where o.id_uzytkownika = _id_uzytkownika;
 END;
 $$ LANGUAGE PLPGSQL;

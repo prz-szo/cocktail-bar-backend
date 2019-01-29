@@ -60,7 +60,6 @@ describe('routes : ingredients', () => {
   describe('DELETE Method', () => {
     before(async () => {
       await db.any('SELECT * FROM dodaj_skladnik(${name});', { name: 'Piwo z Tenczynka' })
-        .then(data => console.log(data.ingredients))
         .catch(error => console.error(error));
     });
 

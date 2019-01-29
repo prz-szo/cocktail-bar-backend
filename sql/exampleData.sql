@@ -13,7 +13,8 @@ INSERT INTO koktajl_bar.uzytkownik(email, haslo) values
     ('admin@admi.com', '123'),
     ('admin@admin.com', '123'),
     ('admin@admin.pl', '123'),
-    ('pr@o.com', '123');
+    ('pr@o.com', '123'),
+    ('zby@chu.com', '123');
 
 INSERT INTO koktajl_bar.Barek VALUES
     (1, 1, 330, 14),

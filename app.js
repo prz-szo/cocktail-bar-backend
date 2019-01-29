@@ -7,6 +7,7 @@ const indexRouter = require('./routes/index');
 const cocktailsRouter = require('./routes/cocktails');
 const ingredientsRouter = require('./routes/ingredients');
 const barRouter = require('./routes/bar');
+const marksRouter = require('./routes/marks');
 const loginRouter = require('./routes/login');
 
 const app = express();
@@ -21,6 +22,7 @@ app.use('/', indexRouter);
 app.use('/cocktails', cocktailsRouter);
 app.use('/ingredients', ingredientsRouter);
 app.use('/bar', barRouter);
+app.use('/marks', marksRouter);
 app.use('/login', loginRouter);
 
 app.use((req, res) => {

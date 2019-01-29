@@ -43,6 +43,18 @@ const schemaBody = Joi.object().keys({
   ).min(1).required()
 });
 
+const coctainByDataFromDB = (data) => Object.assign({}, {
+    id: data[0].id,
+    name: data[0].name,
+    recipe: data[0].recipe,
+    ingredients: data.map(s => ({
+      name: s.ingredient,
+      amount: +s.amount,
+      measure: s.measure
+    }))
+  },
+  data[0].avg_mark && { averageMark: data[0].avg_mark }
+);
 
 async function cocktailByName(value, res) {
   const data = await db.any('SELECT * FROM Przepisy WHERE name = ${name};', value)
@@ -51,17 +63,7 @@ async function cocktailByName(value, res) {
   if (data.length === 0) {
     res.json({ message: 'No results' });
   } else {
-    const cocktail = {
-      id: data[0].id,
-      name: data[0].name,
-      recipe: data[0].recipe,
-      ingredients: data.map(s => ({
-        name: s.ingredient,
-        amount: +s.amount,
-        measure: s.measure
-      }))
-    };
-    res.json({ cocktail });
+    res.json({ cocktail: coctainByDataFromDB(data) });
   }
 }
 
@@ -111,17 +113,7 @@ const cocktailDetail = async (req, res) => Validator(req.params, schemaParams, r
   if (data.length === 0) {
     res.status(200).json({ message: 'Not found specific cocktail' })
   } else {
-    const cocktail = {
-      id: data[0].id,
-      name: data[0].name,
-      recipe: data[0].recipe,
-      ingredients: data.map(s => ({
-        name: s.ingredient,
-        amount: +s.amount,
-        measure: s.measure
-      }))
-    };
-    res.json({ cocktail });
+    res.json({ cocktail: coctainByDataFromDB(data) });
   }
 });
 
@@ -132,17 +124,8 @@ const top10Cocktails = (req, res) => db.any('SELECT id, name, avg_mark::float FR
 const randomCocktail = async (req, res) => {
   const data = await db.any('select * FROM losowy_koktajl();')
     .catch(error => console.log('ERROR:', error));
-  const cocktail = {
-    id: data[0].id,
-    name: data[0].name,
-    recipe: data[0].recipe,
-    ingredients: data.map(s => ({
-      name: s.ingredient,
-      amount: +s.amount,
-      measure: s.measure
-    }))
-  };
-  res.json({ cocktail });
+
+  res.json({ cocktail: coctainByDataFromDB(data) });
 };
 
 const createCocktail = (req, res) => Validator(req.body, schemaBody, res, value => {
