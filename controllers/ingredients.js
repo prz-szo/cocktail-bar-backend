@@ -1,6 +1,6 @@
 const Joi = require('joi');
 const db = require('../sql/db');
-const Validator = require('./validate');
+const Validator = require('../utils/validate');
 
 
 const MESSAGES = {

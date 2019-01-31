@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const CocktailsController = require('../controllers/cocktails');
+const Auth = require('../utils/Auth');
 
 router.route('/')
   .get(CocktailsController.listAllCocktails)

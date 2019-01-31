@@ -8,7 +8,7 @@ const cocktailsRouter = require('./routes/cocktails');
 const ingredientsRouter = require('./routes/ingredients');
 const barRouter = require('./routes/bar');
 const marksRouter = require('./routes/marks');
-const loginRouter = require('./routes/login');
+const usersRouter = require('./routes/users');
 
 const app = express();
 
@@ -23,7 +23,7 @@ app.use('/cocktails', cocktailsRouter);
 app.use('/ingredients', ingredientsRouter);
 app.use('/bar', barRouter);
 app.use('/marks', marksRouter);
-app.use('/login', loginRouter);
+app.use('/users', usersRouter);
 
 app.use((req, res) => {
   res.status(404).json({ message: '404 - Not Found' })

@@ -1,6 +1,6 @@
 const Joi = require('joi');
 const db = require('../sql/db');
-const Validator = require('./validate');
+const Validator = require('../utils/validate');
 
 const MESSAGES = {
   ERRORS: {
@@ -61,10 +61,10 @@ async function cocktailByName(value, res) {
     .catch(error => console.log('ERROR:', error));
 
   if (data.length === 0) {
-    res.json({ message: 'No results' });
-  } else {
-    res.json({ cocktail: coctainByDataFromDB(data) });
+    return res.json({ message: 'No results' });
   }
+
+  return res.json({ cocktail: coctainByDataFromDB(data) });
 }
 
 
@@ -90,7 +90,7 @@ async function cocktailsByIngredients(value, res) {
   let cocktailsByIngredients = await db.any('SELECT id, name FROM przepisy_po_ilosci_skladnikow WHERE ingredients_number = ${ingredients};', value)
     .catch(error => console.log('ERROR:', error));
 
-  res.json({ cocktails: cocktailsByIngredients });
+  return res.json({ cocktails: cocktailsByIngredients });
 }
 
 function cocktailsByMark(value, res) {
@@ -111,10 +111,9 @@ const cocktailDetail = async (req, res) => Validator(req.params, schemaParams, r
     .catch(error => console.log('ERROR:', error));
 
   if (data.length === 0) {
-    res.status(200).json({ message: 'Not found specific cocktail' })
-  } else {
-    res.json({ cocktail: coctainByDataFromDB(data) });
+    return res.status(200).json({ message: 'Not found specific cocktail' })
   }
+  return res.json({ cocktail: coctainByDataFromDB(data) });
 });
 
 const top10Cocktails = (req, res) => db.any('SELECT id, name, avg_mark::float FROM nazwy_po_ocenach LIMIT 10;')
@@ -125,25 +124,19 @@ const randomCocktail = async (req, res) => {
   const data = await db.any('select * FROM losowy_koktajl();')
     .catch(error => console.log('ERROR:', error));
 
-  res.json({ cocktail: coctainByDataFromDB(data) });
+  return res.json({ cocktail: coctainByDataFromDB(data) });
 };
 
 const createCocktail = (req, res) => Validator(req.body, schemaBody, res, value => {
   db.one('SELECT * FROM dodaj_koktajl_uzytkownika(1, ${name}, ${recipe}, ${ingredients:json}) AS id;', value)
-    .then(data => res.json({
-      cocktail: {
-        id: data.id
-      }
-    }))
+    .then(data => res.json({ cocktail: { id: data.id } }))
     .catch(error => res.json({ message: error.hint }))
 });
 
 const updateCocktail = (req, res) => Validator(req.body, schemaBody, res, value => {
   db.one('SELECT * FROM aktualizuj_koktajl(${id}, ${name}, ${recipe}, ${ingredients:json}) AS id;', value)
     .then(data => res.json({ message: `Updated ${data.id}` }))
-    .catch(error => {
-      res.json({ message: error.hint })
-    })
+    .catch(error => res.json({ message: error.hint }))
 });
 
 const deleteCocktail = (req, res) => Validator(req.params, schemaParams, res, value => {

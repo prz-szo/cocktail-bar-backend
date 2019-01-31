@@ -114,8 +114,8 @@ NOT DEFERRABLE;
 ALTER TABLE koktajl_bar.Oceny ADD CONSTRAINT koktajle_oceny_fk
 FOREIGN KEY (id_koktajlu)
 REFERENCES koktajl_bar.Koktajle (id_koktajlu)
-ON DELETE NO ACTION
-ON UPDATE NO ACTION
+ON DELETE CASCADE
+ON UPDATE CASCADE
 NOT DEFERRABLE;
 
 ALTER TABLE koktajl_bar.Koktajle_Skladniki ADD CONSTRAINT produkty_koktajle_produkty_fk
@@ -135,29 +135,29 @@ NOT DEFERRABLE;
 ALTER TABLE koktajl_bar.Oceny ADD CONSTRAINT user_oceny_fk
 FOREIGN KEY (id_uzytkownika)
 REFERENCES koktajl_bar.Uzytkownik (id_uzytkownika)
-ON DELETE NO ACTION
-ON UPDATE NO ACTION
+ON DELETE CASCADE
+ON UPDATE CASCADE
 NOT DEFERRABLE;
 
 ALTER TABLE koktajl_bar.Barek ADD CONSTRAINT uzytkownik_barek_fk
 FOREIGN KEY (id_uzytkownika)
 REFERENCES koktajl_bar.Uzytkownik (id_uzytkownika)
-ON DELETE NO ACTION
-ON UPDATE NO ACTION
+ON DELETE CASCADE
+ON UPDATE CASCADE
 NOT DEFERRABLE;
 
 ALTER TABLE koktajl_bar.Koktajle_uzytkownicy ADD CONSTRAINT uzytkownik_koktajle_uzytkownicy_fk
 FOREIGN KEY (id_uzytkownika)
 REFERENCES koktajl_bar.Uzytkownik (id_uzytkownika)
-ON DELETE NO ACTION
-ON UPDATE NO ACTION
+ON DELETE CASCADE
+ON UPDATE CASCADE
 NOT DEFERRABLE;
 
 ALTER TABLE koktajl_bar.Skladniki_uzytkownicy ADD CONSTRAINT uzytkownik_skladniki_uzytkownicy_fk
 FOREIGN KEY (id_uzytkownika)
 REFERENCES koktajl_bar.Uzytkownik (id_uzytkownika)
-ON DELETE NO ACTION
-ON UPDATE NO ACTION
+ON DELETE CASCADE
+ON UPDATE CASCADE
 NOT DEFERRABLE;
 
 CREATE VIEW koktajl_bar.nazwy_po_ocenach as
