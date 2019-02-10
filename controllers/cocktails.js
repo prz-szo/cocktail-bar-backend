@@ -43,7 +43,7 @@ const schemaBody = Joi.object().keys({
   ).min(1).required()
 });
 
-const coctainByDataFromDB = (data) => Object.assign({}, {
+const cocktailByDataFromDB = (data) => Object.assign({}, {
     id: data[0].id,
     name: data[0].name,
     recipe: data[0].recipe,
@@ -64,7 +64,7 @@ async function cocktailByName(value, res) {
     return res.json({ message: 'No results' });
   }
 
-  return res.json({ cocktail: coctainByDataFromDB(data) });
+  return res.json({ cocktail: cocktailByDataFromDB(data) });
 }
 
 
@@ -113,7 +113,7 @@ const cocktailDetail = async (req, res) => Validator(req.params, schemaParams, r
   if (data.length === 0) {
     return res.status(200).json({ message: 'Not found specific cocktail' })
   }
-  return res.json({ cocktail: coctainByDataFromDB(data) });
+  return res.json({ cocktail: cocktailByDataFromDB(data) });
 });
 
 const top10Cocktails = (req, res) => db.any('SELECT id, name, avg_mark::float FROM nazwy_po_ocenach LIMIT 10;')
@@ -124,7 +124,7 @@ const randomCocktail = async (req, res) => {
   const data = await db.any('select * FROM losowy_koktajl();')
     .catch(error => console.log('ERROR:', error));
 
-  return res.json({ cocktail: coctainByDataFromDB(data) });
+  return res.json({ cocktail: cocktailByDataFromDB(data) });
 };
 
 const createCocktail = (req, res) => Validator(req.body, schemaBody, res, value => {
