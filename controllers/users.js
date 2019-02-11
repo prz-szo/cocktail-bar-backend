@@ -23,6 +23,7 @@ const createUser = (req, res) => Validate(req.body, schema, res, async value => 
       if (error.constraint === 'uzytkownik_email_key') {
         return res.status(400).send({ message: 'User with that email already exist' })
       }
+      console.log(error);
       return res.status(400).send({ error });
     });
 });
@@ -36,7 +37,10 @@ const login = (req, res) => Validate(req.body, schema, res, async value =>
       const token = Helper.generateToken(data.id_uzytkownika);
       return res.status(200).send({ token });
     })
-    .catch(error => res.status(400).send(error)));
+    .catch(error => {
+      console.log(error);
+      return res.status(400).send({error})
+    }));
 
 const deleteUser = (req, res) => Validate(req.body, schema, res, async value => {
   await db.any('DELETE FROM uzytkownik WHERE email=$1 returning *', value.email)
@@ -45,7 +49,7 @@ const deleteUser = (req, res) => Validate(req.body, schema, res, async value => 
         return res.status(404).send({ message: 'User not found' });
       }
       return res.status(200).send({ message: 'Deleted' });
-    }).catch(error => res.status(400).send(error));
+    }).catch(error => res.status(400).send({error}));
 });
 
 module.exports = {
